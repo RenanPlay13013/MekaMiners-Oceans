@@ -1,0 +1,6 @@
+
+#Client settings
+[Client]
+	#Allow scrolling to increase / decrease an angle value in the posing screen
+	allowScrolling = true
+

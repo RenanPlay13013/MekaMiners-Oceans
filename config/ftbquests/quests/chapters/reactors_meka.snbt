@@ -1,0 +1,399 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reactors_meka"
+	group: "6BDF1C1D7C2AB9C7"
+	icon: "mekamod:meka_ingot"
+	id: "302A8D57E6B2245A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "51E4E521C0C34F01"
+			rewards: [{
+				id: "23CD19790C1033AD"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 89L
+					id: "60DC78CAA8F437BF"
+					item: "bigreactors:fluidizercasing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "51549169B70E6C17"
+					item: "bigreactors:fluidizerglass"
+					type: "item"
+				}
+				{
+					id: "4F9138A553B1DAB7"
+					item: "bigreactors:fluidizercontroller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0E7A453EBC5127E7"
+					item: "bigreactors:fluidizerfluidinjector"
+					type: "item"
+				}
+				{
+					id: "31CBCA2E05C47CC8"
+					item: "bigreactors:fluidizeroutputport"
+					type: "item"
+				}
+				{
+					id: "4CCD4274F4631ED1"
+					item: "bigreactors:fluidizerpowerport"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0CE272A7E40FDFBC"
+					item: "bigreactors:fluidizersolidinjector"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "409A1614AA802912"
+			rewards: [{
+				id: "7EE9C1C8C7F7B97E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 81L
+					id: "7486C9FD5390CE16"
+					item: "bigreactors:basic_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "4593BEDAD3E75F70"
+					item: "bigreactors:basic_reactorcontroller"
+					type: "item"
+				}
+				{
+					id: "5E10277E015DD0E7"
+					item: "bigreactors:basic_reactorglass"
+					type: "item"
+				}
+				{
+					id: "35CA9EB5FDE7E045"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "15FAE820C0F2AAB1"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7A3626CC030A9855"
+					item: "bigreactors:basic_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "542766E1E71985FA"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			id: "1677FF2CBB1C79B6"
+			rewards: [{
+				id: "13EF85ACA51978A4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 36L
+					id: "3ED227C85853BE10"
+					item: "bigreactors:reprocessorcasing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5FA12EA719D1A05E"
+					item: "bigreactors:reprocessorglass"
+					type: "item"
+				}
+				{
+					id: "6FDFE5D575E93262"
+					item: "bigreactors:reprocessorwasteinjector"
+					type: "item"
+				}
+				{
+					id: "2C867594E6D5BA7D"
+					item: "bigreactors:reprocessorcontroller"
+					type: "item"
+				}
+				{
+					id: "660F326E62D186DE"
+					item: "bigreactors:reprocessorfluidinjector"
+					type: "item"
+				}
+				{
+					id: "5366057D79C0554F"
+					item: "bigreactors:reprocessoroutputport"
+					type: "item"
+				}
+				{
+					id: "26BB25954BAAACC5"
+					item: "bigreactors:reprocessorpowerport"
+					type: "item"
+				}
+				{
+					id: "6AAE5860EDBDC2A8"
+					item: "bigreactors:reprocessorcollector"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			id: "4AA3BC2B48685380"
+			rewards: [{
+				id: "771884655898782F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 82L
+					id: "5EBD1E6D05ECB8C7"
+					item: "bigreactors:reinforced_reactorcasing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7B19B8DED60CCB00"
+					item: "bigreactors:reinforced_reactorglass"
+					type: "item"
+				}
+				{
+					id: "61156AEA79514D61"
+					item: "bigreactors:reinforced_reactorcontroller"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "54604E38A85755B7"
+					item: "bigreactors:reinforced_reactorfuelrod"
+					type: "item"
+				}
+				{
+					id: "51E39C4E9E1FBC9F"
+					item: "bigreactors:reinforced_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1E86765E45EC850E"
+					item: "bigreactors:reinforced_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0CD0F5FFD063CEEC"
+					item: "bigreactors:reinforced_reactorfluidaccessport"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"409A1614AA802912"
+				"1677FF2CBB1C79B6"
+				"1B0B5E0C2AC74A10"
+			]
+			id: "30B34BB65193FA93"
+			rewards: [{
+				id: "7CBE2C7626A7A8AA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28B091003382E0D0"
+				item: "bigreactors:magentite_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51E4E521C0C34F01"]
+			id: "7EFD968FD47A0236"
+			rewards: [{
+				id: "192084E6484DF546"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26E0FBAD4BBEE134"
+				item: "bigreactors:verderium_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7EFD968FD47A0236"
+				"4AA3BC2B48685380"
+			]
+			id: "3DF4061BD0F22D20"
+			rewards: [{
+				id: "3466849BD9B9BBD1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E4B5C95AB0F7DA4"
+				item: "bigreactors:rossinite_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43C25216EC15A3F0"]
+			id: "1B0B5E0C2AC74A10"
+			rewards: [{
+				id: "4DAB28F91D326EDC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C01F7AA59A90CAA"
+				item: "bigreactors:ridiculite_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["569D6C0F27AB3CAB"]
+			id: "57B229A722C49D4B"
+			rewards: [{
+				id: "0AC8CB058B67C956"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27DBC92D22770E5D"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1677FF2CBB1C79B6"]
+			id: "569D6C0F27AB3CAB"
+			rewards: [{
+				id: "027196379CE95E60"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B28C1519E8D32A"
+				item: "bigreactors:cyanite_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57B229A722C49D4B"]
+			id: "43C25216EC15A3F0"
+			rewards: [{
+				id: "420D4BBD27DAEC64"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B674B174266BC55"
+				item: "bigreactors:ludicrite_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DF4061BD0F22D20"]
+			id: "091498EA9AE24FFC"
+			rewards: [{
+				id: "514DB8333FBB5DF5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D45C8D9F3D6909D"
+				item: "bigreactors:inanite_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF4061BD0F22D20"]
+			id: "6E2D402A5F1F9DEE"
+			rewards: [{
+				id: "5C87F2D4B2D36AE4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CA80E841713EAD3"
+				item: "bigreactors:insanite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4CFD2120EB29367F"
+			rewards: [
+				{
+					count: 4
+					id: "55CE97E94349D3A8"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4649C5F73FD1DC6F"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "496E0B5C5631DFDF"
+				item: "mekamod:meka_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["os Reactor"]
+	title: "Extreme Reactors"
+}

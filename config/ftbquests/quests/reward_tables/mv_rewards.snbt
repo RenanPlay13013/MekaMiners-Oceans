@@ -1,0 +1,20 @@
+{
+	icon: "gtceu:good_electronic_circuit"
+	id: "244D6E251E1CA919"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "gtceu:mv_electric_motor" }
+		{ item: "gtceu:mv_electric_pump" }
+		{ item: "gtceu:mv_fluid_regulator" }
+		{ item: "gtceu:mv_conveyor_module" }
+		{ item: "gtceu:mv_robot_arm" }
+		{ item: "gtceu:good_electronic_circuit" }
+		{ item: "gtceu:mv_machine_hull" }
+		{ count: 8, item: "gtceu:annealed_copper_quadruple_cable" }
+		{ item: "gtceu:mv_super_chest" }
+		{ item: "gtceu:mv_super_tank" }
+	]
+	title: "MV Rewards"
+	use_title: true
+}

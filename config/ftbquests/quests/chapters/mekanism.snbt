@@ -1,0 +1,1169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "6BDF1C1D7C2AB9C7"
+	icon: {
+		Count: 1b
+		id: "mekanism:ultimate_energy_cube"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "256000000"
+				}]
+			}
+		}
+	}
+	id: "2789E3548D1A2F78"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "63C69B7E71723EAF"
+			rewards: [{
+				id: "6C6468FF7972774A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E0BA70BAB666056"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1E088FFE354C6AFA"
+				"71D36CE59CA7435A"
+			]
+			id: "7EEA5E917009B31D"
+			rewards: [{
+				id: "7AFBD7EFD22F8B93"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6028B915F00A8E03"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+				{
+					id: "3C65713F04BE99C6"
+					item: "mekanism:energized_smelter"
+					type: "item"
+				}
+				{
+					id: "5BE901AD6DADC574"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					id: "4479F11F9FF34B14"
+					item: {
+						Count: 1b
+						id: "mekanism:rotary_condensentrator"
+						tag: {
+							mekData: {
+								EnergyContainers: [ ]
+								FluidTanks: [ ]
+								GasTanks: [ ]
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config1: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config2: {
+										side0: 1
+										side1: 4
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config6: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 8
+										side4: 1
+										side5: 1
+									}
+									eject0: 0b
+									eject1: 1b
+									eject2: 1b
+									eject6: 0b
+								}
+								componentEjector: {
+									color0: -1
+									color1: -1
+									color2: -1
+									color3: -1
+									color4: -1
+									color5: -1
+									strictInput: 0b
+								}
+								componentUpgrade: {
+									Items: [ ]
+									upgrades: [ ]
+								}
+								controlType: 0
+								owner: [I;
+									-140122133
+									1706045952
+									-1885068416
+									-1660685845
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A5424BA2421D46E"
+					item: {
+						Count: 1b
+						id: "mekanism:osmium_compressor"
+						tag: {
+							mekData: {
+								EnergyContainers: [ ]
+								GasTanks: [ ]
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config2: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config6: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 8
+										side4: 1
+										side5: 9
+									}
+									eject0: 0b
+									eject2: 0b
+									eject6: 0b
+								}
+								componentEjector: {
+									color0: -1
+									color1: -1
+									color2: -1
+									color3: -1
+									color4: -1
+									color5: -1
+									strictInput: 0b
+								}
+								componentUpgrade: {
+									Items: [ ]
+									upgrades: [ ]
+								}
+								controlType: 0
+								owner: [I;
+									-140122133
+									1706045952
+									-1885068416
+									-1660685845
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7927B4B3DB486C20"
+					item: {
+						Count: 1b
+						id: "mekanism:combiner"
+						tag: {
+							mekData: {
+								EnergyContainers: [ ]
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config6: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 8
+										side4: 1
+										side5: 9
+									}
+									eject0: 0b
+									eject6: 0b
+								}
+								componentEjector: {
+									color0: -1
+									color1: -1
+									color2: -1
+									color3: -1
+									color4: -1
+									color5: -1
+									strictInput: 0b
+								}
+								componentUpgrade: {
+									Items: [ ]
+									upgrades: [ ]
+								}
+								controlType: 0
+								owner: [I;
+									-140122133
+									1706045952
+									-1885068416
+									-1660685845
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F506415E94249A5"
+					item: {
+						Count: 1b
+						id: "mekanism:purification_chamber"
+						tag: {
+							mekData: {
+								EnergyContainers: [ ]
+								GasTanks: [ ]
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config2: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config6: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 8
+										side4: 1
+										side5: 9
+									}
+									eject0: 0b
+									eject2: 0b
+									eject6: 0b
+								}
+								componentEjector: {
+									color0: -1
+									color1: -1
+									color2: -1
+									color3: -1
+									color4: -1
+									color5: -1
+									strictInput: 0b
+								}
+								componentUpgrade: {
+									Items: [ ]
+									upgrades: [ ]
+								}
+								controlType: 0
+								owner: [I;
+									-140122133
+									1706045952
+									-1885068416
+									-1660685845
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "683A5AC743D8C874"
+					item: {
+						Count: 1b
+						id: "mekanism:pigment_extractor"
+						tag: {
+							mekData: {
+								EnergyContainers: [ ]
+								PigmentTanks: [ ]
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config4: {
+										side0: 0
+										side1: 0
+										side2: 4
+										side3: 0
+										side4: 0
+										side5: 0
+									}
+									config6: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 8
+										side4: 1
+										side5: 1
+									}
+									eject0: 0b
+									eject4: 1b
+									eject6: 0b
+								}
+								componentEjector: {
+									color0: -1
+									color1: -1
+									color2: -1
+									color3: -1
+									color4: -1
+									color5: -1
+									strictInput: 0b
+								}
+								componentUpgrade: {
+									Items: [ ]
+									upgrades: [ ]
+								}
+								controlType: 0
+								owner: [I;
+									-140122133
+									1706045952
+									-1885068416
+									-1660685845
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D5E64080F370032"
+					item: {
+						Count: 1b
+						id: "mekanism:precision_sawmill"
+						tag: {
+							mekData: {
+								EnergyContainers: [ ]
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config6: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 8
+										side4: 1
+										side5: 1
+									}
+									eject0: 0b
+									eject6: 0b
+								}
+								componentEjector: {
+									color0: -1
+									color1: -1
+									color2: -1
+									color3: -1
+									color4: -1
+									color5: -1
+									strictInput: 0b
+								}
+								componentUpgrade: {
+									Items: [ ]
+									upgrades: [ ]
+								}
+								controlType: 0
+								owner: [I;
+									-140122133
+									1706045952
+									-1885068416
+									-1660685845
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B1E268AC9DE67E6"
+					item: {
+						Count: 1b
+						id: "mekanism:chemical_injection_chamber"
+						tag: {
+							mekData: {
+								EnergyContainers: [ ]
+								GasTanks: [ ]
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config2: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+									config6: {
+										side0: 1
+										side1: 1
+										side2: 4
+										side3: 8
+										side4: 1
+										side5: 9
+									}
+									eject0: 0b
+									eject2: 0b
+									eject6: 0b
+								}
+								componentEjector: {
+									color0: -1
+									color1: -1
+									color2: -1
+									color3: -1
+									color4: -1
+									color5: -1
+									strictInput: 0b
+								}
+								componentUpgrade: {
+									Items: [ ]
+									upgrades: [ ]
+								}
+								controlType: 0
+								owner: [I;
+									-140122133
+									1706045952
+									-1885068416
+									-1660685845
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EEA5E917009B31D"]
+			icon: "mekanism:elite_tier_installer"
+			id: "454C35B16D782435"
+			rewards: [{
+				id: "1D619B913BA40AE0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "302840C2A508A13D"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7E17893837C402CC"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "733180BA10A73E04"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "77D277AAEE3BF979"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "7F0B58460B9278A0"
+			rewards: [{
+				id: "7A5998E12ACE3818"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "634B56B4B9287AB6"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0327116F7357B5F6"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4F4C29B7F2138FC0"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "73B99BB62329385C"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "25A94C7A94A1542D"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E088FFE354C6AFA"]
+			id: "2C385CD114EB552D"
+			rewards: [{
+				id: "18B4361753B13470"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5566FFE93E53847B"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+				{
+					id: "47DEF7262478027D"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "1F5586E8D58F6E60"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2C385CD114EB552D"
+				"71D36CE59CA7435A"
+			]
+			id: "6123627E3EBBFC18"
+			rewards: [{
+				id: "1810B37AAA03FCF3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C071F3F273F09A5"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+				{
+					id: "5A2BB912CA7BEEBC"
+					item: "mekanism:elite_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "754F05EB462FC76F"
+					item: "mekanism:elite_mechanical_pipe"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6123627E3EBBFC18"
+				"7678BE926E2C2890"
+			]
+			id: "660A1E225AE7E22E"
+			rewards: [{
+				id: "6CCD3EA656E23880"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A9769E6C9CE9043"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+				{
+					id: "1D6F048A75A9D9C0"
+					item: "mekanism:ultimate_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "3861606FFADD9CD5"
+					item: "mekanism:ultimate_mechanical_pipe"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F0B58460B9278A0"]
+			id: "6DAB70D360E3E210"
+			rewards: [{
+				id: "4D3C4D6A0E1469A3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 48L
+					id: "350CF5C57A693A21"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "4B65E73BC5E01B0E"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00A22114B8D11E44"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "343A11F2CDA50C10"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "595CD9D7D525222B"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0D3F6D4E6A50DC75"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "291EAB73003F28D7"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					count: 86L
+					id: "3C51E4ECE7F82560"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "6B7ED5DB4CCE60FC"
+			rewards: [{
+				id: "7200FEAA42ECF523"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "070988A10BE4B9C7"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "1728FD98D7E6FA98"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "45C399FDAE128757"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					count: 56L
+					id: "5468EABFF58C58BD"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "5B7C01F28CB83026"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F0B58460B9278A0"]
+			id: "6C6211FC69E778A0"
+			rewards: [{
+				id: "3070079D078D3237"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FB48FA63ED2DA7A"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6B7ED5DB4CCE60FC"
+				"6C6211FC69E778A0"
+			]
+			dependency_requirement: "all_started"
+			id: "3E09F3763F42B102"
+			rewards: [{
+				id: "1BBBB3C8FF097C13"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 60L
+					id: "4188BF957A6FE8BD"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6BD1A8205A47A3A0"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					count: 124L
+					id: "0B7477BFD85A339A"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7AD5CB38A99DA6F7"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E09F3763F42B102"]
+			id: "58854D9909D14DE9"
+			rewards: [
+				{
+					count: 32
+					id: "2EB4CDD816BD538D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "657051C04F2D0737"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 16L
+				id: "1B0C082D0394E4B0"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63C69B7E71723EAF"]
+			id: "1E088FFE354C6AFA"
+			rewards: [{
+				id: "0D0B0ED8E5548B36"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "63C237413FB5A874"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "68EA1E3773135097"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E088FFE354C6AFA"]
+			id: "71D36CE59CA7435A"
+			rewards: [{
+				id: "603ACA3B01C26389"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "559876F0447CF6B6"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "554276E28DF7124D"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["71D36CE59CA7435A"]
+			id: "7678BE926E2C2890"
+			rewards: [{
+				id: "18938F5124CE1F43"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "10F76D31EA77E658"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "71C86D4A2E8B2E35"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7EEA5E917009B31D"]
+			id: "3DA8449A5AF95DC6"
+			rewards: [{
+				id: "1EBCAF15ED78C1E3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "34FBBC69303B851A"
+					item: { Count: 32b, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "68119A2133B353F9"
+					item: { Count: 32b, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B7ED5DB4CCE60FC"
+				"5341F78DAA798197"
+			]
+			id: "46CE5CDEDB028C74"
+			rewards: [{
+				id: "75CA7F37E59848CF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 111L
+					id: "19E4A34C9B44F316"
+					item: { Count: 64b, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5BC1D86B9BC6DC65"
+					item: { Count: 2b, id: "mekanism:induction_port" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46CE5CDEDB028C74"]
+			id: "3F3E6B79161F87FA"
+			rewards: [{
+				id: "38FDD3EFA88B8006"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "483D587D2D40EFD3"
+				item: { Count: 16b, id: "mekanism:basic_induction_cell" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F3E6B79161F87FA"]
+			id: "4CC66E499092CF82"
+			rewards: [{
+				id: "0E0FE0AADB17A08A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "627C465EA8E4123E"
+				item: { Count: 16b, id: "mekanism:advanced_induction_cell" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CC66E499092CF82"]
+			id: "602C26E0AB74D146"
+			rewards: [{
+				id: "79449C18E9DCFB62"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0BEE7246BD3617C9"
+				item: { Count: 16b, id: "mekanism:elite_induction_cell" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["602C26E0AB74D146"]
+			id: "6A6F953ABDAE7590"
+			rewards: [{
+				id: "768F157A454BE7AE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "35A6A685CDC50DBE"
+				item: { Count: 16b, id: "mekanism:ultimate_induction_cell" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["46CE5CDEDB028C74"]
+			id: "2397B469C6BA6E06"
+			rewards: [{
+				id: "6181CC5B6C1D7AE9"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1947AC58BC85557D"
+				item: { Count: 16b, id: "mekanism:basic_induction_provider" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397B469C6BA6E06"]
+			id: "22F714566354AFC2"
+			rewards: [{
+				id: "7D490C00851B138B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7BE19DB536C0AFC5"
+				item: { Count: 16b, id: "mekanism:advanced_induction_provider" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22F714566354AFC2"]
+			id: "4D1E220C34120914"
+			rewards: [{
+				id: "5BB4D38D644DA75C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6B40393AC5A4F1C5"
+				item: { Count: 16b, id: "mekanism:elite_induction_provider" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D1E220C34120914"]
+			id: "16329B4CF7C24C37"
+			rewards: [{
+				id: "4F81E2B181921D5F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5B543274E8FDCD33"
+				item: { Count: 16b, id: "mekanism:ultimate_induction_provider" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			id: "481CE06861357771"
+			rewards: [{
+				id: "415AA609E486DE6F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 192L
+					id: "2C34FEE4E13E9218"
+					item: { Count: 64b, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "27328AD1415F4203"
+					item: { Count: 2b, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0A151FE5D4CB1FAD"
+					item: { Count: 4b, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["481CE06861357771"]
+			id: "5341F78DAA798197"
+			rewards: [{
+				id: "328B2A6994D201BE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "583FB327C9E2378A"
+				item: { Count: 16b, id: "mekanism:dust_lithium" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["a primeira máquina"]
+	title: "Mekanism"
+}

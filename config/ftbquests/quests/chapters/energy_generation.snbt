@@ -1,0 +1,852 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "energy_generation"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:max_battery"
+	id: "388D10465CE66AB0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2249AF3FC20187B4"
+			rewards: [{
+				id: "208BDCEE0D32FC3C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LV!"
+			tasks: [{
+				id: "6A920F0D1D610457"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "2D4FAD0465CCFCF6"
+			rewards: [{
+				id: "2A731B3D85A70136"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "MV!"
+			tasks: [{
+				id: "1DE032A108E52530"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "12A35D238EE4DDBC"
+			rewards: [{
+				id: "025AF7EB2900742E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "HV!"
+			tasks: [{
+				id: "160C39E0D03C8BD4"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "4E71620095420D43"
+			rewards: [{
+				id: "1F96FDD3DF5F9C86"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "HV!"
+			tasks: [{
+				id: "3311B5EDF8C2F224"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "738CE483E02BA7DC"
+			rewards: [{
+				id: "131B0580CB867B63"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LV!"
+			tasks: [{
+				id: "09E9F26747C04A1A"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "7A36C0DA68D24DC9"
+			rewards: [{
+				id: "22D76F32B24B2A27"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "MV!"
+			tasks: [{
+				id: "185ECE380F11D720"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "6C9FBE8022A39BE4"
+			rewards: [{
+				id: "226EE119F18C65E7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "HV!"
+			tasks: [{
+				id: "1CD1770799484D96"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "47654BACEE394C6B"
+			rewards: [{
+				id: "15F93E1BE3A97CB9"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EV!"
+			tasks: [{
+				id: "264F567C9F0331B9"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "12C4695BDD858AA4"
+			rewards: [{
+				id: "3B95AF0A2691FE93"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "IV!"
+			tasks: [{
+				id: "6CF63866F898E8F8"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "2ED946D4F08F3E17"
+			rewards: [{
+				id: "5CCEBC8BF75FBFB5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LV!"
+			tasks: [{
+				id: "1493F34284968270"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "43C8AF734E1C35BE"
+			rewards: [{
+				id: "4FEF021DFC64B504"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "MV!"
+			tasks: [{
+				id: "55E3CDE54094B12F"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "1A8085FA9B2CA182"
+			rewards: [{
+				id: "1F593BFDB6815ED6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "HV!"
+			tasks: [{
+				id: "5E99A0DF88AC0157"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "36D586B5519D2A4D"
+			rewards: [{
+				id: "5D7562D38C082BEF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EV!"
+			tasks: [{
+				id: "369B76044A5A9443"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:lv_lithium_battery"
+			id: "0960A7AC750133A8"
+			rewards: [{
+				id: "047E3045B970BB16"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "70CEF9E96357E369"
+				item: "gtceu:lv_sodium_battery"
+				type: "item"
+			}]
+			title: "LV Batteries"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:mv_lithium_battery"
+			id: "327D6CCB63904DC3"
+			rewards: [{
+				id: "2653331519FF7FD6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "6D0E6A8C25273CEB"
+				item: "gtceu:mv_sodium_battery"
+				type: "item"
+			}]
+			title: "MV Batteries"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:hv_lithium_battery"
+			id: "6FBFCD749301A8FA"
+			rewards: [{
+				id: "763AEFD083B2BE96"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "3D3CBAE62A1CA8EC"
+				item: "gtceu:hv_sodium_battery"
+				type: "item"
+			}]
+			title: "HV Batteries"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:lapotron_crystal"
+			id: "3F28F5A6B9973665"
+			rewards: [{
+				id: "496044F0A1F91580"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "7BB227497147CCD2"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
+			}]
+			title: "EV Batteries"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:iv_vanadium_battery"
+			id: "712A3EE989775569"
+			rewards: [{
+				id: "69AA3F118D9817AB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "5A3C1E16727CB627"
+				item: "gtceu:iv_battery_hull"
+				type: "item"
+			}]
+			title: "IV Batteries"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:luv_vanadium_battery"
+			id: "3E475A430EBA78F4"
+			rewards: [{
+				id: "1390F14D1D4C4F8D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "5326C91E3B1F40D4"
+				item: "gtceu:luv_battery_hull"
+				type: "item"
+			}]
+			title: "LuV Batteries"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:zpm_naquadria_battery"
+			id: "30300B2D0D4327BB"
+			rewards: [{
+				id: "2A97275AD7AAE0FC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "486F28FEC3A3D4D9"
+				item: "gtceu:zpm_battery_hull"
+				type: "item"
+			}]
+			title: "ZPM Batteries"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:uv_naquadria_battery"
+			id: "5500DA4CFFFB969A"
+			rewards: [{
+				id: "33F7F5D2C69C1D69"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "73EB57A47632B02A"
+				item: "gtceu:uv_battery_hull"
+				type: "item"
+			}]
+			title: "UV Batteries"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:max_battery"
+			id: "12A920473F3B1ECE"
+			rewards: [{
+				id: "12BCFE135F1F9FA1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Energy storage!"
+			tasks: [{
+				id: "38C65F39187E8186"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			title: "UHV Batteries"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Power Substation is an expandable multiblock designed to hold mass amounts of energy. The output rate depends on the Dynamo Hatch you use. Can support multiple different Dynamo Hatches to supply different energy ratings at the same time."
+				""
+				"The multiblock can be expanded to having 18 layers of Capacitors. The Capacitors do not have to be the same tier."
+				""
+				"Has a passive drain of 1% of the total capacity every 24 hours."
+			]
+			id: "5984D8577AAC3E97"
+			rewards: [{
+				id: "78337DC89A1798F0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Expandable mass energy storage!"
+			tasks: [{
+				id: "2B9B7217BB1071D0"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F3580FE739DF749"
+			rewards: [{
+				id: "4EF1C0D263EC0584"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC16145166FA4D3"
+				item: "gtceu:active_transformer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "740E058E286AE5D1"
+			rewards: [{
+				id: "1E63D61395AC29B6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LuV!"
+			tasks: [{
+				id: "502AEAB0EAC81E11"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "43E21CF3A81E6A53"
+			rewards: [{
+				id: "3F73BE36FF6875C6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69C66C4E79BD5323"
+				item: "gtceu:manganese_phosphide_single_wire"
+				type: "item"
+			}]
+			title: "LV Superconductor"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "738C37738EB8FB35"
+			rewards: [{
+				id: "25450848282E28CE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "187BBC70BD730F74"
+				item: "gtceu:magnesium_diboride_single_wire"
+				type: "item"
+			}]
+			title: "MV Superconductor"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "3CFB4F21CC0170FC"
+			rewards: [{
+				id: "75DBF80600956B48"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1144E5EC2E113FA8"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			title: "HV Superconductor"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "157AEBF3E53A0246"
+			rewards: [{
+				id: "068C391CDC9A6FF6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B27451CA1C48750"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			title: "EV Superconductor"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "7A4C80702FB850D0"
+			rewards: [{
+				id: "44187185D3644859"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4621075EA1CF33B9"
+				item: "gtceu:samarium_iron_arsenic_oxide_single_wire"
+				type: "item"
+			}]
+			title: "IV Superconductor"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "010DF958BC636339"
+			rewards: [{
+				id: "7284ECBD7D848296"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05952BBB08294446"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				type: "item"
+			}]
+			title: "LuV Superconductor"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "0B6FA3455400DEA4"
+			rewards: [{
+				id: "5EBD466DA4181DFF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E64CD89FE40C0C9"
+				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
+				type: "item"
+			}]
+			title: "ZPM Superconductor"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "2C9BA1D7048EBC9B"
+			rewards: [{
+				id: "45EB8214A0750ED2"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17E4FE9B5D467DD7"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+				type: "item"
+			}]
+			title: "UV Superconductor"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "00A6AC24EC1F1E09"
+			rewards: [{
+				id: "07B264BA519F3064"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "536A71AA1E7BEC3E"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+				type: "item"
+			}]
+			title: "UHV Superconductor"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "362AF6497DA53159"
+			rewards: [{
+				id: "51D14DC36261348A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LV/MV!"
+			tasks: [{
+				id: "67D9056ED3F3349A"
+				item: "gtceu:lv_transformer_1a"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "320DD399BCE5A0FC"
+			rewards: [{
+				id: "662D2A69C48CECFA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "MV/HV!"
+			tasks: [{
+				id: "50BD536CAF32F73A"
+				item: "gtceu:mv_transformer_1a"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6D43206358F4C413"
+			rewards: [{
+				id: "47996E406D64DC44"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "HV/EV!"
+			tasks: [{
+				id: "04B11908B14BC6B2"
+				item: "gtceu:hv_transformer_1a"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "689D938C10F7BF92"
+			rewards: [{
+				id: "0DE9C1A9722ABDA1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EV/IV!"
+			tasks: [{
+				id: "544E64A16D6C80CD"
+				item: "gtceu:ev_transformer_1a"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "50533D8302752FC6"
+			rewards: [{
+				id: "553F31874ED29DD5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "IV/LuV!"
+			tasks: [{
+				id: "33BE058C1333D2DB"
+				item: "gtceu:iv_transformer_1a"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "534A6845439A86C3"
+			rewards: [{
+				id: "7065232BD90BC9D7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LuV/ZPM!"
+			tasks: [{
+				id: "5D0E2F54417F288F"
+				item: "gtceu:luv_transformer_1a"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "4419EC560D9004D7"
+			rewards: [{
+				id: "657E65746B25EC54"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "ZPM/UV!"
+			tasks: [{
+				id: "47D2DCEFFA063957"
+				item: "gtceu:zpm_transformer_1a"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "3957EBE64100EA54"
+			rewards: [{
+				count: 4
+				id: "39EA1C6C8B16125D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "UV/UHV!"
+			tasks: [{
+				id: "52E5EBED1B200575"
+				item: "gtceu:uv_transformer_1a"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "70D724ED2A297BDC"
+			rewards: [{
+				id: "4CD0FE9B43FA9A91"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "06AA15AC2FAC7948"
+				item: "gtceu:lv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "443AF3EFC5DED7ED"
+			rewards: [{
+				id: "3E383F5BF01CDC07"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "0BF17C0A7FF9B411"
+				item: "gtceu:mv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "046BEFE4C7841422"
+			rewards: [{
+				id: "72FD8EC0B728BFA5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "275932791BC3AA66"
+				item: "gtceu:hv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "122CF6BC293472B1"
+			rewards: [{
+				id: "60D6C1C9B9EA3BD9"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "7664BA6FD33A0EA6"
+				item: "gtceu:iv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "3A744A2EC3163FB4"
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "061284475B07FD1D"
+				item: "gtceu:ev_1a_energy_converter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "1F1305838AD7C3AF"
+			rewards: [{
+				id: "6DAB9CAB3F5DDE81"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "15F8B5B959CAE5F8"
+				item: "gtceu:luv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "0555A98C1E49DC82"
+			rewards: [{
+				id: "4F4832539FA070C8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "6EEAE6B79B686894"
+				item: "gtceu:zpm_1a_energy_converter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "79E8E796B22E2A35"
+			rewards: [{
+				id: "03DD73BDCE9F0585"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "3697BF9A45004422"
+				item: "gtceu:uv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "75C8FD4FF2D59DD6"
+			rewards: [{
+				id: "33E025A625C38269"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "EU <-> FE"
+			tasks: [{
+				id: "3E1139D868D007CA"
+				item: "gtceu:uhv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Uma visão geral!"]
+	title: "Energy Generation"
+}

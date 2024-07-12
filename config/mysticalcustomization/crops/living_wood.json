@@ -1,0 +1,14 @@
+{
+    "name": "Living Wood",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "botania:livingwood_log"
+    },
+    "color": "501e0b",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_tall_gem"
+    }
+  }
+  

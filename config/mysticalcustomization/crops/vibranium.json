@@ -1,0 +1,15 @@
+{
+    "name": "Vibranium",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "allthemodium:vibranium_ingot"
+    },
+    "color": "158869",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "allthemodium:vibranium_block"
+  }
+  

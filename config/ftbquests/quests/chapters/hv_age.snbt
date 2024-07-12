@@ -1,0 +1,1017 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "hv_age"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "20110746F9254CD0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3572CE7FB88DFD07"
+				"72EEEF8EC9D3693C"
+			]
+			description: [
+				""
+				"Acho que você já entende como os circuitos funcionam."
+			]
+			id: "01A3EB516A884B7C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63763D0CB9BD9295"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "62177DB5BFFC8CB6"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "EV Circuits!"
+			tasks: [{
+				id: "28C4164B6C2614F8"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"684FA75E5D8A941D"
+				"31C96EDE68DEAABC"
+			]
+			description: ["O segundo circuito HV pode ser usado no lugar dos circuitos HV originais."]
+			id: "3572CE7FB88DFD07"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "246B90F8988BE8F3"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "2E7632C1259C8586"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Este é o segundo Circuito HV!"
+			tasks: [{
+				id: "2C0CA1BF9C22AA6F"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"71AA8A822A5A2015"
+				"48F565D11CFD07E2"
+			]
+			description: ["O terceiro Circuito MV pode ser usado no lugar dos Circuitos MV originais."]
+			id: "684FA75E5D8A941D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "356C1BD4BAE51A0F"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "244C301EEC925666"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Este é o terceiro Circuito MV!"
+			tasks: [{
+				id: "670EFBA56E182B6B"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10F79991569391D7"]
+			description: [
+				""
+				"Um novo tipo de placa de circuito, usado em vários tipos de circuito."
+			]
+			id: "71AA8A822A5A2015"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "594B62DF8C1EE3B9"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "63A945FEF33A8C1B"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Uma nova placa de circuito!"
+			tasks: [{
+				id: "04DE697F80E04EAC"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"Embora possam ser usadas folhas de polietileno, as folhas de cloreto de polivinila produzirão o dobro. Procure obter uma configuração de produção de cloreto de polivinila líquido. Por enquanto é totalmente opcional, mas pode ajudar a preservar o polietileno."
+				""
+				"Se você tiver mais polietileno do que pode suportar, não há necessidade de cloreto de polivinila por enquanto, mas é altamente recomendado, pois você precisará do cloreto de polivinila mais tarde."
+			]
+			id: "10F79991569391D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EC169B716A6CF27"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "17C2B330288960A1"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Choices!"
+			tasks: [{
+				id: "2BCC5F0CF6261397"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: ["Existem 2 tipos de indutores, ambos válidos para circuitos, ambos podem ser obtidos. Se você pode fabricar os indutores SMD, provavelmente deveria, pois pode fabricar 32 de cada vez."]
+			id: "31C96EDE68DEAABC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66C76C93B1EAF8A7"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "69BDBEA6C7E120E1"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Choices!"
+			tasks: [{
+				icon: "gtceu:inductor"
+				id: "15FFC1EB5BEA46A7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:inductors"
+					}
+				}
+				title: "Inductors"
+				type: "item"
+			}]
+			title: "Inductors"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				""
+				"Coloque as máquinas dentro do multibloco Sala Limpa para realizar receitas de Sala Limpa. Observe que outros blocos também podem ser colocados dentro, como anéis quânticos, âncoras de viagem e elevadores."
+				"Pode ter no mínimo 5x5x5 e no máximo 15x15x15. Eventualmente, você precisará de muitas máquinas dentro de uma sala limpa e até mesmo de alguns multiblocos."
+				""
+				"Blocos adicionais que não estão listados, Diodo, Barramentos/Escotilhas, Escotilhas de Passagem, Casco da Máquina."
+				""
+				"Conforme a rotina normal, a maioria dos hatches ou busses/escotilhas são flexíveis."
+				""
+				"Este multibloco requer um casco de máquina para fornecer energia às máquinas dentro da sala limpa. Alimente o casco da máquina de fora e acesse a energia de dentro. Se não estiver funcionando, gire-o. O lado vermelho deve ficar voltado para dentro da Sala Limpa."
+				""
+				"Observe que o multibloco se formará com uma escotilha de energia de baixa tensão, mas não iniciará o processo de limpeza a menos que seja pelo menos uma escotilha de energia de média tensão."
+				""
+				"As escotilhas de passagem permitem que itens ou fluidos \"passem\" pelas paredes do multibloco, permitindo a transferência através das paredes."
+				""
+				"Interaja com o bloco Sala Limpa na parte superior central, de dentro ou de fora, para ver o status da Sala Limpa. O status deve ser CLEAN para que as receitas funcionem."
+				""
+				"Dica: Você pode obter Concreto infinito no Gerador de Bloco Infinito."
+				""
+				"Os itens listados são os requisitos mínimos sem Escotilhas ou hatches ou busses."
+			]
+			icon: "gtceu:cleanroom"
+			id: "72EEEF8EC9D3693C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7666E1D9A403C456"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "78B00814DAE4622D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Coloque as máquinas dentro!"
+			tasks: [
+				{
+					id: "48F10AEB7FE95862"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					count: 75L
+					id: "046C939AB41A01B8"
+					item: "gtceu:plascrete"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7A13FE3AAB552CFB"
+					item: { Count: 6b, id: "gtceu:cleanroom_glass" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "77AA5173D601A988"
+					item: { Count: 8b, id: "gtceu:filter_casing" }
+					type: "item"
+				}
+				{
+					id: "23E4CCABF2A221A0"
+					item: "minecraft:iron_door"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"Uma versão multibloco avançada da Destilaria, capaz de obter saídas mais fluidas."
+				""
+				"O tamanho do multibloco pode variar dependendo da quantidade de saídas que você está obtendo. Se você estiver obtendo apenas 2 saídas, ela só precisa ter a altura de 2 hachuras de saída; se você estiver obtendo 4 saídas, ela precisa ter a altura de 4 hachuras de saída."
+				""
+				"Cada nível superior deve conter 1 hachura de saída e o nível inferior não pode conter uma hachura de saída."
+				""
+				"Os itens listados são os requisitos mínimos sem Escotilhas ou hatches ou busses"
+			]
+			icon: "gtceu:distillation_tower"
+			id: "1322E409CC3BC950"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "091D23042BA96D83"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "44ED2034D78C5C72"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "A multiblock Distillery!"
+			tasks: [
+				{
+					id: "7FE399B84E4411C6"
+					item: "gtceu:distillation_tower"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "4E827688F8538FE5"
+					item: { Count: 21b, id: "gtceu:clean_machine_casing" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AE575A11212921D"]
+			description: [
+				"Os componentes SMD basicamente substituem os componentes originais do Circuito, sendo significativamente mais fáceis de fabricar em grandes quantidades."
+				""
+				"Aumenta significativamente as taxas de produção do circuito."
+			]
+			icon: "gtceu:smd_transistor"
+			id: "429091621533FD72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "646502D7F5C9674F"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Circuitos mais fáceis!"
+			tasks: [
+				{
+					id: "419A6DBCACC40FDC"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "269B3931A311ADE7"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "55994E8F851B45DE"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "4130989B8A971CAE"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "56AE81C80196387E"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			title: "SMD Components"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			id: "4AE575A11212921D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C11C89370558855"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "HV recipes!"
+			tasks: [{
+				id: "0A94B27B65DEB5A4"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BDC0AA4E8BF547A"]
+			description: ["Necessário para cortar LPIC Wafers em Chips LPIC."]
+			id: "7890F48BB3CDB0C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65430B416882F3F6"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "HV recipes!"
+			tasks: [{
+				id: "20ADA47906719192"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74FF5231869BEF95"]
+			description: ["Por enquanto são ligas suficientes, faça algumas placas de aço azul e talvez algumas ferramentas manuais dependendo de quanto você fabricou, pois elas têm uma durabilidade de 1024."]
+			id: "1BDC0AA4E8BF547A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72B9D2791E478BB6"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Ferramentas duráveis!"
+			tasks: [{
+				id: "1A77507874CC21BB"
+				item: "gtceu:blue_steel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7890F48BB3CDB0C8"
+				"3A2EE50EC56A9C08"
+			]
+			description: ["Usado para criar blocos relacionados à energia HV, como o HV Energy Hatch"]
+			id: "13F69B03F2EF5CBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B497C415441A9D8"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Finally!"
+			tasks: [{
+				id: "2288BC72A0D1731C"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["560C7763B0AA9B02"]
+			description: ["Necessário para fabricar Wafers LPIC."]
+			id: "5CF0210609BCE0AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "479A0BB8DCBA906A"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Apenas 1 opção desta vez!"
+			tasks: [{
+				id: "328EBC7359CAEFAB"
+				item: "gtceu:orange_glass_lens"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: ["Necessário para criar lentes de vidro de cores diferentes"]
+			id: "560C7763B0AA9B02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C628499EA9FD394"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "HV recipes!"
+			tasks: [{
+				id: "48338B509E15A157"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5CF0210609BCE0AA"]
+			description: ["Corte em chips LPIC em um cortador HV."]
+			id: "3A2EE50EC56A9C08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61F25C009ED9E53B"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Cut me!"
+			tasks: [{
+				id: "4D8D4A911E5F681A"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["071FE6997A8E1978"]
+			description: [
+				"Usado principalmente para criar um Advanced Cutter II, pois você precisa de uma lâmina de serra circular de aço azul."
+				""
+				"Processar em EBF para obter Lingotes de Aço Azul."
+			]
+			id: "74FF5231869BEF95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09F51C301237F4D1"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Dust #3!"
+			tasks: [{
+				id: "6D10AB4BE326D133"
+				item: "gtceu:blue_steel_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"Necessário para fabricar Pó de Aço Negro."
+				""
+				"Não processe em Lingotes de Bronze Negro!"
+			]
+			id: "48D114312B99C955"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E314B5E31C51C93"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Dust #1!"
+			tasks: [{
+				id: "47408633B7354F72"
+				item: "gtceu:black_bronze_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48D114312B99C955"]
+			description: ["Embora seja usado principalmente para fabricar Pó de Aço Azul, você também precisará de alguns Fios de Aço Preto Fino para fabricar Bobinas de Alta Tensão."]
+			id: "071FE6997A8E1978"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E5E5F5B4E99BADB"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Dust #2!"
+			tasks: [{
+				id: "0CDEC6E9191264F2"
+				item: "gtceu:black_steel_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"13F69B03F2EF5CBF"
+				"5EACA8D832BC2E1E"
+				"4AE575A11212921D"
+				"45AC05CB79B8FBB8"
+			]
+			description: [
+				"Uma HV Energy Hatch requer um pouco de trabalho."
+				""
+				"Atualize seu EBF para ter um HV Energy Hatch, pois você precisará de 2 para processar receitas EV também."
+				""
+				"Observe que o Steam não vai resistir muito bem à idade HV, você deveria ou pode querer procurar outra fonte de combustível líquido, como Diesel ou GLP, existem algumas opções."
+			]
+			id: "61A11EE51B2DBF65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BF2D173EA38B4C2"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Upgrade the EBF!"
+			tasks: [{
+				id: "68C734DA05E94D13"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"Uma mistura simples 1:1 de Pó de Sódio e Pó de Potássio em um Reator Químico, ambos provenientes de várias fontes em um Eletrolisador."
+				""
+				"Pó de sal e pó de sal-gema são as formas mais fáceis, pois ambos vêm de minérios e têm uma proporção de 2:1. Você também ficará com um pouco de cloro que pode ser útil no futuro para fazer tetracloreto de titânio."
+			]
+			icon: "gtceu:sodium_potassium_bucket"
+			id: "5EACA8D832BC2E1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06A790CA6656E8CF"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Exatamente o que parece!"
+			tasks: [{
+				id: "52945F898985E280"
+				item: "gtceu:sodium_potassium_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"32C2CF87C7C52797"
+				"25592128DA52C5EC"
+			]
+			description: [
+				"Assim como o aço inoxidável foi o principal material para a era HV, o titânio é o principal material para a era EV."
+				""
+				"Observe o subproduto do Pó de Cloreto de Magnésio, você pode processá-lo em um Eletrolisador para recuperar todo o Pó de Magnésio e Cloro."
+			]
+			id: "3C97B2BEF5077424"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DB381F60E66C04D"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "4F36A534DCA2DC9C"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "EV material!"
+			tasks: [{
+				id: "24ED67A16D341D2A"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"Alguns Lingotes Quentes devem ser resfriados em um Congelador a Vácuo."
+				""
+				"Certamente você já sabe como funcionam os multiblocos."
+				""
+				"Os itens listados são os requisitos mínimos sem Escotilhas ou hatches ou busses."
+			]
+			icon: "gtceu:vacuum_freezer"
+			id: "32C2CF87C7C52797"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06BA6430AE2A875D"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "6E5E8733FCD9D93F"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Super cooling!"
+			tasks: [
+				{
+					id: "3CA7D4891B620DD7"
+					item: "gtceu:vacuum_freezer"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "5EAD25EA377CF28E"
+					item: { Count: 18b, id: "gtceu:frostproof_machine_casing" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5027E1163D4DCC38"
+				"183432E7C28DCEA9"
+			]
+			description: [
+				""
+				"O Pó de Magnésio pode vir de uma variedade de coisas, mas também de Minério de Magnesita."
+			]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			id: "25592128DA52C5EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11FACEDBE557B497"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "545427BA1077BF09"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Liquid Titanium!"
+			tasks: [
+				{
+					id: "78D4B2DB84FC693F"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "146CD882A2E0C7D1"
+					item: "gtceu:magnesium_dust"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				""
+				"Necessário para produzir tetracloreto de titânio."
+			]
+			id: "5027E1163D4DCC38"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B50A772593D914D"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "76860EC921F60BFD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "HV recipes!"
+			tasks: [{
+				id: "08C0F3926CB58A84"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"Existem algumas maneiras de obter Pó de Rutilo, então deixarei isso para você."
+				""
+				"Aconselhado a configurar um Gerador de Minério Simples para Minério de Bauxita e executá-lo através de uma cadeia de processamento para Pó de Rutilo ilimitado."
+			]
+			id: "183432E7C28DCEA9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6336A5D4F95C4B37"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "652614799A875004"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Escolhas!"
+			tasks: [{
+				id: "7E3F9ACF21F30E36"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3572CE7FB88DFD07"]
+			description: ["Bem, é dia 373 e ainda não saí do mundo superior, não fiz nenhuma armadura ou arma. As únicas coisas que matei foram Fantasmas e aquele comerciante errante chato com suas lhamas... Tenho 26 pistas..."]
+			hide: true
+			hide_details_until_startable: true
+			id: "702AA7C0C22FF947"
+			rewards: [{
+				id: "7BF47363A10A63EA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Day 373..."
+			tasks: [{
+				id: "7327CF8473D49879"
+				title: "Captain's Log"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"Usado para processar posteriormente tipos de combustível."
+				""
+				"Os itens listados são os requisitos mínimos sem Escotilhas ou hatches ou busses."
+			]
+			icon: "gtceu:cracker"
+			id: "1A882C54D81B9F08"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E2C31EBF212E599"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "624909F3FAA1C203"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Processamento de combustível!"
+			tasks: [
+				{
+					id: "6671525832939837"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "20F8ECA60169A24E"
+					item: { Count: 16b, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "729F33F5F16BEF06"
+					item: { Count: 19b, id: "gtceu:clean_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["071FE6997A8E1978"]
+			description: ["Usado para fabricar escotilhas de energia HV e escotilhas HV Dynamo."]
+			id: "45AC05CB79B8FBB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F63D1C3082EBD38"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "HV multiblocks!"
+			tasks: [{
+				id: "7965FEC725F806F5"
+				item: "gtceu:hv_voltage_coil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E1F0F68C27D3891"]
+			description: ["Permite que você crie circuitos de nível superior. Toda a nova linha de circuitos exigirá Montadores de Circuitos MV"]
+			id: "48F565D11CFD07E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4883839C2A520A01"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "619A22CB35339630"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "New Circuit line!"
+			tasks: [{
+				id: "6933563691D30906"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"Você pode seguir a rota do Gravador a Laser ou a rota da Peneira, ambas opções viáveis."
+				""
+				"Você precisará de Esmeraldas Impecáveis para Emissores MV e Sensores MV"
+			]
+			id: "1E1F0F68C27D3891"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19A4402A88E22D6C"
+					table_id: 4196523133245686518L
+					type: "loot"
+				}
+				{
+					id: "0843FCE7823D046D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Choices!"
+			tasks: [{
+				id: "5549778CEE02E18F"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"588A50FF962E74DF"
+				"4AE575A11212921D"
+			]
+			description: ["A terceira camada de bobinas."]
+			id: "3422A397FA4B23FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48B8C884E56D138C"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "HV Assembler!"
+			tasks: [{
+				count: 16L
+				id: "5E290F6DCE1EEC86"
+				item: { Count: 16b, id: "gtceu:nichrome_coil_block" }
+				type: "item"
+			}]
+			title: "Nichrome Coils"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"Processe pó de níquel e pó de cromo em um misturador MV para produzir pó de nicromo."
+				""
+				"Processar em um HV Electric Blast Furnace para produzir Lingotes de Nicromo Quente."
+			]
+			id: "00CFCCAF68E65352"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "182DC0BC0C454686"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "MV Mixer!"
+			tasks: [{
+				id: "0F54A5950F358771"
+				item: "gtceu:nichrome_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00CFCCAF68E65352"]
+			description: ["Usado principalmente para fazer bobinas, mas tem outros usos."]
+			id: "588A50FF962E74DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02C380BADF92B59B"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "Novas bobinas!"
+			tasks: [{
+				id: "4886583B5054BBF6"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3422A397FA4B23FC"]
+			description: ["Tem uma perda de 0 EU por bloco."]
+			id: "1D33BD3CBB4CEE32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22BA1B626738051F"
+				table_id: 4196523133245686518L
+				type: "loot"
+			}]
+			subtitle: "HV superconductor!"
+			tasks: [{
+				id: "58F1D0FB15EA6514"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Aço inoxidável!"]
+	title: "Tier HV"
+}

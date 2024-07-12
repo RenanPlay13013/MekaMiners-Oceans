@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "zpm_age"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:quantum_processor_mainframe"
+	id: "2F7512F59887B99B"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["024CF19E028F72DE"]
+			id: "66B59DA7705E5F65"
+			rewards: [{
+				id: "0A323C006B1B39FA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "UV Circuits!"
+			tasks: [{
+				id: "52A74E1F3214B04D"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A6C252EC96A4E83"]
+			id: "024CF19E028F72DE"
+			rewards: [{
+				id: "10CA79ED8F07619F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21D9407F57AD3105"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40B170CB569C2449"]
+			id: "5A6C252EC96A4E83"
+			rewards: [{
+				id: "39954CA5A8625455"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "701F8F5E0A774863"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"453F8437CD4582A6"
+				"17AACFB65354507C"
+			]
+			id: "40B170CB569C2449"
+			rewards: [{
+				id: "26A58EAE1224D437"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "016BB91748F791C6"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21CCDF4C08333BEC"]
+			id: "453F8437CD4582A6"
+			rewards: [{
+				id: "42034BC4F6D27A83"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1779F668AF3DFCDE"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CF37CB6BBBD57A4"]
+			id: "17AACFB65354507C"
+			rewards: [{
+				id: "622352F930A1D2B5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD8C4B2074E37E2"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CD32FC3EB92ABB7"]
+			description: ["Assim como a liga Naquadah foi o principal material para tier ZPM, o Darmstadtium é o principal material para tier UV."]
+			id: "11AA54003982943F"
+			rewards: [{
+				id: "441531021F56F936"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "UV material!"
+			tasks: [{
+				id: "37A1CA1F2B25BEDF"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63493A70229956F4"]
+			id: "21CCDF4C08333BEC"
+			rewards: [{
+				id: "764D08EAD46DECF4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52874DE638EA47F0"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["391208D25A462C2F"]
+			id: "7CF37CB6BBBD57A4"
+			rewards: [{
+				id: "57369BE8710B9E6D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66F7DBFFA506A480"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EF9C3B875214551"]
+			id: "391208D25A462C2F"
+			rewards: [{
+				id: "4549A15B215464D5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "379F373C2AFC474F"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"64244E15DE969E81"
+				"7F424236C9DDEF4E"
+				"276908A9D2164BEB"
+			]
+			description: ["Processado em um Solifdificador de Fluido ULV para produzir Lingotes de Darmstadtium."]
+			id: "5CD32FC3EB92ABB7"
+			rewards: [{
+				id: "6D97FA411ED0DDF4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Fluid Solidifer!"
+			tasks: [{
+				id: "6B97EF457DA981DF"
+				item: "gtceu:darmstadtium_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63493A70229956F4"]
+			description: ["Process in an LuV Fusion Reactor with Arsenic Vapor to produce Liquid Darmstadtium."]
+			id: "64244E15DE969E81"
+			rewards: [{
+				id: "54A08AC7EA5F585D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Fusion Reactor!"
+			tasks: [{
+				id: "10665F73AE392E3F"
+				item: "gtceu:ruthenium_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63493A70229956F4"]
+			description: [
+				"Processe pó de arsênico em um extrator de baixa tensão para produzir vapor de arsênico."
+				""
+				"Processado em um Reator de Fusão LuV com Rutênio Líquido para produzir Darmstadtium Líquido."
+			]
+			id: "7F424236C9DDEF4E"
+			rewards: [{
+				id: "2E0D35FB8B21CBA7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Fusion Reactor!"
+			tasks: [{
+				id: "462AF9576AF4EDCD"
+				item: "gtceu:arsenic_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4512C0753ABC12C8"]
+			id: "276908A9D2164BEB"
+			rewards: [{
+				id: "2C1ADB6D01D2680C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Usando mais energia!"
+			tasks: [{
+				id: "0370C8268629AC8E"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63493A70229956F4"]
+			description: [
+				"Necessário para o multibloco Fusion Reactor."
+				""
+				"&6Estas não são bobinas multibloco normais.&r"
+			]
+			id: "6A155BC6C97D8FEE"
+			rewards: [{
+				id: "141FB04BBE146D82"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Não são suas bobinas normais!"
+			tasks: [{
+				id: "2A764DBF2489164A"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2EF9C3B875214551"]
+			description: ["Processe Európio Líquido em um Solidificador de Fluido ULV para produzir Lingotes de Európio."]
+			id: "4512C0753ABC12C8"
+			rewards: [{
+				id: "27EE9C1972C2D890"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "ULV Fluid Solidifier!"
+			tasks: [{
+				id: "57A43DEC69E2B572"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A155BC6C97D8FEE"]
+			description: [
+				"Combina fluidos usando uma grande quantidade de energia."
+				""
+				"Requer uma quantidade significativa de energia para iniciar o processo e mais EU/t para manter o processo em andamento."
+				""
+				"Você pode substituir algumas das carcaças da máquina de fusão por vidro de fusão, mas não todas."
+			]
+			id: "6002FB018BF5F5BC"
+			rewards: [{
+				id: "704004CC2DC6CD8E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Combining fluids with mass energy!"
+			tasks: [{
+				id: "2B0C37ED9F01E7D5"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6002FB018BF5F5BC"
+				"1123402538658C35"
+			]
+			description: ["Processe neodímio líquido e gás hidrogênio em um reator de fusão LuV para produzir európio líquido."]
+			id: "2EF9C3B875214551"
+			rewards: [{
+				id: "0AEB49EA7366C5C6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LuV Fusion Reactor!"
+			tasks: [{
+				id: "4B34DDF3FFBAE341"
+				item: "gtceu:europium_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63493A70229956F4"]
+			description: ["Processe Lingotes de Neodímio em um Extrator MV para produzir Neodímio Líquido."]
+			id: "1123402538658C35"
+			rewards: [{
+				id: "70DDBEAD106FC999"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "MV Extractor!"
+			tasks: [{
+				id: "548C394328F10EF8"
+				item: "gtceu:neodymium_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Naquadah Alloy!"]
+	title: "Tier ZPM"
+}

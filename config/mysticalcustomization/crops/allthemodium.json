@@ -1,0 +1,15 @@
+{
+    "name": "allthemodium",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "allthemodium:allthemodium_ingot"
+    },
+    "color": "bc9309",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "allthemodium:allthemodium_lock"
+  }
+  

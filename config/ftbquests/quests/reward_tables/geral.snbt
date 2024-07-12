@@ -1,0 +1,47 @@
+{
+	icon: {
+		Count: 1b
+		id: "botania:dice"
+		tag: {
+			soulbindUUID: "5a902f63-e173-4fe8-806f-9c30163479fa"
+		}
+	}
+	id: "7028D47751DA0668"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "allthemodium:vibranium_upgrade_smithing_template" }
+		{ item: "allthemodium:allthemodium_upgrade_smithing_template" }
+		{ item: "allthemodium:vibranium_upgrade_smithing_template" }
+		{ item: "allthemodium:unobtainium_upgrade_smithing_template" }
+		{ item: "minecraft:netherite_upgrade_smithing_template" }
+		{ item: "minecraft:sentry_armor_trim_smithing_template" }
+		{ item: "minecraft:vex_armor_trim_smithing_template" }
+		{ item: "minecraft:wild_armor_trim_smithing_template" }
+		{ item: "minecraft:coast_armor_trim_smithing_template" }
+		{ item: "minecraft:dune_armor_trim_smithing_template" }
+		{ item: "minecraft:wayfinder_armor_trim_smithing_template" }
+		{ item: "minecraft:raiser_armor_trim_smithing_template" }
+		{ item: "minecraft:shaper_armor_trim_smithing_template" }
+		{ item: "minecraft:host_armor_trim_smithing_template" }
+		{ item: "minecraft:ward_armor_trim_smithing_template" }
+		{ item: "minecraft:silence_armor_trim_smithing_template" }
+		{ item: "minecraft:tide_armor_trim_smithing_template" }
+		{ item: "minecraft:snout_armor_trim_smithing_template" }
+		{ item: "minecraft:rib_armor_trim_smithing_template" }
+		{ item: "minecraft:eye_armor_trim_smithing_template" }
+		{ item: "minecraft:spire_armor_trim_smithing_template" }
+		{ item: "alltheores:steel_ingot" }
+		{ item: "alltheores:invar_ingot" }
+		{ item: "alltheores:electrum_ingot" }
+		{ item: "alltheores:bronze_ingot" }
+		{ item: "alltheores:enderium_ingot" }
+		{ item: "alltheores:lumium_ingot" }
+		{ item: "alltheores:signalum_ingot" }
+		{ item: "alltheores:constantan_ingot" }
+		{ item: "alltheores:brass_ingot" }
+		{ item: "immersiveengineering:ingot_hop_graphite" }
+		{ item: "mekamod:tablist" }
+	]
+	title: "Geral"
+}

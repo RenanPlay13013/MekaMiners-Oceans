@@ -1,0 +1,968 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "hidden_test"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:neuro_processing_unit"
+	id: "3306EB7FB1ADEF8A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["A condensed progression view, contianing just the benchmarks of each voltage age."]
+			id: "01F24259718996BB"
+			shape: "gear"
+			subtitle: "An alternate view!"
+			tasks: [{
+				id: "5143710611DE688C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AD32147A0330028"]
+			id: "0D85BCCF28F0DFFC"
+			rewards: [{
+				id: "12C3D09ECEA31DAD"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BEC75E7ABFFF49D"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AD32147A0330028"]
+			id: "272AEDDC9DFB7DBE"
+			rewards: [{
+				id: "39B92E417BC108BC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "601816A10CC428DF"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"272AEDDC9DFB7DBE"
+				"0D85BCCF28F0DFFC"
+			]
+			id: "18BD1354DF13C547"
+			rewards: [{
+				id: "45916DB6AFB45E86"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F127B385FA4410F"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"272AEDDC9DFB7DBE"
+				"0D85BCCF28F0DFFC"
+			]
+			id: "3345B6925623FECD"
+			rewards: [{
+				id: "41E79F53AB3BFE9B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "137CD87CCE9A6D5E"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["272AEDDC9DFB7DBE"]
+			id: "6D9AE6A5AE1F6987"
+			rewards: [{
+				id: "5954595D4169CF60"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B39089278285AA8"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B8422F27CEDCA14"]
+			id: "5317CE1BA4ADF6FA"
+			rewards: [{
+				id: "31018DA648334A25"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0057A7ABC74189EB"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"18BD1354DF13C547"
+				"6D9AE6A5AE1F6987"
+				"5317CE1BA4ADF6FA"
+			]
+			id: "0C7A29238D66DC3D"
+			rewards: [{
+				id: "1E70DAC7F3F46327"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B44B91B343F2AF6"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6D9AE6A5AE1F6987"
+				"5317CE1BA4ADF6FA"
+			]
+			id: "55F3BCB744DAF2F7"
+			rewards: [{
+				id: "689FC93BAC0F7D29"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E54E77929D591A0"
+				item: "gtceu:mv_voltage_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D85BCCF28F0DFFC"]
+			id: "5B8422F27CEDCA14"
+			rewards: [{
+				id: "3DBFD9FB78C26BBE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E473B7B1F0582BB"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03B394640BB5CA53"]
+			id: "0AD32147A0330028"
+			rewards: [{
+				id: "4EEC969EBB5109A3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75AB419EE5A3B391"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5317CE1BA4ADF6FA"]
+			id: "2FD52AFF97AA41AE"
+			rewards: [{
+				id: "21B94D6025A0A746"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E0ABA9560FC2531"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FD52AFF97AA41AE"]
+			id: "1C17AB16787A5790"
+			rewards: [{
+				id: "57FB45B2D435D602"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "408BD790388B0B66"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D9AE6A5AE1F6987"]
+			id: "0F5DB68D07C7BE59"
+			rewards: [{
+				id: "243690543148DFA3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FBFCB554DB0F25D"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A114B419185C730"]
+			id: "03B394640BB5CA53"
+			rewards: [{
+				id: "35CC20A84FB8D5FB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "601D0F1B2EB393AF"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "7A114B419185C730"
+			rewards: [{
+				id: "1EC8209AC30B402C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D919DB758CDB77A"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0C7A29238D66DC3D"
+				"0F5DB68D07C7BE59"
+				"1C17AB16787A5790"
+			]
+			id: "7CF1FE7F0E3C6E60"
+			rewards: [
+				{
+					id: "01E60572FE13AFBE"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AE682AC847BF5A7"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5C3E771D2313AB6F"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0F5DB68D07C7BE59"
+				"1C17AB16787A5790"
+			]
+			id: "49B730BB80B9A18E"
+			rewards: [{
+				id: "4CD87ECC08E8989B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29F6905B725B9593"
+				item: "gtceu:hv_voltage_coil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C17AB16787A5790"]
+			id: "253D6DD462711F6A"
+			rewards: [{
+				id: "5AAC2DA3C678E19C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B4F3AD101A7F31E"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["253D6DD462711F6A"]
+			id: "3D92077A7F5D3588"
+			rewards: [{
+				id: "084EFF97ED11BFE5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0949CA5445BB2129"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["637B3A49B3616CE5"]
+			id: "358B2E5703D00925"
+			rewards: [{
+				id: "4BA0C23130C9FC1D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "432674835627933A"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D92077A7F5D3588"]
+			id: "637B3A49B3616CE5"
+			rewards: [{
+				id: "2850E1558D32C853"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D304C57953B9422"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7CF1FE7F0E3C6E60"
+				"6EF383FA2B33558B"
+				"3D92077A7F5D3588"
+			]
+			id: "0630B59FE075C02B"
+			rewards: [
+				{
+					id: "143A871852DB22A0"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BDDAA41CF6E4863"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "043B8693D7E32C17"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F5DB68D07C7BE59"]
+			icon: "gtceu:micro_processor_computer"
+			id: "6EF383FA2B33558B"
+			rewards: [{
+				id: "3C629DFD2FB03BC3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "17B9D83A12F10DA5"
+					item: "gtceu:micro_processor_computer"
+					type: "item"
+				}
+				{
+					id: "74FAE98C9D11FC40"
+					item: "gtceu:micro_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "0FDAB7077DC18CED"
+					item: "gtceu:micro_processor"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6EF383FA2B33558B"
+				"3D92077A7F5D3588"
+			]
+			id: "3CED285A4C4EE51E"
+			rewards: [{
+				id: "41B784D9ADA676D5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0250E9F92CFB3DB6"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2E71C156CB95BD11"
+				"0630B59FE075C02B"
+				"358B2E5703D00925"
+			]
+			id: "6E510D16E2F13E67"
+			rewards: [
+				{
+					id: "1915130EABF0BE7D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C7639FE5BD9E10E"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7EB1302FB1E859EA"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6EF383FA2B33558B"]
+			id: "2E71C156CB95BD11"
+			rewards: [{
+				id: "326B4FEFD8D46D33"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E100D06F44E08BB"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2E71C156CB95BD11"
+				"358B2E5703D00925"
+			]
+			id: "3AE3DFE3418BAB95"
+			rewards: [{
+				id: "40787829AB63AFDF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34F092B1B05D7085"
+				item: "gtceu:iv_voltage_coil"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3435D914FCB8C971"]
+			id: "50921E3B00EC4B12"
+			rewards: [{
+				id: "6D2167902083505F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74494E280330FC25"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EE74B448860ACAE"]
+			id: "09384C8540BB94CB"
+			rewards: [{
+				id: "0EC8F9FF19410E35"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "788D91223B5F7D74"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BF5B19F57E9CEF8"]
+			id: "794C9CB0E0EA66BA"
+			rewards: [{
+				id: "7B2EE16D22C0C72F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CFA7E5C12EA8640"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79AA7953D7D873CA"]
+			id: "0D033842ED1D5373"
+			rewards: [{
+				id: "57E1E90D8E1B8D71"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30FA44A3408FB560"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["358B2E5703D00925"]
+			id: "3435D914FCB8C971"
+			rewards: [{
+				id: "5122BE1496FFE67E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "669D91CE4EBA903B"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50921E3B00EC4B12"]
+			id: "0EE74B448860ACAE"
+			rewards: [{
+				id: "0C311AED1DD3045D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C5CCD6A44A9D29F"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09384C8540BB94CB"]
+			id: "2BF5B19F57E9CEF8"
+			rewards: [{
+				id: "71002B0BA6C3E896"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07DFD998FEF967D1"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["794C9CB0E0EA66BA"]
+			id: "79AA7953D7D873CA"
+			rewards: [{
+				id: "11D31253DDC754F4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31067E365FAA60E4"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E71C156CB95BD11"]
+			icon: "gtceu:nano_processor_mainframe"
+			id: "5C6F704E333DA713"
+			rewards: [{
+				id: "75251A0134924216"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6369E23CD5837C4E"
+					item: "gtceu:nano_processor_mainframe"
+					type: "item"
+				}
+				{
+					id: "601BB01D1FEB52CA"
+					item: "gtceu:nano_processor_computer"
+					type: "item"
+				}
+				{
+					id: "7D31B76A453A12B8"
+					item: "gtceu:nano_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "3A0515CDC4BBE171"
+					item: "gtceu:nano_processor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C6F704E333DA713"]
+			icon: "gtceu:quantum_processor_mainframe"
+			id: "3D6203E10A8382EC"
+			rewards: [{
+				id: "0661EF61BFDCF382"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "45B80D4F29008A65"
+					item: "gtceu:quantum_processor_mainframe"
+					type: "item"
+				}
+				{
+					id: "78507789EEF447F4"
+					item: "gtceu:quantum_processor_computer"
+					type: "item"
+				}
+				{
+					id: "1CD4A1B26E81832D"
+					item: "gtceu:quantum_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "796F54060BE7C81A"
+					item: "gtceu:quantum_processor"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D6203E10A8382EC"]
+			icon: "gtceu:crystal_processor_mainframe"
+			id: "45899E6C15910765"
+			rewards: [{
+				id: "0097296AC3D3CD2E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C6C7BC24D87E44B"
+					item: "gtceu:crystal_processor_mainframe"
+					type: "item"
+				}
+				{
+					id: "5E50F7D55F16FEDA"
+					item: "gtceu:crystal_processor_computer"
+					type: "item"
+				}
+				{
+					id: "27D39B9FA0702868"
+					item: "gtceu:crystal_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "1D6BEBEBD4E109C6"
+					item: "gtceu:crystal_processor"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["45899E6C15910765"]
+			icon: "gtceu:wetware_processor_mainframe"
+			id: "0DC50FA0FC538A42"
+			rewards: [{
+				id: "67E2EDDF8E9DD1BF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "635C211320350F44"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+				{
+					id: "646EBE0569071B64"
+					item: "gtceu:wetware_processor_computer"
+					type: "item"
+				}
+				{
+					id: "65350A0DBD859BA4"
+					item: "gtceu:wetware_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "6CC5B152D325AB25"
+					item: "gtceu:wetware_processor"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6E510D16E2F13E67"
+				"5C6F704E333DA713"
+				"50921E3B00EC4B12"
+			]
+			id: "3CDEAB69A52A3621"
+			rewards: [
+				{
+					id: "720936DDE69BB49E"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D8A63B1DF39F3DB"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5493C3F46C2DE298"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3CDEAB69A52A3621"
+				"3D6203E10A8382EC"
+				"09384C8540BB94CB"
+			]
+			id: "5CE1FA357CBF161B"
+			rewards: [
+				{
+					id: "40F9C3DA95508BFD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E694060FB2791F"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6BCC1AB5714F1AAD"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5CE1FA357CBF161B"
+				"45899E6C15910765"
+				"794C9CB0E0EA66BA"
+			]
+			id: "591FBAF8BBEA82E4"
+			rewards: [
+				{
+					id: "09DCFFC33C823DEB"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164ED9908EDC1B08"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3D0CA2D56A5583EF"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5C6F704E333DA713"
+				"50921E3B00EC4B12"
+			]
+			id: "122B233C36966107"
+			rewards: [{
+				id: "16F921A41385B9EB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C296C11215A7AB"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3D6203E10A8382EC"
+				"09384C8540BB94CB"
+			]
+			id: "149BE002E18226EE"
+			rewards: [{
+				id: "54D78548B0B9ABE3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "438FC06B5E67CF0E"
+				item: "gtceu:zpm_voltage_coil"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"45899E6C15910765"
+				"794C9CB0E0EA66BA"
+			]
+			id: "62AFB25B426174BF"
+			rewards: [{
+				id: "0665A3B04058E1FF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "086EAACDB4295C70"
+				item: "gtceu:uv_voltage_coil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DC50FA0FC538A42"]
+			id: "347D8A92153D6236"
+			rewards: [
+				{
+					count: 4
+					id: "2517F8887034B9FF"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "681471C38F77486C"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "465E1B626F3A6986"
+				item: {
+					Count: 1b
+					id: "gtceu:max_battery"
+					tag: {
+						Charge: 9223372036854775807L
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+	]
+	subtitle: ["Qual o proximo?"]
+	title: "Streamlined Progression"
+}

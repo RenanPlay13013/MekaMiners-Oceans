@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial"
+	group: "6BDF1C1D7C2AB9C7"
+	icon: "industrialforegoing:machine_frame_supreme"
+	id: "0F706C4A4A990D39"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "312410DDCD45B0E5"
+			rewards: [
+				{
+					count: 32
+					id: "2116ABE8F2916B9F"
+					item: "industrialforegoing:dryrubber"
+					type: "item"
+				}
+				{
+					id: "7810181DC8A4354E"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A716EBCF8A585A2"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "3E0D7D28CF1334D2"
+					item: { Count: 32b, id: "industrialforegoing:dryrubber" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "2C1280FE3667747F"
+			rewards: [
+				{
+					count: 32
+					id: "163B3FEDB7EAD253"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+				{
+					id: "5548136B8A4040C0"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1778330C5F3E66B9"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1E175924BDCE8B3F"
+					item: { Count: 32b, id: "industrialforegoing:plastic" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "48EC65A90A6F6BE1"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2C1280FE3667747F"
+				"312410DDCD45B0E5"
+			]
+			id: "468A66ACDDE22F37"
+			rewards: [
+				{
+					count: 8
+					id: "70F4B4EFAD93F08E"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1FC2E5CB611B2B15"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7EE3E6DB8E2BECA9"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30B2DFF4D62D623F"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "146DB71539B53905"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "2ECD739BED29CA9B"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon2"
+						tag: {
+							TitaniumAugment: {
+								Range: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "67AB09F98959B5C8"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4A6ED36E99F2F1CF"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5B7CB158E56B35F5"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["468A66ACDDE22F37"]
+			id: "7777F649416E2943"
+			rewards: [
+				{
+					count: 16
+					id: "617B9846AC9B3905"
+					item: "industrialforegoing:fertilizer"
+					type: "item"
+				}
+				{
+					id: "48B1F40CFF7D61F2"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "396F515E6DF40671"
+					item: "industrialforegoing:sewer"
+					type: "item"
+				}
+				{
+					id: "39C52777B2D7FB9D"
+					item: "industrialforegoing:sewage_composter"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0682C2CDC839FC94"
+					item: { Count: 32b, id: "industrialforegoing:fertilizer" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["468A66ACDDE22F37"]
+			id: "2117A55B94F033A4"
+			rewards: [
+				{
+					count: 16
+					id: "56DBFD12527F8407"
+					item: "industrialforegoing:pink_slime"
+					type: "item"
+				}
+				{
+					id: "570739A7B0DBBCD5"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "52BCCAF84496CD09"
+					item: "industrialforegoing:mob_slaughter_factory"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "211295E4F39F20D2"
+					item: "industrialforegoing:pink_slime"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7777F649416E2943"
+				"2117A55B94F033A4"
+			]
+			id: "7880E9AD70F7D7B3"
+			rewards: [
+				{
+					count: 3
+					id: "03D2A54175EAA51E"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+				{
+					id: "381C586DF3B254F7"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13C6143ECFE35EB4"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "15CD436D5CAB5796"
+					item: { Count: 3b, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "448CF4930F0A57B6"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					id: "55DA910CDF27C952"
+					item: "industrialforegoing:laser_lens10"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7880E9AD70F7D7B3"]
+			id: "2007D6C9B579427C"
+			rewards: [{
+				count: 4
+				id: "418503C4DA206E15"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA8522BECD5EBD4"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["a farme de mineiro"]
+	title: "Industrial Foregoing"
+}

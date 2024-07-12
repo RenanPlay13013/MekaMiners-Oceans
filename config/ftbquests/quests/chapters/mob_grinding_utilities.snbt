@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "rsquare"
+	filename: "mob_grinding_utilities"
+	group: ""
+	icon: "mob_grinding_utils:saw"
+	id: "7350253C37F2057C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79D103110D829B40"
+			rewards: [
+				{
+					id: "570BDC494589BAB6"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
+						}
+					}
+					id: "2FCB1B3502888C64"
+					table_id: 8081943140255794792L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0740C213CA2950B2"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "3FFDCD1B340683EA"
+			rewards: [{
+				id: "12B9E24DAEEDCCC1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5260FB0D65043504"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			id: "75601D5A9BD0389D"
+			rewards: [{
+				id: "3F399D5C30A4FC9A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6750C1E3D50DCD4A"
+				item: "mob_grinding_utils:entity_conveyor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FFDCD1B340683EA"]
+			id: "6C5EC905671B2F3F"
+			rewards: [{
+				id: "5557EB9326AF5EE8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55870CB963616D3E"
+				item: "mob_grinding_utils:fan_upgrade_height"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FFDCD1B340683EA"]
+			id: "7E240CB070004C1D"
+			rewards: [{
+				id: "38CD2B0819E837EF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8445CC4970B2F0"
+				item: "mob_grinding_utils:fan_upgrade_width"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FFDCD1B340683EA"]
+			id: "684EC05EEA6F65EB"
+			rewards: [{
+				id: "591C44B3EF19D9D4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "470B67428B2B9816"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79D103110D829B40"]
+			id: "58457E1879EDD089"
+			rewards: [{
+				id: "053B67F46285F43C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1910C802F3BD43EA"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79D103110D829B40"]
+			id: "4C30914A0E15438C"
+			rewards: [{
+				id: "25552278BA499877"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "023DF5A46C8B14B5"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79D103110D829B40"]
+			id: "0DF3DEFF9A65A72D"
+			rewards: [{
+				id: "6EB7EFF55830C10E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4783674871E3CCC7"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79D103110D829B40"]
+			id: "2342C37E5A0E5317"
+			rewards: [{
+				id: "08152AAC190597F6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B3037F869A64BCF"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79D103110D829B40"]
+			id: "5F2E7BD6BF333705"
+			rewards: [{
+				id: "318A033C911BFF36"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0283E2295B5CBA5D"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79D103110D829B40"]
+			id: "6192815E871CCEFE"
+			rewards: [{
+				count: 4
+				id: "6318B4374BDFBCE1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33C6E5F884CC6CD9"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75601D5A9BD0389D"]
+			id: "7AB61990FB92492E"
+			rewards: [{
+				id: "308DBA550F466A32"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B510FB70AAC81B7"
+				item: "darkutils:vector_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "0034228D1B4D9881"
+			rewards: [{
+				id: "518C4DC2C74A2CC2"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61806FD8CCB9590E"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0034228D1B4D9881"]
+			id: "1757E1C7B4A175B4"
+			rewards: [{
+				id: "208C3551E11FF549"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CCBAC2AA6C5A40C"
+				item: "mob_grinding_utils:absorption_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AB61990FB92492E"]
+			id: "2988CF8A55D46211"
+			rewards: [{
+				id: "4B97EE678CFEF436"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CEA4DB6259B5F30"
+				item: "darkutils:vector_plate_fast"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2988CF8A55D46211"]
+			id: "2C4D6D3E89D8F2A2"
+			rewards: [{
+				id: "5DCF553AB2262D6C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "209385F45EA28342"
+				item: "darkutils:vector_plate_extreme"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C4D6D3E89D8F2A2"]
+			id: "07B6322EED270B80"
+			rewards: [{
+				id: "38A319F1301F23C5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47464BA1F74F8DF5"
+				item: "darkutils:vector_plate_ultra"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Se você desejar!"]
+	title: "Farmando Mobs"
+}

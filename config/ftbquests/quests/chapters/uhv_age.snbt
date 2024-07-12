@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "uhv_age"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "23ED118590307EC6"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23E8354ADCDC88E7"]
+			id: "7AB9FBB9EDA9D6F0"
+			rewards: [{
+				id: "0F39C0214AC7F812"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Neutronium!"
+			tasks: [{
+				id: "2EB083060FA3571C"
+				title: "UHV Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23E8354ADCDC88E7"]
+			description: ["Isso é cerca de 2,5 milhões de dias, o que equivale a quase 7.000 anos."]
+			id: "7F52419274BB28BC"
+			rewards: [{
+				count: 256
+				id: "06A5543094AF42C9"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Preencha isto para ganhar o Minecraft."
+			tasks: [{
+				id: "5762626B5E666512"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["Neutronium!"]
+	title: "Tier UHV"
+}

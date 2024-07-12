@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "apotheosis"
+	group: ""
+	icon: "apotheosis:mythic_material"
+	id: "40B0A2E0C2F9246E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "2A65525784753B5F"
+			rewards: [
+				{
+					id: "3F4425050C7844FE"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "456F7B70A47A7D6B"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Common!"
+			tasks: [{
+				id: "4DC4DF0F4650DAEB"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "5FD2B6FB77DC7F0D"
+			rewards: [
+				{
+					id: "1078767F5553DC6D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5C56CBD234DC2E95"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Uncommon!"
+			tasks: [{
+				id: "61AFD1365CBAFAF6"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "19547B9F9A33392D"
+			rewards: [
+				{
+					id: "72E1625F1C6DAD36"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "721AB96985B48F4D"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+			]
+			subtitle: "Rare!"
+			tasks: [{
+				id: "765579459AB5892E"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "7AFDDBE73892AB06"
+			rewards: [
+				{
+					id: "1283D591D38C82B0"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12BC0051B40A3E8F"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+			]
+			subtitle: "Epic!"
+			tasks: [{
+				id: "7F8C66FA91D7B36A"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "5003A125D6DB8843"
+			rewards: [
+				{
+					count: 4
+					id: "13DA94640989ECF7"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32A18D6AD61C32BE"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			subtitle: "Mythic!"
+			tasks: [{
+				id: "256CDF701D479D9B"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "0E385363F618E41B"
+			rewards: [{
+				id: "0753A26D66DD47F0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "793DF2FBC7D5CB4D"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Use in a Smithing Table to unsocket Gems from an item."
+				""
+				"The Gems will be destroyed in the process."
+				""
+				"&6This lets you keep the item.&r"
+			]
+			id: "0E45B80780B172A7"
+			rewards: [{
+				id: "1D665AEFBD28C6C6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Keep the item!"
+			tasks: [{
+				id: "6E9809EE56090E0A"
+				item: "apotheosis:vial_of_expulsion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Use in a Smithing Table to unsocket Gems from an item."
+				""
+				"The item will be destroyed in the process."
+				""
+				"&6This lets you keep the Gems.&r"
+			]
+			id: "49E0EFCC32F494FB"
+			rewards: [{
+				id: "04EC0CC0D979A143"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Keep the Gems!"
+			tasks: [{
+				id: "633C33DED27B6561"
+				item: "apotheosis:vial_of_extraction"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "320538F6EC1EEB22"
+			rewards: [{
+				id: "069E09B74369DB9B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C1053D116653D57"
+				item: "apotheosis:vial_of_unnaming"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "6E7DE4C920AB864D"
+			rewards: [{
+				id: "45C98E133F5C48F7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74AABE36336D96A2"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6E7DE4C920AB864D"
+				"7AFDDBE73892AB06"
+			]
+			id: "0582FFF89D2C47F8"
+			rewards: [
+				{
+					id: "6574EE689AF98991"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
+						}
+					}
+					id: "01C8E65FF95CD0EC"
+					table_id: 8081943140255794792L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "674BE8889ACB8D00"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17A2B25D54F62E9B"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "3503EF6239B80645"
+			rewards: [{
+				id: "21FBA56AA1B314BC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "799BB53A7000570D"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "60E240057442D669"
+			rewards: [{
+				id: "110B13815226F668"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "051C89FA61A0077F"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			icon: "apotheosis:sigil_of_socketing"
+			id: "3979730388188E0C"
+			rewards: [{
+				id: "359B877179AE2F60"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "058B44924825DB6A"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					id: "399D0C17CF0C9497"
+					item: "apotheosis:superior_sigil_of_socketing"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Tudo é fabricável!"]
+	title: "Apotheosis"
+}

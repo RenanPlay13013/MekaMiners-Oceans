@@ -1,0 +1,15 @@
+{
+    "name": "Unobtainium",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "allthemodium:unobtainium_ingot"
+    },
+    "color": "7d21a8",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "allthemodium:unobtainium_block"
+  }
+  

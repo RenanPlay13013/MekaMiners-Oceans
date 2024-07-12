@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "6BDF1C1D7C2AB9C7"
+	icon: "powah:steel_energized"
+	id: "56196CB675FC9DE0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1712F301F81E3F8C"
+			rewards: [{
+				id: "13CC7F0713D8A821"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 36L
+					id: "5D0F6B22B80273E9"
+					item: "powah:reactor_starter"
+					type: "item"
+				}
+				{
+					id: "451D2D8033EBDD6F"
+					item: "powah:player_transmitter_starter"
+					type: "item"
+				}
+				{
+					id: "18A9F40196FC5BD2"
+					item: {
+						Count: 1b
+						id: "powah:battery_starter"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1FDE9FAAF3692AF6"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1712F301F81E3F8C"]
+			id: "2BF609081EC5C646"
+			rewards: [{
+				id: "1975F9B5FB1BBC72"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 36L
+					id: "01E38910EDAE49CD"
+					item: "powah:reactor_basic"
+					type: "item"
+				}
+				{
+					id: "1C42875DCA4009F2"
+					item: {
+						Count: 1b
+						id: "powah:battery_basic"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "23D06E2F652D971B"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+				{
+					id: "14A1BC10669B9B62"
+					item: "powah:player_transmitter_basic"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1712F301F81E3F8C"]
+			id: "36ADB5A57B4406E2"
+			rewards: [{
+				id: "045017FF17CA5808"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "01B01AB1C1483AAD"
+					item: "powah:binding_card"
+					type: "item"
+				}
+				{
+					id: "158B2CA462DF944C"
+					item: "powah:binding_card_dim"
+					type: "item"
+				}
+				{
+					id: "7E8E09B4DDEDF8FE"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BF609081EC5C646"]
+			id: "154ABE930E04D0D5"
+			rewards: [{
+				id: "23A31E40C16BCBD0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 36L
+					id: "632D21D25B5FBB26"
+					item: "powah:reactor_hardened"
+					type: "item"
+				}
+				{
+					id: "136492C3A70A59BF"
+					item: {
+						Count: 1b
+						id: "powah:battery_hardened"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4E7057D38DC2562F"
+					item: "powah:player_transmitter_hardened"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50BAD90E0136588A"
+					item: "powah:energizing_rod_hardened"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["154ABE930E04D0D5"]
+			id: "60D5F5A9E9C688AD"
+			rewards: [{
+				id: "085B3B7501E7DE05"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B708BF18AE713D6"
+					item: {
+						Count: 1b
+						id: "powah:battery_blazing"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "126E19FD2476E80A"
+					item: "powah:reactor_blazing"
+					type: "item"
+				}
+				{
+					id: "775988AEFF56ED10"
+					item: "powah:player_transmitter_blazing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "31FAD1514B0A6FC5"
+					item: "powah:energizing_rod_blazing"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["60D5F5A9E9C688AD"]
+			id: "68B3950846B94D35"
+			rewards: [{
+				id: "16A66AD56B57AA4E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 36L
+					id: "68E8B585EB0EE0F8"
+					item: "powah:reactor_niotic"
+					type: "item"
+				}
+				{
+					id: "4BB2BC7EF838F529"
+					item: {
+						Count: 1b
+						id: "powah:battery_niotic"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3F55E02EC0571000"
+					item: "powah:player_transmitter_niotic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "66133B82EAEC1CE7"
+					item: "powah:energizing_rod_niotic"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68B3950846B94D35"]
+			id: "3E755246B8B4245D"
+			rewards: [{
+				id: "38A3ECC4701994C0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 36L
+					id: "77A4E2D527DF7342"
+					item: "powah:reactor_spirited"
+					type: "item"
+				}
+				{
+					id: "0C76456437407B9D"
+					item: {
+						Count: 1b
+						id: "powah:battery_spirited"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "06CFBC1E07E22525"
+					item: "powah:player_transmitter_spirited"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3C13B2E254DCA59F"
+					item: "powah:energizing_rod_spirited"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E755246B8B4245D"]
+			icon: "powah:reactor_nitro"
+			id: "148DBFA863D62E4C"
+			rewards: [
+				{
+					id: "681D30F20B04DA11"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BC8220087EC257C"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					count: 36L
+					id: "4C0F1AA6A9ABA7BF"
+					item: "powah:reactor_nitro"
+					type: "item"
+				}
+				{
+					id: "778D18D6E8022A4D"
+					item: {
+						Count: 1b
+						id: "powah:battery_nitro"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "52789D4ED33B81E5"
+					item: "powah:player_transmitter_nitro"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "500629970A7041B6"
+					item: "powah:energizing_rod_nitro"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["a energização dos item"]
+	title: "Powah"
+}

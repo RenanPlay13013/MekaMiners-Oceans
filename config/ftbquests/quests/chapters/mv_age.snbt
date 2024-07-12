@@ -1,0 +1,1290 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "mv_age"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:good_electronic_circuit"
+	id: "1C977DCF54D80043"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F0EA4C5A483F458"]
+			description: [
+				"O pó de cromo pode ser eletrolisado a partir de pó de rubi e outros."
+				""
+				"Os demais devem ser autoexplicativos."
+				""
+				"Misture-os em um misturador MV para obter pó de aço inoxidável."
+				""
+				"Processado em um Electric Blast Furnace com necessidade de energia HV."
+			]
+			id: "4B55082A7CBB4B4F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D169210BADDAF00"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "09B25C7BC6D84EF8"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Quase lá!"
+			tasks: [{
+				id: "65BE27124AC47D2C"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"339A86FBCABDCCD8"
+				"4B55082A7CBB4B4F"
+			]
+			description: ["Assim como o alumínio foi o principal material para a era MV, o aço inoxidável é o principal material para a era HV."]
+			id: "02D679B3A74DBEE8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7285FAB2984750D6"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "3DADA96FEB562266"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "HV material!"
+			tasks: [{
+				id: "0ED1F4E0C072A771"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B8C643780833F3E"]
+			description: [
+				"Assim como passar de LV para MV, você precisará de 2 escotilhas de energia MV para fazer seus primeiros trabalhos que exijam os requisitos de alta tensãodo tier HV."
+				""
+				"Esta missão exige apenas 1 MV Energy Hatch, pois presumo que você já fez e instalou o outro 1."
+			]
+			id: "339A86FBCABDCCD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72EEAABD94E15BD8"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "62099FECD2F9C03C"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "More energy!"
+			tasks: [{
+				id: "4DF9D0AA1BAFD0BD"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1F3542B8DFEE6673"
+				"6F0EA4C5A483F458"
+			]
+			description: ["Necessário para obtenção de silicon wafer e outros materiais."]
+			id: "08F6BDC4B69DE447"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72DBF3CBAB39CB41"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "62A1850DA0BFCB25"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "MV recipes!"
+			tasks: [{
+				id: "7F9E6B4028BE2D05"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				"Eles levam muito tempo para serem elaborados e exigem muita energia. Eles são basicamente uma verificação de energia para garantir que sua geração ou armazenamento de energia esteja à altura da tarefa."
+				""
+				"Deve ser processado em um cortador MV."
+			]
+			id: "350D973669D51FFB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48CDD856E5288F6A"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "447236FE0E72A3FC"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Your first Boule!"
+			tasks: [{
+				id: "17162355E2408C83"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"08F6BDC4B69DE447"
+				"2B77DA9F12C9BD72"
+			]
+			id: "3B8C643780833F3E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "002E95EC8C9C8C90"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "37ADEE8BC851A6CE"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DCC819FEB3C0D30"
+				item: "gtceu:ulpic_chip"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: ["Usa lentes diferentes para transformar vários itens em outros itens. As lentes não são consumidas."]
+			id: "2CF2BCD87A6B3B90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40726A7E4C41BF84"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "7188647B17D26AD5"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "21 diferentes lentes"
+			tasks: [{
+				id: "5F6EEB61F44A8DA9"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2CF2BCD87A6B3B90"
+				"54481704346E03A4"
+				"3E79410678FADD80"
+			]
+			description: ["Processe em um cortador MV para produzir chips ULPIC."]
+			id: "2B77DA9F12C9BD72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30850E69858C28FD"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "7B62F5A30E6A1A3D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Seu Primeiro passo..."
+			tasks: [{
+				id: "03FB07946529A08D"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: ["Embora você possa fabricá-los usando máquinas LV, a rota MV em um torno é muito mais fácil."]
+			id: "54481704346E03A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1802CD3A5A4696A3"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "45052B220A444DD9"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "LV or MV?"
+			tasks: [{
+				id: "587D11DF8F0CDA43"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"08F6BDC4B69DE447"
+				"350D973669D51FFB"
+			]
+			description: ["Processado em um gravador a laser MV com diferentes lentes para produzir vários wafers."]
+			id: "3E79410678FADD80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EF6F0423373D8EF"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "40ED829DB0DCC1C2"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7067057642A75705"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: ["Necessário para obter Pó de Aço Vanádio, Pó de Aço Inoxidável e outros materiais."]
+			id: "6F0EA4C5A483F458"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7376A8887344C304"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "5AE4AD89B510AFC7"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "MV recipes!"
+			tasks: [{
+				id: "25F4BCAF10A831C5"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: ["Necessário para obter Pó de Cromo e outros materiais."]
+			id: "1F3542B8DFEE6673"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79F69A46D09B2B73"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "5B0BBC8358B18856"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "MV recipes!"
+			tasks: [{
+				id: "3F5B454B75B6C58E"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CCCD8C2F41DAC9D"
+				"174CF54B48F54A30"
+				"706CA7F47EA29E3B"
+			]
+			description: ["Assim como seus segundos circuitos são usados para receitas MV, eles serão usados para receitas HV."]
+			id: "75D15295C7901382"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04B84C423EF32570"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "5BB57FB839D96440"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "HV circuits!"
+			tasks: [{
+				id: "0E95821AD5E42DE4"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				"Possui 88 receitas diferentes de todos Circuitos."
+				""
+				"A maioria dos circuitos só pode ser criada com isso."
+			]
+			id: "5FB84A4FED0D6DE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51DE9FB618739D3E"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "18F946CA0FBA49CE"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Apenas circuitos!"
+			tasks: [{
+				id: "45E2F5946F9AEF58"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5416A862A662DD82"]
+			description: [
+				""
+				"O segundo Circuito MV pode ser usado no lugar dos Circuitos MV originais."
+			]
+			id: "1CCCD8C2F41DAC9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AE2D4BAE002954B"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "369231FB0E3843F8"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Este é o segundo Circuito MT!"
+			tasks: [{
+				id: "04177A7CF2C44185"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7F75490F30BA887D"
+				"5FB84A4FED0D6DE0"
+			]
+			description: ["O segundo circuito de LV pode ser usado no lugar dos circuitos de LV originais"]
+			id: "5416A862A662DD82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D1A4D08CA79F52B"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "1113C81A3DD6A43D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Este é o segundo Circuito MT!"
+			tasks: [{
+				id: "0D5F68B6B17F0F04"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"78AC39BDAB536710"
+				"08F6BDC4B69DE447"
+			]
+			id: "7F75490F30BA887D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CBD2D58A2927689"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "37F08AB1C9E34F73"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03FD2C0E4F429FDF"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"15DD118FC9BB6BC9"
+				"2CF2BCD87A6B3B90"
+				"3E79410678FADD80"
+			]
+			description: ["Processe em um cortador MV para produzir chips ILC"]
+			id: "78AC39BDAB536710"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "169CD44DC8DE8D55"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "711D500BBCCE87E7"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Seu Primeiro Passo..."
+			tasks: [{
+				id: "16FF365B700F5F03"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: ["Embora você possa fabricá-los usando máquinas LV, a rota MV em um torno é muito mais fácil."]
+			id: "15DD118FC9BB6BC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7285B035436E2980"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "1AA22A30B5BD7F3B"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "LV or MV?"
+			tasks: [{
+				id: "4C396986E4D2C5E0"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04F2E85D6D81D764"]
+			description: [
+				"Tem muitos usos, necessários para muitos circuitos diferentes."
+				""
+				"Você vai querer uma configuração em cadeia designada para isso."
+			]
+			icon: "gtceu:polyethylene_bucket"
+			id: "2106D48F1CDA0252"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56B2BAAEFA1F0B22"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "36B0E27B2E8B08CB"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Finalmente!"
+			tasks: [{
+				id: "5D54929EB1CE657E"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2106D48F1CDA0252"
+				"432B19271DF6275D"
+				"773086E12339BB12"
+			]
+			description: ["Um componente de circuito."]
+			id: "174CF54B48F54A30"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A2BA158AD1874DF"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "3861A9B33D799F1F"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Tão perto!"
+			tasks: [{
+				id: "59F63561819E19AC"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				""
+				"Necessário para criar transistores e outros materiais."
+			]
+			id: "432B19271DF6275D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "011209D92CA1EB26"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "1BB5BD44B27E220D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "MV recipes!"
+			tasks: [{
+				id: "7042E898D316AF11"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"102E54E2FA1F247E"
+				"7C3150CBE34BBEE1"
+				"472FAB27104553F0"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				""
+				"Tem várias maneiras de produzir, escolher um caminho e torná-lo eficiente."
+				""
+				"Nosso objetivo principal por enquanto é o polietileno líquido, mas ele tem alguns outros usos, incluindo combustível para turbinas a gás ou processamento adicional em combustível ainda melhor. Se estiver procurando uma fonte de combustível melhor, procure o Diesel."
+				""
+				"Misture com oxigênio em um reator químico LV para polietileno líquido."
+			]
+			icon: "gtceu:ethylene_bucket"
+			id: "04F2E85D6D81D764"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A9F14063AF55C46"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "6AD87911D1636393"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Basta adicionar o poli!"
+			tasks: [{
+				id: "4CB8163DE751533E"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["190F514345A4A435"]
+			description: [
+				"Misture em um reator químico MV para produzir etileno."
+				""
+				"O ácido sulfúrico é, na verdade, apenas enxofre e água como materiais de base."
+				""
+				"O ácido sulfúrico pode ser produzido de duas maneiras diferentes."
+				""
+				"Você vai querer um eletrolisador dedicado para processar água."
+			]
+			icon: "gtceu:ethanol_bucket"
+			id: "102E54E2FA1F247E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E70DB9949B07D5A"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "7B5D2D3AFE921B63"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Também pode ser combustível!"
+			tasks: [
+				{
+					id: "310CAE497619DD65"
+					item: "gtceu:ethanol_bucket"
+					type: "item"
+				}
+				{
+					id: "1A6C6997876060F8"
+					item: "gtceu:sulfuric_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "Ethanol \\& Sulfuric Acid"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Apenas 1 desses líquidos é necessário."
+				""
+				"Verifique na JEI a receita do Etanol, são 3 opções."
+				""
+				"Biomassa: Fácil de produzir, requer apenas vegetais (Bio Chaff é significativamente melhor) e uma Cervejaria com requisitos de energia ULV. 500 mB de biomassa produzem 300 mB de etanol e 1 pequena pilha de pó de madeira. Isso produz a maior quantidade de etanol por mB de material de entrada."
+				""
+				"Biomassa Fermentada: Fácil de produzir, passe a Biomassa listada acima através de um Fermentador com exigência de potência ULV. 1000 mB de Biomassa Fermentada produzem 150 mB de Etanol e 1 Fertilizante."
+				""
+				"Wood vinegar: Não é tão fácil de produzir como os produtos acima, requer um pyrolise oven que requer energia MV. 1000 mB de Wood vinegar produzem 10 mB de etanol. Isso é mais algo que você faz com as sobras de Wood vinegar. Este não é um método muito viável para a produção principal."
+				""
+				"Observe que existem outras maneiras de obter os materiais de entrada, mas essas são as formas básicas. Dê uma olhada no Bio Chaff se você realmente deseja aumentar a produção."
+				""
+				"Ao atingir a idade HV, você pode configurar um multibloco de Torre de Destilação que pode aumentar significativamente os valores de produção dos materiais listados acima."
+			]
+			icon: "gtceu:biomass_bucket"
+			id: "190F514345A4A435"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "160EFD50EBEEB569"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "7CC8BC1AA59B6E43"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Provavelmente Biomassa..."
+			tasks: [
+				{
+					id: "5A9A4814A4A1DE8B"
+					item: "gtceu:biomass_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D29D4BE81247451"
+					item: "gtceu:fermented_biomass_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "295B3DD1124F9B95"
+					item: "gtceu:wood_vinegar_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D18E3B8BF4A0FF6"
+					title: "Obtained"
+					type: "checkmark"
+				}
+			]
+			title: "Choices"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				"Observe que os requisitos de hachura no visualizador multibloco realmente não fazem sentido, todas as receitas são LV ou MV, então você precisaria de uma hachura de energia para corresponder a isso."
+				""
+				"Como as escotilhas de entrada e saída são bastante configuráveis, deixarei isso para você, fique atento às quantidades de saída, principalmente para fluidos. Algumas receitas produzirão mais resultados do que uma escotilha ULV pode suportar."
+				""
+				"Além de todas as outras coisas relacionadas ao etanol, este é, sem dúvida, um Electric coke oven. Tudo o que você pode fazer em um Coke oven, você pode fazer aqui, mas muito mais rápido. A camada da Coil determina a velocidade."
+				""
+				"Você também pode produzir Biomassa e Biomassa Fermentada usando Bio Joio e Água."
+				""
+				"Os itens listados são os requisitos mínimos sem Escotilhas ou Ônibus."
+			]
+			icon: "gtceu:pyrolyse_oven"
+			id: "063D8F91FB241BBD"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34988547EF126A71"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "7D4FC6262F98EB53"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Electric Coke Oven!"
+			tasks: [
+				{
+					id: "1DC9C298B0F39AFD"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4200E6A9870F97BF"
+					item: { Count: 16b, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "67D405DDBF37975E"
+					item: { Count: 10b, id: "gtceu:ulv_machine_casing" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				"Pode fabricar com eficiência muitos materiais metálicos, como placas, hastes, engrenagens, rotores e assim por diante."
+				""
+				"Requer moldes extruder, mas eles não são consumidos."
+				""
+				"Aconselha-se ter 1 destes para cada tipo de material que deseja fazer."
+			]
+			id: "6D674153E0E1A904"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48A4957BE7451A87"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "1965B618A448C8B1"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Efficiency!"
+			tasks: [{
+				id: "751C198059F73E1D"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				"Consome (4x mais) combustível para produzir até 128 EU/t (4x mais)."
+				""
+				"Certifique-se de que suas máquinas e cabos possam suportar as classificações de energia MV."
+			]
+			id: "1AB1233925986890"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00FCABDF63EEEDA1"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "213A722C3695D0F1"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "128 EU/t! (MV)"
+			tasks: [{
+				id: "1A3D477AC728FC3C"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"502FEE5F29B4B2C3"
+				"47194BF44456B69F"
+			]
+			description: [
+				"Processe lingotes de silício quente e água em um banho químico MV para produzir lingotes de silício."
+				""
+				"Não converta todo o seu suprimento de Pó de Silício em Lingotes de Silício; normalmente é necessário mais Pó de Silício."
+			]
+			id: "773086E12339BB12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "073DEE6E297B8463"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "7516C8C028FAABFE"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Choices!"
+			tasks: [{
+				id: "3B6216156F49C2F7"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["339A86FBCABDCCD8"]
+			description: [
+				"Essas bobinas permitirão que sua Electric Blast Furnace atinja um calor de 2700 K, permitindo a produção de certos Lingotes Quentes e muito mais."
+				""
+				"Qualquer multibloco que exija Coils pode ser atualizado com essas Coils e qualquer outro tipo de Coils no futuro, aumentando certas estatísticas do multibloco."
+				""
+				"Lingotes Quentes devem ser resfriados, eles irão queimar você se você carregá-los. Alguns podem ser resfriados em um Banho Químico com Água, Lingotes Quentes mais avançados requerem um multibloco de Vacuum Freezer."
+			]
+			id: "47194BF44456B69F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5538E031CC695E05"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "74CB6A16ED522362"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Fazendo Lingotes Quentes!"
+			tasks: [{
+				count: 16L
+				id: "7070CE4DAE693D91"
+				item: { Count: 16b, id: "gtceu:kanthal_coil_block" }
+				type: "item"
+			}]
+			title: "Kanthal Coils"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				"Tem muitos usos, mas por enquanto vamos nos concentrar no resfriamento dos Lingotes Quentes."
+				""
+				"Os Lingotes Quentes precisarão ser resfriados antes de poderem ser usados, por enquanto isso requer Água ou Água Destilada em um Banho Químico MV."
+				""
+				"Mais tarde você pode fazer um Vacuum Freezer multibloco com circuitos EV que é mais rápido."
+			]
+			id: "502FEE5F29B4B2C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73900B869592ABD8"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "6B90D1AB34636F65"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Resfriando Lingotes Quentes!"
+			tasks: [{
+				id: "41704811604BB3C7"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F0EA4C5A483F458"]
+			description: [
+				"Não é muito difícil de obter e é uma das melhores fontes de combustível que você pode encontrar agora."
+				""
+				"Produzirá 480 EU em 0,75 segundos (a 32 EU/t) em um gerador de combustão, que apresenta taxas significativamente melhores do que a maioria dos outros combustíveis."
+				""
+				"Tudo começa com Oilsands Ore e uma centrífuga."
+				""
+				"Você pode dividir o óleo obtido em 2 destilarias diferentes, 1 para combustível leve sulfúrico e 1 para combustível pesado sulfúrico."
+				""
+				"Pegue seus combustíveis sulfúricos e passe-os por um reator químico com hidrogênio para remover o sulfeto de hidrogênio e deixá-lo com combustíveis limpos."
+				""
+				"Por fim, misture seu Combustível Leve e Combustível Pesado em um Misturador para Diesel."
+				""
+				"Mais tarde, você poderá refinar ainda mais seu Diesel para torná-lo ainda melhor."
+				""
+				"Observe que este é apenas um tipo de combustível melhor, há muitas maneiras de abastecer sua base, Benzeno, para citar 1. Existem também outras maneiras de obter Diesel, mas este é o caminho \"mais fácil\" por enquanto."
+			]
+			icon: "gtceu:diesel_bucket"
+			id: "45107B1BCECD9CD6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70C93B0C7806BE1A"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "39A624612B1BC3A4"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Better fuel!"
+			tasks: [{
+				id: "06318025C71D928B"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			title: "Diesel"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75D15295C7901382"]
+			description: [
+				"A Multi Smelter é uma fundição muito rápida."
+				""
+				"A velocidade dependerá do nível de Energy Hatch que você usa, e a quantidade que ele processa de uma vez dependerá do nível de Coils que você usa."
+				""
+				"Você pode alterar o \"Modo Máquina Ativa\" na GUI clicando no botão que se parece com um braço robótico. Isso permitirá que você alterne entre receitas de Forno Elétrico e Fundição de Liga."
+				""
+				"Os itens listados são os requisitos mínimos sem Escotilhas ou Ônibus."
+			]
+			icon: "gtceu:multi_smelter"
+			id: "726FAF5E142C6D70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62F62DD5F38A3ECE"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "5B9A4E0403FF9875"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Upgradable!"
+			tasks: [
+				{
+					id: "34809080CD590A83"
+					item: "gtceu:multi_smelter"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "71294B7B989ED09C"
+					item: { Count: 9b, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "435EF8DE1E119817"
+					item: { Count: 8b, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: ["Misture em um reator químico HV para produzir etileno."]
+			icon: "gtceu:glycerol_bucket"
+			id: "7C3150CBE34BBEE1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "495095680830611F"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "0D4640CA95A9C25A"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "HV option!"
+			tasks: [
+				{
+					id: "0BEB12ACEBB28830"
+					item: "gtceu:glycerol_bucket"
+					type: "item"
+				}
+				{
+					id: "07469D1EE8D8D562"
+					item: "gtceu:carbon_dioxide_bucket"
+					type: "item"
+				}
+			]
+			title: "Glycerol \\& Carbon Dioxide"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				""
+				"Uma Destilaria (ou Torre de Destilação) pode oferecer diversas formas de obtenção de Etileno, se você quiser seguir esse caminho procure no JEI e veja o que deseja utilizar."
+			]
+			id: "472FAB27104553F0"
+			optional: true
+			rewards: [{
+				id: "69F01AD4C780B3B5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Muitas opções!"
+			tasks: [{
+				id: "50C1BF4190007D99"
+				title: "Distillation"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: [
+				""
+				"O etileno é essencial para a progressão, mas existem algumas maneiras de obtê-lo. Qualquer que seja o caminho que você decida seguir para a produção de etileno, apenas certifique-se de que seja uma configuração eficiente, pois você passará por bastante polietileno líquido. Algumas outras coisas também exigirão etileno no futuro."
+				""
+				"Por esse motivo, todas as missões que levam ao Etileno são opcionais e apenas 1 precisa ser concluída, escolha um caminho. Existem mais caminhos do que os listados aqui, dê uma olhada no EMI e descubra o que é melhor para você."
+			]
+			id: "79846D0196362407"
+			rewards: [{
+				id: "25CB49F87F0F7EBC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Para que lado?"
+			tasks: [{
+				id: "21E45A15C0F734FD"
+				title: "A Note on Ethylene"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B0EF72BE9A1C92C"]
+			description: ["Embora você possa fabricá-los usando máquinas LV, a rota MV em um torno é muito mais fácil."]
+			id: "135A9F534DD9C6DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FD7253D2C0DA262"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "1870C0F88C17CFDD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "LV or MV?"
+			tasks: [{
+				id: "3C036C7E7C849DAF"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"135A9F534DD9C6DE"
+				"3E79410678FADD80"
+				"2CF2BCD87A6B3B90"
+			]
+			description: ["Process in an MV Cutter to produce RAM Chips."]
+			id: "6B8501DCDA958095"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51994A9D3258914B"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "7C9E1E5964FA6BE9"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Seu Primeiro Passo..."
+			tasks: [{
+				id: "298CE94F1F0E7595"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B8501DCDA958095"
+				"08F6BDC4B69DE447"
+			]
+			description: ["Usado em muitas receitas de circuito diferentes. Você vai querer fabricá-los em massa ou automatizá-los."]
+			id: "706CA7F47EA29E3B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62F5873F3BFC4F9F"
+					table_id: 2615868064270166297L
+					type: "loot"
+				}
+				{
+					id: "2C755E3F49322EAF"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Random access memory!"
+			tasks: [{
+				id: "00788EE3EE01A906"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["502FEE5F29B4B2C3"]
+			description: ["Tem uma perda de 0 EU por bloco."]
+			id: "15C34FCF37FCFE2C"
+			rewards: [{
+				id: "01966A81F05BB74D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "MV superconductor!"
+			tasks: [{
+				id: "5595631AD1437E2B"
+				item: "gtceu:magnesium_diboride_single_wire"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+	]
+	subtitle: ["Aluminium!"]
+	title: "Tier MV"
+}

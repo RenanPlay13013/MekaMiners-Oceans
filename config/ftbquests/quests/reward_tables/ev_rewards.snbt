@@ -1,0 +1,20 @@
+{
+	icon: "gtceu:micro_processor_computer"
+	id: "28274FF1DC31A637"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "gtceu:ev_electric_motor" }
+		{ item: "gtceu:ev_electric_pump" }
+		{ item: "gtceu:ev_fluid_regulator" }
+		{ item: "gtceu:ev_conveyor_module" }
+		{ item: "gtceu:ev_robot_arm" }
+		{ item: "gtceu:micro_processor_computer" }
+		{ item: "gtceu:ev_machine_hull" }
+		{ count: 8, item: "gtceu:aluminium_quadruple_cable" }
+		{ item: "gtceu:ev_super_chest" }
+		{ item: "gtceu:ev_super_tank" }
+	]
+	title: "EV Rewards"
+	use_title: true
+}

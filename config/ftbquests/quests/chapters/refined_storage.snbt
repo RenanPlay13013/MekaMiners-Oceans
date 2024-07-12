@@ -1,0 +1,718 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "6BDF1C1D7C2AB9C7"
+	icon: "refinedstorage:creative_controller"
+	id: "11B6FC6D441450F2"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "refinedstorage:processor_binding"
+			id: "275E35782CA5EB94"
+			rewards: [{
+				id: "0FC01C43164701EF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32CAA11BBA7F19CE"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+				{
+					id: "04CBB21A669F99DF"
+					item: "refinedstorage:processor_binding"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["275E35782CA5EB94"]
+			description: [""]
+			icon: "refinedstorage:basic_processor"
+			id: "63652C397098D56B"
+			rewards: [{
+				id: "62EC9AA195B8C2B5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07B30FA6E2515D32"
+					item: "refinedstorage:raw_basic_processor"
+					type: "item"
+				}
+				{
+					id: "5B732D2BE0EEF9C2"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["275E35782CA5EB94"]
+			icon: "refinedstorage:improved_processor"
+			id: "1893E3F1EA2576E4"
+			rewards: [{
+				id: "219B6B9B742FEB41"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "44A0C84FFC36207C"
+					item: "refinedstorage:raw_improved_processor"
+					type: "item"
+				}
+				{
+					id: "3D9FA17B7C970B8C"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["275E35782CA5EB94"]
+			icon: "refinedstorage:advanced_processor"
+			id: "3C2E5C14BDAA7633"
+			rewards: [{
+				id: "70067804EA661EFB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "15E5B988EA1C4D85"
+					item: "refinedstorage:raw_advanced_processor"
+					type: "item"
+				}
+				{
+					id: "692FB4BF220765D1"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5980E9F02344444E"]
+			description: [""]
+			id: "0DCCDDC28AE9C5A4"
+			rewards: [{
+				id: "7B4EC1BDFB0929E3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DA9BC4DEF25072B"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5980E9F02344444E"]
+			id: "629FEED0F9CA532D"
+			rewards: [{
+				id: "1BAD53E204E4D9C1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10ADB4B6BCD323BC"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5980E9F02344444E"]
+			description: ["Esse é o armazenamento em forma de HD respectivo a 1k (1000 items)."]
+			id: "1B78F38E46BD1613"
+			rewards: [{
+				id: "3494844F8D121313"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "361F43E5C261BFA2"
+				item: {
+					Count: 1b
+					id: "refinedstorage:1k_storage_disk"
+					tag: {
+						Id: [I;
+							-2115652590
+							-109034699
+							-1107457233
+							-2104255051
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1B78F38E46BD1613"]
+			description: ["Esse é o armazenamento em forma de HD respectivo ao de 4k (4000 itens)."]
+			id: "2FA62FDDC4D5C0A8"
+			rewards: [{
+				id: "2CC28DF8F2347617"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6968350974C30075"
+				item: {
+					Count: 1b
+					id: "refinedstorage:4k_storage_disk"
+					tag: {
+						Id: [I;
+							571384897
+							-1888400835
+							-1285978779
+							1331392284
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2FA62FDDC4D5C0A8"]
+			description: ["Esse é o armazenamento em forma de HD respectivo ao de 16k (16000 itens)."]
+			id: "58C7585E8813B82D"
+			rewards: [{
+				id: "7A6DB541005C2743"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0298A88D1B6B2E4B"
+				item: {
+					Count: 1b
+					id: "refinedstorage:16k_storage_disk"
+					tag: {
+						Id: [I;
+							1559433116
+							1596342550
+							-1541661147
+							-361315150
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["58C7585E8813B82D"]
+			description: ["Esse é o armazenamento em forma de HD respectivo ao de 64k (64000 itens)."]
+			id: "7AA5D4B256F8D5A3"
+			rewards: [{
+				id: "07C527F8CB7A1EFF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4175E08AB43C3DBD"
+				item: {
+					Count: 1b
+					id: "refinedstorage:64k_storage_disk"
+					tag: {
+						Id: [I;
+							1759874410
+							445861427
+							-1816189515
+							-1848755121
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0DCCDDC28AE9C5A4"]
+			id: "5372698B62F25C4D"
+			rewards: [{
+				id: "61CFE7A6BD8DD18B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D8A60F572FE1A45"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5372698B62F25C4D"]
+			id: "40F9F99644378C4D"
+			rewards: [{
+				id: "62C9ADC022D810AF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "414DC8C1595334FF"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["40F9F99644378C4D"]
+			id: "1274407B49BDDB2A"
+			rewards: [
+				{
+					id: "540B3DB9AFCB6075"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32E59D05620C349E"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "47F7D3C708BDD613"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["629FEED0F9CA532D"]
+			id: "309EA43F5941CA97"
+			rewards: [{
+				id: "3F2444265DD24DA8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "346CFF3BB51BA83C"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["309EA43F5941CA97"]
+			id: "0DAA00DE6301207A"
+			rewards: [{
+				id: "1B836F9640D65E36"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "095F225A75CEB047"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0DAA00DE6301207A"]
+			id: "01A4278F4DAD2EDF"
+			rewards: [
+				{
+					id: "6DEC0351B165C752"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6031569658A15B60"
+					table_id: 8081943140255794792L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "44AC0E3F8BA68A9F"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5980E9F02344444E"]
+			description: ["Esse é o armazenamento em forma de HD respectivo ao de 64k (64000 unidades de fluido)."]
+			id: "35B5059E65FFE611"
+			rewards: [{
+				id: "65136B1635AFEF4C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04BFED9807454B94"
+				item: {
+					Count: 1b
+					id: "refinedstorage:64k_fluid_storage_disk"
+					tag: {
+						Id: [I;
+							1690211854
+							-1480112104
+							-2039022206
+							-1525008670
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["35B5059E65FFE611"]
+			description: ["Esse é o armazenamento em forma de HD respectivo ao de 256k (256000 unidades de fluido)."]
+			id: "0A97FD6D8CC3D1B3"
+			rewards: [{
+				id: "15EA75DBB58EF381"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65CA07FE1FA51F18"
+				item: {
+					Count: 1b
+					id: "refinedstorage:256k_fluid_storage_disk"
+					tag: {
+						Id: [I;
+							1133213879
+							1314144475
+							-1250918443
+							1276477713
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0A97FD6D8CC3D1B3"]
+			description: ["Esse é o armazenamento em forma de HD respectivo ao de 1024k (1024000 unidades de fluido)."]
+			id: "09D2C141F8201596"
+			rewards: [{
+				id: "5ED2817AFDBA04A8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14CDCED2EB34FFFE"
+				item: {
+					Count: 1b
+					id: "refinedstorage:1024k_fluid_storage_disk"
+					tag: {
+						Id: [I;
+							-1281137977
+							-494124376
+							-1965521011
+							1640224321
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["09D2C141F8201596"]
+			description: ["Esse é o armazenamento em forma de HD respectivo ao de 4096k (4096000 unidades de fluido)."]
+			id: "62E7A258BF778038"
+			rewards: [
+				{
+					id: "5DEB838739AEBDBA"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
+						}
+					}
+					id: "17099C211E652C18"
+					table_id: 8081943140255794792L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "476E458D81E89CC2"
+				item: {
+					Count: 1b
+					id: "refinedstorage:4096k_fluid_storage_disk"
+					tag: {
+						Id: [I;
+							1810465600
+							-1157414660
+							-1270692665
+							-667664988
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3C2E5C14BDAA7633"
+				"1893E3F1EA2576E4"
+				"63652C397098D56B"
+			]
+			icon: "refinedstorage:creative_controller"
+			id: "5980E9F02344444E"
+			rewards: [{
+				id: "63A0984829755DFD"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1467765BA8D3A76D"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+				{
+					id: "4814B126CD0308EB"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "4B33FC462957658F"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5980E9F02344444E"]
+			description: ["O bloco de armazenamento funciona como HD, porém em formato de bloco."]
+			id: "643B60606866A333"
+			rewards: [{
+				id: "5F5B0880A03EC3B7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2057F12D9E979803"
+				item: "refinedstorage:1k_storage_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["643B60606866A333"]
+			description: ["O bloco de armazenamento funciona como HD, porém em formato de bloco."]
+			id: "7B8D9F19C0628A5E"
+			rewards: [{
+				id: "017C36A6D6D2DFD3"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45CBFBDD35B8BBF9"
+				item: "refinedstorage:4k_storage_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B8D9F19C0628A5E"]
+			description: ["O bloco de armazenamento funciona como HD, porém em formato de bloco."]
+			id: "7B29751C88509AFA"
+			rewards: [{
+				id: "1D7AB186EEE1EE41"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "725BF1E729BF83B1"
+				item: "refinedstorage:16k_storage_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B29751C88509AFA"]
+			description: ["O bloco de armazenamento funciona como HD, porém em formato de bloco."]
+			id: "218354A8CCB9C9E8"
+			rewards: [{
+				id: "18AFA24BD8D4A2EB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FABD8BB3582789E"
+				item: "refinedstorage:64k_storage_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5980E9F02344444E"]
+			description: ["O bloco de armazenamento de fluído funciona como HD, porém em formato de bloco."]
+			id: "7C3B164BC0CFC1D8"
+			rewards: [{
+				id: "76574DB16AC537DF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF7F51204460C74"
+				item: "refinedstorage:64k_fluid_storage_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7C3B164BC0CFC1D8"]
+			description: ["O bloco de armazenamento de fluído funciona como HD, porém em formato de bloco."]
+			id: "1CB5038AD768893C"
+			rewards: [{
+				id: "039DF905D3576FB1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A6DF441EE211D0"
+				item: "refinedstorage:256k_fluid_storage_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1CB5038AD768893C"]
+			description: ["O bloco de armazenamento de fluído funciona como HD, porém em formato de bloco."]
+			id: "3C029651213D72C1"
+			rewards: [{
+				count: 4
+				id: "594BD6818B926B16"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DCD4C6E04707BC5"
+				item: "refinedstorage:1024k_fluid_storage_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C029651213D72C1"]
+			description: ["O bloco de armazenamento de fluído funciona como HD, porém em formato de bloco."]
+			id: "5B1B86360D99C5B0"
+			rewards: [{
+				id: "4467E79358D3F50C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE5D668B3D72643"
+				item: "refinedstorage:4096k_fluid_storage_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5980E9F02344444E"]
+			description: ["O autocrafting do Refined funciona da seguinte forma: O crafter, quando não possuir um inventário, ele irá executar a função de uma crafting table. Caso haja um inventário em sua frente, ele poderá funcionar tanto como crafting table quanto com os padrões de processos, o que fará com que os itens sejam enviados para o respectivo inventário."]
+			icon: "refinedstorage:pattern_grid"
+			id: "6A84AF45E9487A78"
+			rewards: [{
+				id: "00FDAB4B236EE53E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "797BA64D1C98ECB5"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+				{
+					id: "7C70F40B457F9281"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+			]
+			title: "AutoCrafting"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6A84AF45E9487A78"]
+			description: ["Para o sistema sem fio, basta colocar a antena conectada ao seu sistema e dar shift + botão direito em alguma parte do seu sistema com o controle na mão para conectá-los à sua rede sem fio. Para aumentar a sua distância de acesso é preciso colocar a melhoria de distância."]
+			icon: "refinedstorage:wireless_grid"
+			id: "27B1A146D41FCC88"
+			rewards: [{
+				id: "152FFEA143BAACD8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36DDC1377581A758"
+					item: "refinedstorage:wireless_grid"
+					type: "item"
+				}
+				{
+					id: "590F82AAAA5F2BE8"
+					item: "refinedstorage:range_upgrade"
+					type: "item"
+				}
+				{
+					id: "66ADE377AE19BF2F"
+					item: "refinedstorage:wireless_transmitter"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.5d
+		}
+	]
+	title: "Refined Storage"
+}

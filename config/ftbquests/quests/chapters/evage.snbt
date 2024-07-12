@@ -1,0 +1,1308 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "evage"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:micro_processor_computer"
+	id: "5B195FC87B4D5FF3"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Embora você possa basicamente começar a criar novos circuitos, é aqui que suas automações serão testadas. Se você ainda não está automatizando pelo menos a maioria dos seus circuitos, isso deve ser uma prioridade."]
+			id: "04BE1F878C713A9E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18D7C5AE426EA0BD"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "6AA171EFBC34BF1D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "IV Circuits!"
+			tasks: [{
+				id: "00BE8B4201B6538A"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5939E9725FB1D28D"]
+			description: ["Assim como o titânio foi o principal material para a era EV, o aço tungstênio é o principal material para a era IV."]
+			id: "601570809627DA2F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A62DED4965454E6"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "1E651FC9DD6BC9FB"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "IV material!"
+			tasks: [{
+				id: "2181D41829A80FD5"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06B25AF165CADF77"]
+			description: ["Processar em um Alto Forno Elétrico EV com coils de Nicromo para produzir Lingotes de Aço Tungstênio Quente."]
+			id: "5939E9725FB1D28D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43C151CE5B9E8D8F"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "23BCCE45FBA12546"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "EV EBF!"
+			tasks: [{
+				id: "0B8F9DB3398A8434"
+				item: "gtceu:tungsten_steel_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D82EBC15CA65CAF"]
+			description: ["Processe pó de tungstênio e pó de aço em um misturador EV para produzir pó de tungstênio."]
+			icon: "gtceu:tungsten_dust"
+			id: "06B25AF165CADF77"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B5ED948CE3F4648"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "3AD439B2515BACF6"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "EV Mixer!"
+			tasks: [
+				{
+					id: "4157B9FBE175463D"
+					item: "gtceu:tungsten_dust"
+					type: "item"
+				}
+				{
+					id: "598112DBDA6FBFCB"
+					item: "gtceu:steel_dust"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"Processe Pó de Tungstato ou Pó de Scheelita em um Banho Químico EV com Ácido Clorídrico para produzir Pó de Ácido Tungstico."
+				""
+				"Processe em um eletrolisador EV para produzir pó de tungstênio."
+			]
+			id: "0D82EBC15CA65CAF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C336DDE4F8CB17F"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "2B62787BF8ED5811"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "EV Electrolyzer!"
+			tasks: [{
+				id: "2792491E0265ABBA"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"04BE1F878C713A9E"
+				"2D3AC686CE6911BB"
+				"7AD75FBC7F31057A"
+			]
+			description: ["Usado em geradores multibloco EV para gerar energia EV."]
+			icon: "gtceu:ev_energy_output_hatch"
+			id: "74442DAB3A512999"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37646E3FC22A63A4"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "4827B2DEBD2F9FA9"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Multiblock energy!"
+			tasks: [{
+				id: "4F77070CD3F7A993"
+				item: "gtceu:ev_energy_output_hatch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Você vai querer pelo menos um pequeno estoque deles, pois eles levam 10 minutos para cozinhar na Electric Blast Furnace com classificação energética HV e bobinas Kanthal"]
+			id: "4308EEC7497BAA63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B333ADF945113EB"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "12FDE03ADE7294EA"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "10 minutes."
+			tasks: [{
+				id: "6CBA809992769790"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4308EEC7497BAA63"]
+			description: [
+				"Requer um cortador HV em uma Cleanroom."
+				""
+				"Fornece 4 wafers em vez de 1 no gravador a laser."
+			]
+			id: "4F93404728CD5A69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27CE828753300FAD"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "01C3BC4DAF1068A9"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "HV Cleanroom!"
+			tasks: [{
+				id: "4D12B412F6E607B2"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F93404728CD5A69"
+				"5D8EA9A0322BA708"
+			]
+			description: [
+				"Requer um gravador a laser HV em uma Cleanroom"
+				"Alguns deles serão obrigados a atualizar para HPIC Wafers na era IV."
+			]
+			id: "3F81A5891D96CA90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B62D0D30C1FE7BA"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "07E3553809F84107"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "HV Cleanroom!"
+			tasks: [{
+				id: "411A6177F74BD269"
+				item: "gtceu:mpic_wafer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Você já deve saber como isso funciona."]
+			id: "5D8EA9A0322BA708"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CB5616F59386AEC"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "71B85C651993F54C"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Compre grãos de cacau no mercado!"
+			tasks: [{
+				id: "0CFF20C7CDF9848F"
+				item: "gtceu:brown_glass_lens"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F81A5891D96CA90"]
+			description: ["Requer um cortador EV."]
+			id: "2D3AC686CE6911BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DEBE5075996FD6D"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "55768B74215FF89B"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "EV Cutter!"
+			tasks: [{
+				id: "387A3F794A365234"
+				item: "gtceu:mpic_chip"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Misture com gás metano em um reator químico para produzir Chloroform."]
+			id: "777D90395A3A0130"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "571C529DF8519E43"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "3A16B50596EA945D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Chlorine + Methane!"
+			tasks: [{
+				id: "6123E673480827FD"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Misture com gás cloro em um reator químico para produzir Chloroform."]
+			id: "5F4A7804C9ECC7FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A35DCEE183BAD43"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "33A5A2F2716BC681"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Methane + Chlorine!"
+			tasks: [{
+				id: "20D869521DB09CD9"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Mistura com gás hidrogênio em um reator químico para produzir ácido fluorídrico"]
+			id: "59F05A0D0AAED727"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "699B94898D90362E"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "67F55B9A88725867"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Fluorine + Hydrogen!"
+			tasks: [{
+				id: "6E851C04FB2248B3"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59F05A0D0AAED727"]
+			description: ["Misture com clorofórmio em um reator químico para produzir tetrafluoroetileno."]
+			id: "79F079ECF289E0AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2855F3C0773A81CD"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "60368ED326A9861F"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Hydrofluoric Acid + Chloroform!"
+			tasks: [{
+				id: "4A4DA8F975AD59EB"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5F4A7804C9ECC7FF"
+				"777D90395A3A0130"
+			]
+			description: ["Misture com ácido fluorídrico em um reator químico para produzir tetrafluoroetileno."]
+			id: "39EC4571DA82304B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A322F829E0CEB72"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "28A65210041D415D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Chloroform + Hydrofluoric Acid!"
+			tasks: [{
+				id: "0192DE2DC9C1FC20"
+				item: "gtceu:chloroform_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"39EC4571DA82304B"
+				"79F079ECF289E0AD"
+			]
+			description: ["Misture com gás oxigênio ou ar em um reator químico para produzir politrafluoroetileno líquido.."]
+			id: "53C8381DA10A2114"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B0876617AAB4BAE"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "32FC9337333B789C"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Basta adicionar o Poly!"
+			tasks: [{
+				id: "4DEA41607E1C59EC"
+				item: "gtceu:tetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53C8381DA10A2114"]
+			description: [
+				"Este é basicamente o seu novo Polietileno, dito isso, você vai querer todo esse processo automatizado."
+				""
+				"Necessário para algumas coisas futuras, como cascos de máquinas IV, baterias EV e muito mais."
+			]
+			id: "009C9B8976CC26CC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36285653442A7ADE"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "2D64D27E681FA84D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "\"Balde Gotohell Líquido."
+			tasks: [{
+				id: "6FF3D89473BC28F2"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["009C9B8976CC26CC"]
+			description: ["Baterias EV, que podem armazenar 4 minutos de energia EV cada."]
+			id: "1B81786DD7750C6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3907BD2A0E848CBC"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "528A726A46BC83F5"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "4 minutes!"
+			tasks: [{
+				id: "6895CAE810B47D16"
+				item: "gtceu:ev_vanadium_battery"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["601570809627DA2F"]
+			description: ["Usado para fabricar itens de energia relacionados a EV."]
+			id: "7AD75FBC7F31057A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48FD95F3022441C7"
+				table_id: 2893369185808786999L
+				type: "loot"
+			}]
+			subtitle: "EV Assembler!"
+			tasks: [{
+				id: "06EB6F95B4FC0621"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["O Radon tem 2 maneiras de obter (por enquanto), você pode seguir a rota Ender Air em uma Torre de Destilação IV ou a rota Plutionium, Urânio, Air em um Grande Reator Químico HV. Dê uma olhada no JEI e veja o que faz mais sentido para você."]
+			id: "563801BD3C0ED91B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21EFDBF34CBAA442"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "59222E7E6A947314"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Escolhas!"
+			tasks: [{
+				id: "3C64800677AF2690"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["563801BD3C0ED91B"]
+			description: ["Processe olhos de Ender e gás Radon em um banho químico HV para produzir olhos quânticos."]
+			id: "21D739D6153D4ACE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "278EF09B251687C0"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "41A69B1629F77086"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Ender Eye + Radon Gas!"
+			tasks: [{
+				id: "5608047B872AC100"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21D739D6153D4ACE"]
+			description: ["Usado para fabricar o EV Circuit Assembler e o EV Laser Engraver."]
+			id: "52B8AAE9920AA1E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27876B13FE395395"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "3427BA16530DF90A"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "EV Circuit Assembler!"
+			tasks: [{
+				id: "2D21BC501E151C32"
+				item: "gtceu:ev_emitter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69A31EB95C0628FE"
+				"72DF1D86A1D57C7A"
+				"0C84A87B76001394"
+			]
+			description: ["Toda a linha Circuit requer uma Cleanroom EV"]
+			id: "4905BD233329A325"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75702866511527EB"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "4799754C4CB2CCD8"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Este é o terceiro Circuito HV!"
+			tasks: [{
+				id: "472CF7C6885AE797"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ABF274134C11EF7"]
+			description: ["Processe Nano CPU Wafers em um cortador HV para produzir Nano CPU chips."]
+			id: "72DF1D86A1D57C7A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C6F1FE38AEE95E2"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "5099D98E8500CD00"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "HV Cutter!"
+			tasks: [{
+				id: "13330658BDECFF21"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61EFBBA3DD450167"]
+			description: ["Processe placas de circuito epóxi, folha Electrum e persulfato de sódio ou Iron III Chloride em um reator químico LV para produzir placas de circuito impresso epóxi."]
+			id: "69A31EB95C0628FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54A6EA5826673401"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "4E271950541CE6AB"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Epoxy Circuit Board + Electrum Foil + Sodium Persulfate/Iron Iii Chloride!"
+			tasks: [{
+				id: "30C3C67D13380A96"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EF4B7735358CC9B"]
+			description: ["Processe folhas de epóxi, folha de ouro e ácido sulfúrico em um reator químico LV para produzir placas de circuito de epóxi"]
+			id: "61EFBBA3DD450167"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E89AF3F390C8279"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "6CCC847A0E70D82E"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Epoxy Sheet + Gold Foil + Sulfuric Acid!"
+			tasks: [{
+				id: "23AD7979A398F35B"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["409480A145B21573"]
+			description: ["Processe epóxi líquido em um solidificador de fluido ULV para produzir folhas de epóxi."]
+			id: "6EF4B7735358CC9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6092F92F809468AE"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "1AA6BE72121CB496"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "ULV Fluid Solidifer!"
+			tasks: [{
+				id: "368667FD2A8272B8"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Processe de CPU Wafers, fibras de carbono bruto e Glowstone líquido em um reator químico EV em uma Cleanroom para produzir nano CPU Wafers."]
+			id: "3ABF274134C11EF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "669CBDDF2CBA6915"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "1BDCC19302C67A80"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "CPU Wafers + Raw Carbon Fibers + Liquid Glowstone!"
+			tasks: [{
+				id: "7F1676CBE3F21AFB"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Processe água salgada em um eletrolisador LV para produzir pó de hidróxido de sódio."]
+			id: "1FAF3B79551AB1EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A2E059518F62B30"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "48F8C2DD9AABE7C3"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "LV Electrolyzer!"
+			tasks: [{
+				id: "6D77ED446CCADC28"
+				item: "gtceu:sodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1FAF3B79551AB1EC"
+				"17B7A7581CA89E16"
+				"5AD67AFCCE52D5CD"
+			]
+			id: "409480A145B21573"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "176A19B01C2741C1"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "610FA1F48FD69093"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EC1F5AE2B8690E9"
+				item: "gtceu:epoxy_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Existem algumas opções para produzir Epicloridrina. Consulte o JEI para ver o que melhor combina com você."]
+			id: "17B7A7581CA89E16"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A26D0942F2FAC42"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "733F8B971AC5E03E"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Escolhas!"
+			tasks: [{
+				id: "13EA56963448E069"
+				item: "gtceu:epichlorohydrin_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"15C44E3815DCD6EA"
+				"06D9FABBF39651D0"
+				"1CED8B2C8CF31D6F"
+			]
+			id: "5AD67AFCCE52D5CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CF2F879BAB3E04F"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "29C5B1B498221599"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16131FD8D65640E2"
+				item: "gtceu:bisphenol_a_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			id: "06D9FABBF39651D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C770E0B89873459"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "387B45735509514B"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "505F445C88088465"
+				item: "gtceu:phenol_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: [
+				"Existem algumas opções para produzir ácido clorídrico. Consulte o JEI para ver o que melhor combina com você."
+				""
+				"O ácido clorídrico é muito usado em muitas misturas químicas diferentes."
+			]
+			id: "15C44E3815DCD6EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7655138695947403"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "092600263C4DA5AC"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Escolhas!"
+			tasks: [{
+				id: "4033495FBA1CA420"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			id: "1CED8B2C8CF31D6F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41FED64A0E3BF073"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "1D1382DD98D20967"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "754D18E057CA62BF"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4905BD233329A325"]
+			description: ["Requer uma Cleanroom EV."]
+			id: "42A72E604FC572F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5706759B954DC2CA"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "07BAA6D3D3CF2EA2"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Este é o segundo Circuito EV!"
+			tasks: [{
+				id: "6A54C72B6A25FAD4"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"04BE1F878C713A9E"
+				"52B8AAE9920AA1E7"
+			]
+			id: "0C84A87B76001394"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68CB201F4DB3748D"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "4FE955ABDEAAA9DA"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31FBE1558D094BE1"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42A72E604FC572F6"]
+			description: ["Requer uma Cleanroom EV."]
+			id: "5B365AEDBF3CEAC0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A6FA40ABDAF61AF"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "763BE40F4B3512B2"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Este é o segundo Circuito IV!"
+			tasks: [{
+				id: "0E065968A73FFC58"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A420543054362B5"]
+			description: ["Tem uma perda de 0 EU por bloco."]
+			id: "6A0C37CCF3E57623"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02CF5338F8AE78EC"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "73AB08FCA5543ABA"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "EV superconductor!"
+			tasks: [{
+				id: "130295AA4967A664"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78652EEA6FF2DA08"]
+			description: ["Process Nitric Acid and Hydrochloric Acid in an LV Mixer to produce Aqua Regia."]
+			id: "664FE261DB04E43C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "444EAB5F72FBDD2C"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "0AB33576E57ECB87"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Nitric Acid + Hydrochloric Acid!"
+			tasks: [{
+				id: "50C840443CA5B7B9"
+				item: "gtceu:aqua_regia_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"72046EB2A4005928"
+				"664FE261DB04E43C"
+			]
+			description: ["Processe Sludge do Grupo Platinum e Água Régia em uma Centrífuga HV para produzir Mistura de Metal Inerte."]
+			id: "23AC2BBFD07F1695"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A5857CF1E3427DB"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "5786B78EACA4334F"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Platinum Group Sludge + Aqua Regia!"
+			tasks: [{
+				id: "34ADD2491F2EB78E"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Existem algumas opções para produzir ácido nítrico. Consulte o JEI para ver o que melhor combina com você."]
+			id: "78652EEA6FF2DA08"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42C971737531AC87"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "184BF4ECD5675D58"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Escolhas!"
+			tasks: [{
+				id: "601DE1136A30A221"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["78652EEA6FF2DA08"]
+			description: ["Processar minérios purificados do \"Grupo Platina\" e ácido nítrico em um reator químico LV."]
+			id: "72046EB2A4005928"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "247B39668FFA772C"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "2DD135652CC32EE1"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Purified Ores + Nitric Acid!"
+			tasks: [{
+				id: "01A8F0930CC900BB"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23AC2BBFD07F1695"]
+			id: "72E5B8E77137A7E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11B3CB4358804DA5"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "4FD43D8EC5A58083"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A2A25A1C87E8A00"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72E5B8E77137A7E3"]
+			id: "45DAF3851B974F11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6243F3D73BAEBD70"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "22E4335510E0B2D0"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B75BDBA132F6348"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"35BFB8ED93BDC8A8"
+				"45DAF3851B974F11"
+			]
+			description: ["A quarta camada de bobinas."]
+			id: "1A420543054362B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "772B5E096AFB0587"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "660ADF5BCF536BD3"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "EV Assembler!"
+			tasks: [{
+				count: 16L
+				id: "00A355F39FFCB543"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			title: "RTM Alloy Coils"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A3EB516A884B7C"]
+			description: ["Processe Vanadium dust, Steel Dust e Chormium Dust em um misturador MV para produzir Vanadium Steel Dust."]
+			id: "35BFB8ED93BDC8A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C988E5668524BCA"
+					table_id: 2893369185808786999L
+					type: "loot"
+				}
+				{
+					id: "7C7CCE4427124881"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Vanadium Dust + Steel Dust + Chromium Dust!"
+			tasks: [{
+				id: "1D65BD52CA9CB69C"
+				item: "gtceu:vanadium_steel_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Titanium!"]
+	title: "Tier EV"
+}

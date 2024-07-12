@@ -1,0 +1,27 @@
+{
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 143
+            },
+            "SETTINGS": {
+                "top": 140
+            }
+        }
+    },
+    "owmii.powah.client.screen.container.ThermoScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "top": 90
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenAspectSettings": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -10,
+                "top": 18
+            }
+        }
+    }
+}

@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "luv_age"
+	group: "442172D4BAC4AB3B"
+	icon: "gtceu:nano_processor_mainframe"
+	id: "090738B5A63D29EE"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2595291E7F1986B9"]
+			id: "63493A70229956F4"
+			rewards: [{
+				id: "47379C8DFDB427D0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "ZPM Circuits!"
+			tasks: [{
+				id: "418F757F44357DBB"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0F0196BE5D7B731A"
+				"0759334CF0F1E399"
+			]
+			description: ["Assim como o paládio banhado a ródio foi o principal material para a era LuV, a liga Naquadah é o principal material para a era ZPM."]
+			id: "503F831E45C9A245"
+			rewards: [{
+				id: "1B98462E01BF3B5E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "ZPM material!"
+			tasks: [{
+				id: "297C61B6B75109D7"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"602407E868224187"
+				"3657543ECEDCB85F"
+				"51472C34D057DEB9"
+			]
+			id: "0F0196BE5D7B731A"
+			rewards: [{
+				id: "5CEC90EC1582333D"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29EC4E6DD12A4A39"
+				item: "gtceu:naquadah_alloy_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2595291E7F1986B9"]
+			description: ["Processe minério de Naquadah de várias maneiras para produzir pó de Naquadah."]
+			id: "602407E868224187"
+			rewards: [{
+				id: "01F8D066D6913115"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Ore material!"
+			tasks: [{
+				id: "0323E44D845A1C48"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["364EEFAC2608C6D2"]
+			id: "3657543ECEDCB85F"
+			rewards: [{
+				id: "0CAF8FCACF4EE37E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D8B35C4B909A7DC"
+				item: "gtceu:osmiridium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BE40B0F622D2750"]
+			id: "51472C34D057DEB9"
+			rewards: [{
+				id: "0DA4973EC0E59957"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "115F42573A7C9705"
+				item: "gtceu:trinium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4B3DF802D007206C"
+				"364EEFAC2608C6D2"
+			]
+			description: ["O sexto nível de bobinas."]
+			id: "0759334CF0F1E399"
+			rewards: [{
+				id: "51812B1B4DF61113"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "LuV Assembler!"
+			tasks: [{
+				count: 16L
+				id: "3EDA966E71E6D21E"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			title: "Naquadah Coils"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["602407E868224187"]
+			description: ["Processe lingotes de Naquadah quentes em um Vaccun freezer MV para produzir lingotes de Naquadah."]
+			id: "4B3DF802D007206C"
+			rewards: [{
+				id: "2087CC63D0591B1F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "MV Vacuum Freezer!"
+			tasks: [{
+				id: "39E317B862F5DB78"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F2E5D68A5FC6349"]
+			id: "364EEFAC2608C6D2"
+			rewards: [{
+				id: "6BD1DB9512B9B0BD"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "046DEE825BEF7578"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["528B384CCFD87033"]
+			id: "7F2E5D68A5FC6349"
+			rewards: [{
+				id: "35DD146B5F9FE1D9"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BC5204FAFFE29D2"
+				item: "gtceu:osmium_tetroxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2595291E7F1986B9"]
+			description: ["Você já deve ter isso como subproduto da produção de resíduo metálico de irídio no grande reator químico."]
+			id: "528B384CCFD87033"
+			rewards: [{
+				id: "277546B290A36799"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "017DC96CE1C4F744"
+				item: "gtceu:acidic_osmium_solution_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55BA39D782793627"]
+			id: "70AE3F663B304914"
+			rewards: [{
+				id: "3C91883AA2BDD020"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "017166D06C66C71D"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["602407E868224187"]
+			description: ["Você pode descobrir isso, não é tão ruim."]
+			id: "55BA39D782793627"
+			rewards: [{
+				id: "68C5F5A860E8C58A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ED8F393D8E6F72E"
+				item: "gtceu:impure_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70AE3F663B304914"]
+			id: "1BE40B0F622D2750"
+			rewards: [{
+				id: "6C0984FEE48A627F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F379B5C2460502B"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Paládio banhado a ródio!"]
+	title: "Tier LuV"
+}

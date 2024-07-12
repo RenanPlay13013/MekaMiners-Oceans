@@ -1,0 +1,20 @@
+{
+	icon: "gtceu:basic_electronic_circuit"
+	id: "7BD286AE6CAAD3AC"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "gtceu:lv_electric_motor" }
+		{ item: "gtceu:lv_electric_pump" }
+		{ item: "gtceu:lv_fluid_regulator" }
+		{ item: "gtceu:lv_conveyor_module" }
+		{ item: "gtceu:lv_robot_arm" }
+		{ item: "gtceu:basic_electronic_circuit" }
+		{ item: "gtceu:lv_machine_hull" }
+		{ count: 8, item: "gtceu:tin_quadruple_cable" }
+		{ item: "gtceu:lv_super_chest" }
+		{ item: "gtceu:lv_super_tank" }
+	]
+	title: "LV Rewards"
+	use_title: true
+}
