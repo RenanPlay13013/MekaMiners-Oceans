@@ -1,0 +1,4 @@
+Alguns itens podem ficar invisiveis pra você, como os do draconic.
+
+Adicione o mod oculus na pasta mods e pronto.
+Deixei o vanillaplus já na shaderspack pra você, divirta-se
