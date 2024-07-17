@@ -1,0 +1,23 @@
+
+
+
+
+profile Saved activate HOT8
+	HOT1
+		"minecraft:oxidized_copper"
+	HOT2
+		"minecraft:scaffolding"
+	HOT3
+		"connectedglass:borderless_glass"
+	HOT4
+		"minecraft:iron_bars"
+	HOT5
+		"minecraft:polished_granite"
+	HOT6
+		"minecraft:spruce_slab"
+	HOT7
+		"minecraft:wooden_axe"
+
+profile Saved activate HOT1
+	
+

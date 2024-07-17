@@ -2,9 +2,6 @@
 
 
 
-profile Saved activate HOT1
-	
-
-profile Saved activate HOT1
+profile Saved activate HOT7
 	
 

@@ -4,7 +4,6 @@
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
-    "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
     "item_storage": true,
     "item_storage.normal_amount": 9,
@@ -196,6 +195,9 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

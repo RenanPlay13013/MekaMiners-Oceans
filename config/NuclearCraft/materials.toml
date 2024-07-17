@@ -1,19 +1,4 @@
 
-#Settings for ore generation
-[ores]
-	#List of dimensions to generate ores: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
-	dimensions = [[0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848]]
-	#Enable ore registration: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
-	register_ore = [true, true, true, true, true, true, true, true, true, true, true]
-	#Ore blocks per vein. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
-	vein_size = [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
-	#Veins in chunk. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
-	veins_in_chunk = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
-	#Minimal generation height. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
-	min_height = [-60, -60, -60, 4, -60, -60, -60, -60, 4, -60, 4]
-	#Max generation height. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
-	max_height = [60, 0, 60, 60, 60, 60, 60, 60, 60, 60, 60]
-
 [slurries]
 	#List of available slurries (dissolved ores in acid)
 	#Color for slurry will be calculate from average texture color
@@ -273,4 +258,92 @@
 [forge_tag_priority]
 	#Priority of mods to resolve forge tags to itemstack and fluidstack.
 	mods_priority = ["nuclearcraft", "mekanism", "immersiveengineering", "tconstruct"]
+
+[lithium]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 60
+
+[platinum]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 0
+
+[thorium]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 60
+
+[tin]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = 4
+	max_height = 60
+
+[magnesium]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 60
+
+[silver]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 60
+
+[cobalt]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 60
+
+[uranium]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 60
+
+[zinc]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = 4
+	max_height = 60
+
+[boron]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = -60
+	max_height = 60
+
+[lead]
+	register = true
+	dimensions = [0, -4848]
+	vein_size = 7
+	veins_in_chunk = 3
+	min_height = 4
+	max_height = 60
 

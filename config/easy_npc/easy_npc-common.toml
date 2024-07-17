@@ -323,3 +323,12 @@
 		#Range: 0 ~ 4
 		lookObjectiveConfigurationPermissionLevel = 0
 
+	["[Pose Configuration] Advanced Pose"."[Import Configuration] Import Local Preset"]
+		#Enable local import preset configuration.
+		localImportPresetConfigurationEnabled = true
+		#Allow local import preset configuration in creative mode.
+		localImportPresetConfigurationAllowInCreative = true
+		#local import preset configuration permission level. (0 = everyone, 1 = moderator, 2 = gamemaster, 3 = admin, 4 = owner)
+		#Range: 0 ~ 4
+		localImportPresetConfigurationPermissionLevel = 0
+
