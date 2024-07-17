@@ -1,6 +1,7 @@
+
 [general]
 	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
-	applicationID = 1097307751388024864
+	applicationID = 1262935728225255485
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -16,79 +17,73 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Entrando no Modpack"
+	description = "Entrando no MekaMiners"
 	#The second line of text under the app name
 	state = "Carregando..."
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Um servidor de modpack da %mcver%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[init.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[init.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% Está no menu principal"
+	description = "%player% está no menu principal"
 	#The second line of text under the app name
-	state = "Observando o menu"
+	state = "Observando o menu do MekaMiners"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Versão %mcver%, mas com mods!"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[main_menu.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[main_menu.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% Indo jogar no MekaMiners!"
+	description = "%player% entrando no MekaMiners!"
 	#The second line of text under the app name
 	state = "Se juntando a nossa comunidade"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Um Servidor de modpack %mcver%"
+	largeImageText = "Um Servidor de modpack na %mcver%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[server_list.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[server_list.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [realms_list]
 	#Enable/Disable the Realms Screen Event
@@ -98,23 +93,21 @@
 	#The second line of text under the app name
 	state = "É sério isso?"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "?"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[realms_list.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[realms_list.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [join_game]
 	#Enable/Disable the Join Game Event
@@ -124,23 +117,21 @@
 	#The second line of text under the app name
 	state = "Entrando no mapa"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = []
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Um Servidor de modpack %mcver%"
+	largeImageText = "Um Servidor de modpack na %mcver%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[join_game.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[join_game.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [single_player]
 	#Enable/Disable the Single Player Event
@@ -148,51 +139,47 @@
 	#The first line of text under the app name
 	description = "Jogando no mundo: %world%"
 	#The second line of text under the app name
-	state = "Jogando SinglePlayer"
+	state = "Jogando Sozinho"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Um Servidor de modpack %mcver%"
+	largeImageText = "Um Servidor de modpack na %mcver%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[single_player.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[single_player.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Jogando no MekaMiners Rebirth com %players% players"
+	description = "Jogando no MekaMiners Oceans"
 	#The second line of text under the app name
 	state = "Jogando com amigos"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Um Servidor de modpack %mcver%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[multi_player.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[multi_player.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [realms]
 	#Enable/Disable the Realms Game Event
@@ -202,47 +189,43 @@
 	#The second line of text under the app name
 	state = "Jogando em um Realm"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Um Servidor de modpack %mcver%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
-	#The buttons to display on Discord 
 
 	[[realms.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[realms.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [generic]
 	#The first line of text under the app name
-	description = "Jogando MekaMiners Rebirth!"
+	description = "Jogando MekaMiners Oceans!"
 	#The second line of text under the app name
-	state = ""
+	state = "Venha jogar também!"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/HkdrBEG.png"]
+	largeImageKey = ["https://imgur.com/tvGf07Q.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Um Servidor de modpack %mcver%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logos1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods instalados"
-	#The buttons to display on Discord 
 
 	[[generic.buttons]]
 		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/mekaminers"
 
 	[[generic.buttons]]
-		label = "Technic"
-		url = "https://www.technicpack.net/modpack/mekaminers.1931118"
-
+		label = "Nosso Discord"
+		url = "https://discord.com/invite/sQk3Cvz"
 
 [custom]
 	#Must these variables be parsed along with other variables
@@ -282,5 +265,4 @@
 		smallImageKey = ["mclogo"]
 		smallImageText = "%mods% mods installed"
 		buttons = []
-
 
