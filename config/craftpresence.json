@@ -182,7 +182,8 @@
       "26.44.4.242": "https://api.mcsrvstat.us/icon/26.44.4.242",
       "Caputino": "https://mc-heads.net/avatar/2e946ca6cf894636bbef2f05536d1ce7",
       "Pothatto": "https://mc-heads.net/avatar/5a902f63e1734fe8806f9c30163479fa",
-      "RenanPlay13013": "https://mc-heads.net/avatar/a2aeb0775a0d40f495a1d133e3ad06a3"
+      "RenanPlay13013": "https://mc-heads.net/avatar/a2aeb0775a0d40f495a1d133e3ad06a3",
+      "0.tcp.sa.ngrok.io": "https://api.mcsrvstat.us/icon/0.tcp.sa.ngrok.io"
     },
     "dynamicVariables": {
       "default": "Example Text",

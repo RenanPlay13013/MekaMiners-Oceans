@@ -8,11 +8,7 @@
 	images: [
 		{
 			alpha: 50
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "bloodmagic:models/alchemyarrays/voidsigil"
 			order: 5
 			rotation: 0.0d
@@ -22,11 +18,7 @@
 		}
 		{
 			alpha: 50
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "bloodmagic:models/alchemyarrays/basearray"
 			order: 5
 			rotation: 0.0d
@@ -35,7 +27,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -253,7 +245,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -434,7 +426,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -594,7 +586,7 @@
 				{
 					exclude_from_claim_all: true
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "5a902f63-e173-4fe8-806f-9c30163479fa"
@@ -673,7 +665,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"

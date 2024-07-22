@@ -6,7 +6,25 @@
 	group: ""
 	icon: "apotheosis:mythic_material"
 	id: "40B0A2E0C2F9246E"
-	order_index: 1
+	images: [
+		{
+			height: 2.5d
+			image: "bloodmagic:models/alchemyarrays/sunarray"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 2.5d
+			image: "bloodmagic:models/alchemyarrays/sightsigil"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -32,7 +50,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -57,7 +75,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -82,7 +100,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -107,7 +125,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -133,7 +151,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			id: "0E385363F618E41B"
@@ -167,8 +185,8 @@
 			}]
 			subtitle: "Keep the item!"
 			tasks: [{
-				id: "6E9809EE56090E0A"
-				item: "apotheosis:vial_of_expulsion"
+				id: "25953B8F0133A259"
+				item: "apotheosis:sigil_of_withdrawal"
 				type: "item"
 			}]
 			x: -1.0d
@@ -191,8 +209,8 @@
 			}]
 			subtitle: "Keep the Gems!"
 			tasks: [{
-				id: "633C33DED27B6561"
-				item: "apotheosis:vial_of_extraction"
+				id: "309B2EF79F0363A4"
+				item: "apotheosis:sigil_of_enhancement"
 				type: "item"
 			}]
 			x: 1.0d
@@ -207,8 +225,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3C1053D116653D57"
-				item: "apotheosis:vial_of_unnaming"
+				id: "6F57A25C9EA68924"
+				item: "apotheosis:sigil_of_rebirth"
 				type: "item"
 			}]
 			x: -0.5d
@@ -227,13 +245,14 @@
 				item: "apotheosis:simple_reforging_table"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: [
 				"6E7DE4C920AB864D"
-				"7AFDDBE73892AB06"
+				"60E240057442D669"
+				"3503EF6239B80645"
 			]
 			id: "0582FFF89D2C47F8"
 			rewards: [
@@ -244,7 +263,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -282,7 +301,7 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -298,7 +317,7 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -324,6 +343,22 @@
 			]
 			x: 0.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"49E0EFCC32F494FB"
+				"0E45B80780B172A7"
+				"3979730388188E0C"
+				"320538F6EC1EEB22"
+			]
+			id: "4BDD8DFA0FAB775F"
+			tasks: [{
+				id: "5D59310FC9658A39"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Tudo é fabricável!"]

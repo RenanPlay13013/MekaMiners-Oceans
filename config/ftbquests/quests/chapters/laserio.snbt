@@ -8,11 +8,7 @@
 	id: "3848B27D2CCF62DD"
 	images: [{
 		alpha: 50
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "bloodmagic:models/alchemyarrays/voidsigil"
 		order: 5
 		rotation: 0.0d
@@ -20,7 +16,7 @@
 		x: 0.0d
 		y: -0.5d
 	}]
-	order_index: 0
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -34,7 +30,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -63,7 +59,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -124,7 +120,7 @@
 			tasks: [{
 				id: "69D3A2B33B08AB67"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -262,7 +258,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -276,7 +272,7 @@
 			tasks: [{
 				id: "6AB96252E03F7CD8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "laserio:filter_basic"
 					tag: {
 						inv: {
@@ -301,7 +297,7 @@
 			tasks: [{
 				id: "25C8429FD1AF5EA6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "laserio:filter_count"
 					tag: {
 						counts: [
@@ -403,7 +399,7 @@
 			tasks: [{
 				id: "70EE31F7808DD4D2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "laserio:filter_tag"
 					tag: {
 						tags: [ ]
@@ -425,7 +421,7 @@
 			tasks: [{
 				id: "4F1D0068B9532C0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "laserio:filter_mod"
 					tag: {
 						inv: {

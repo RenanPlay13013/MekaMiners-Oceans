@@ -7,11 +7,7 @@
 	id: "1C70628D2DEE3E6B"
 	images: [{
 		alpha: 50
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "bloodmagic:models/alchemyarrays/voidsigil"
 		order: 5
 		rotation: 0.0d
@@ -19,7 +15,7 @@
 		x: -4.0d
 		y: 0.5d
 	}]
-	order_index: 4
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -55,7 +51,7 @@
 			tasks: [{
 				id: "55CE1BFF5AD541A7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "bloodmagic:guide"
@@ -101,7 +97,7 @@
 			tasks: [{
 				id: "7B7AC5AE07FBB4BE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:sacrificialdagger"
 					tag: { }
 				}
@@ -185,7 +181,7 @@
 			tasks: [{
 				id: "380F846FAE6943F0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:arcaneashes"
 					tag: {
 						Damage: 0
@@ -207,7 +203,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -355,7 +351,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"

@@ -6,7 +6,7 @@
 	group: ""
 	icon: "mob_grinding_utils:saw"
 	id: "7350253C37F2057C"
-	order_index: 2
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,7 +19,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"

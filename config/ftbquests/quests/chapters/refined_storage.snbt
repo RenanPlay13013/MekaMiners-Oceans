@@ -2,10 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "refined_storage"
-	group: "6BDF1C1D7C2AB9C7"
+	group: ""
 	icon: "refinedstorage:creative_controller"
 	id: "11B6FC6D441450F2"
-	order_index: 6
+	images: [{
+		height: 2.5d
+		image: "bloodmagic:models/alchemyarrays/moonarrayinside"
+		rotation: 0.0d
+		width: 2.5d
+		x: -4.0d
+		y: 7.5d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -149,7 +157,7 @@
 			tasks: [{
 				id: "361F43E5C261BFA2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:1k_storage_disk"
 					tag: {
 						Id: [I;
@@ -177,7 +185,7 @@
 			tasks: [{
 				id: "6968350974C30075"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:4k_storage_disk"
 					tag: {
 						Id: [I;
@@ -205,7 +213,7 @@
 			tasks: [{
 				id: "0298A88D1B6B2E4B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:16k_storage_disk"
 					tag: {
 						Id: [I;
@@ -233,7 +241,7 @@
 			tasks: [{
 				id: "4175E08AB43C3DBD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:64k_storage_disk"
 					tag: {
 						Id: [I;
@@ -373,7 +381,7 @@
 			tasks: [{
 				id: "04BFED9807454B94"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:64k_fluid_storage_disk"
 					tag: {
 						Id: [I;
@@ -401,7 +409,7 @@
 			tasks: [{
 				id: "65CA07FE1FA51F18"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:256k_fluid_storage_disk"
 					tag: {
 						Id: [I;
@@ -429,7 +437,7 @@
 			tasks: [{
 				id: "14CDCED2EB34FFFE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:1024k_fluid_storage_disk"
 					tag: {
 						Id: [I;
@@ -457,7 +465,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -471,7 +479,7 @@
 			tasks: [{
 				id: "476E458D81E89CC2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:4096k_fluid_storage_disk"
 					tag: {
 						Id: [I;

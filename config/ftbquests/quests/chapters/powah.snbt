@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "powah"
-	group: "6BDF1C1D7C2AB9C7"
+	group: ""
 	icon: "powah:steel_energized"
 	id: "56196CB675FC9DE0"
 	order_index: 5
@@ -30,7 +30,7 @@
 				{
 					id: "18A9F40196FC5BD2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_starter"
 						tag: { }
 					}
@@ -64,7 +64,7 @@
 				{
 					id: "1C42875DCA4009F2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_basic"
 						tag: { }
 					}
@@ -131,7 +131,7 @@
 				{
 					id: "136492C3A70A59BF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_hardened"
 						tag: { }
 					}
@@ -164,7 +164,7 @@
 				{
 					id: "5B708BF18AE713D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_blazing"
 						tag: { }
 					}
@@ -209,7 +209,7 @@
 				{
 					id: "4BB2BC7EF838F529"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_niotic"
 						tag: { }
 					}
@@ -248,7 +248,7 @@
 				{
 					id: "0C76456437407B9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_spirited"
 						tag: { }
 					}
@@ -296,7 +296,7 @@
 				{
 					id: "778D18D6E8022A4D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_nitro"
 						tag: { }
 					}

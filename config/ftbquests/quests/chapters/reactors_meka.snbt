@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "reactors_meka"
-	group: "6BDF1C1D7C2AB9C7"
+	group: ""
 	icon: "mekamod:meka_ingot"
 	id: "302A8D57E6B2245A"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

@@ -3,9 +3,17 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "applied"
-	group: "6BDF1C1D7C2AB9C7"
+	group: ""
 	icon: "ae2:controller"
 	id: "40690AD807625566"
+	images: [{
+		height: 2.0d
+		image: "bloodmagic:models/alchemyarrays/skeletonturret2"
+		rotation: 0.0d
+		width: 2.0d
+		x: -1.5d
+		y: -6.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -395,7 +403,7 @@
 			tasks: [{
 				id: "1DE1088FE6B39BA6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:color_applicator"
 					tag: { }
 				}
@@ -431,7 +439,7 @@
 			tasks: [{
 				id: "1DB2B82340F26BE0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:memory_card"
 					tag: { }
 				}
@@ -692,7 +700,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -723,7 +731,7 @@
 			tasks: [{
 				id: "1DF3DA28D768610C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
@@ -744,7 +752,7 @@
 			tasks: [{
 				id: "4A5FFD3A22840349"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_4k"
 					tag: { }
 				}
@@ -765,7 +773,7 @@
 			tasks: [{
 				id: "2B7331B802B0AB96"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_16k"
 					tag: { }
 				}
@@ -786,7 +794,7 @@
 			tasks: [{
 				id: "78D4484D00F8337B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_64k"
 					tag: { }
 				}
@@ -807,7 +815,7 @@
 			tasks: [{
 				id: "2EF49B98FDBEC325"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_256k"
 					tag: { }
 				}
@@ -828,7 +836,7 @@
 			tasks: [{
 				id: "1DBF3D631CA8F074"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_1k"
 					tag: { }
 				}
@@ -849,7 +857,7 @@
 			tasks: [{
 				id: "538DA2A3867A727C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_4k"
 					tag: { }
 				}
@@ -871,7 +879,7 @@
 			tasks: [{
 				id: "7F20A210436C2198"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_16k"
 					tag: { }
 				}
@@ -892,7 +900,7 @@
 			tasks: [{
 				id: "2AA1F769E45A4489"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_64k"
 					tag: { }
 				}
@@ -913,7 +921,7 @@
 			tasks: [{
 				id: "3AE647A6510801E3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_256k"
 					tag: { }
 				}
@@ -996,7 +1004,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -1027,7 +1035,7 @@
 			tasks: [{
 				id: "12FF13A59FB56C3F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_1m"
 					tag: { }
 				}
@@ -1048,7 +1056,7 @@
 			tasks: [{
 				id: "403C1538DD0A787E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_4m"
 					tag: { }
 				}
@@ -1069,7 +1077,7 @@
 			tasks: [{
 				id: "68A54D9546AAF60E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_16m"
 					tag: { }
 				}
@@ -1090,7 +1098,7 @@
 			tasks: [{
 				id: "7A97A3DBD13E5C25"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_64m"
 					tag: { }
 				}
@@ -1111,7 +1119,7 @@
 			tasks: [{
 				id: "2047F2A34F0CAA89"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_256m"
 					tag: { }
 				}
@@ -1132,7 +1140,7 @@
 			tasks: [{
 				id: "743AA77E1B528AD4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_1m"
 					tag: { }
 				}
@@ -1153,7 +1161,7 @@
 			tasks: [{
 				id: "4CAECA3C19D3757D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_4m"
 					tag: { }
 				}
@@ -1174,7 +1182,7 @@
 			tasks: [{
 				id: "4352DCDD77D0A306"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_16m"
 					tag: { }
 				}
@@ -1195,7 +1203,7 @@
 			tasks: [{
 				id: "332CA8465DEB42F7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_64m"
 					tag: { }
 				}
@@ -1216,7 +1224,7 @@
 			tasks: [{
 				id: "4BFCAE9B79E51808"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_256m"
 					tag: { }
 				}
@@ -1235,7 +1243,7 @@
 			tasks: [{
 				id: "4D5B239AF6F26FA2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:energy_cell"
 					tag: { }
 				}
@@ -1255,7 +1263,7 @@
 			tasks: [{
 				id: "6B19A6D512341B9C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:dense_energy_cell"
 					tag: { }
 				}
@@ -1275,7 +1283,7 @@
 			tasks: [{
 				id: "108243FE9A03C571"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:dense_energy_cell"
 					tag: {
 						internalCurrentPower: 1600000.0d
@@ -1666,7 +1674,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -1680,7 +1688,7 @@
 			tasks: [{
 				id: "3C5BC773F4163720"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:mega_energy_cell"
 					tag: { }
 				}
@@ -1785,7 +1793,7 @@
 			tasks: [{
 				id: "2FBEE46970EBBFFA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_item_cell_1k"
 					tag: { }
 				}
@@ -1806,7 +1814,7 @@
 			tasks: [{
 				id: "3EDDCB714F6F4199"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_item_cell_4k"
 					tag: { }
 				}
@@ -1827,7 +1835,7 @@
 			tasks: [{
 				id: "0FB59DCB187CD68E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_item_cell_16k"
 					tag: { }
 				}
@@ -1848,7 +1856,7 @@
 			tasks: [{
 				id: "1892B5406E33C825"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_item_cell_64k"
 					tag: { }
 				}
@@ -1869,7 +1877,7 @@
 			tasks: [{
 				id: "1D3F510D646713A6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_item_cell_256k"
 					tag: { }
 				}
@@ -1889,7 +1897,7 @@
 			tasks: [{
 				id: "3E0824D6827D9420"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_fluid_cell_1k"
 					tag: { }
 				}
@@ -1910,7 +1918,7 @@
 			tasks: [{
 				id: "2D6C3B7EB1DBB5FC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_fluid_cell_4k"
 					tag: { }
 				}
@@ -1931,7 +1939,7 @@
 			tasks: [{
 				id: "53319B4636E99E9D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_fluid_cell_16k"
 					tag: { }
 				}
@@ -1952,7 +1960,7 @@
 			tasks: [{
 				id: "058E0AA43409B980"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_fluid_cell_64k"
 					tag: { }
 				}
@@ -1973,7 +1981,7 @@
 			tasks: [{
 				id: "39F501EB0D35105F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_fluid_cell_256k"
 					tag: { }
 				}
@@ -1993,7 +2001,7 @@
 			tasks: [{
 				id: "7E5C21480C277025"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_item_cell_1m"
 					tag: { }
 				}
@@ -2014,7 +2022,7 @@
 			tasks: [{
 				id: "5CBC6934BDD028DB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_item_cell_4m"
 					tag: { }
 				}
@@ -2035,7 +2043,7 @@
 			tasks: [{
 				id: "2E2AC3561B122990"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_item_cell_16m"
 					tag: { }
 				}
@@ -2056,7 +2064,7 @@
 			tasks: [{
 				id: "666CB1F460C96817"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_item_cell_64m"
 					tag: { }
 				}
@@ -2077,7 +2085,7 @@
 			tasks: [{
 				id: "16695C79DAC52F73"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_item_cell_256m"
 					tag: { }
 				}
@@ -2097,7 +2105,7 @@
 			tasks: [{
 				id: "1B8354B0F1E62EF8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_fluid_cell_1m"
 					tag: { }
 				}
@@ -2118,7 +2126,7 @@
 			tasks: [{
 				id: "42AC33F2D19AB8EC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_fluid_cell_4m"
 					tag: { }
 				}
@@ -2139,7 +2147,7 @@
 			tasks: [{
 				id: "5C09C7B70A59C335"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_fluid_cell_16m"
 					tag: { }
 				}
@@ -2160,7 +2168,7 @@
 			tasks: [{
 				id: "7B863B6FC7A67969"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_fluid_cell_64m"
 					tag: { }
 				}
@@ -2181,7 +2189,7 @@
 			tasks: [{
 				id: "28CE792F1A0ACD79"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:portable_fluid_cell_256m"
 					tag: { }
 				}

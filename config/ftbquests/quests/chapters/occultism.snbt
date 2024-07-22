@@ -4,7 +4,7 @@
 	filename: "occultism"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "occultism:dictionary_of_spirits"
 		tag: {
 			"modonomicon:book_id": "occultism:dictionary_of_spirits"
@@ -13,11 +13,7 @@
 	id: "745E6AC6D6EEAE3C"
 	images: [{
 		alpha: 50
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "bloodmagic:models/alchemyarrays/voidsigil"
 		order: 5
 		rotation: 0.0d
@@ -25,7 +21,7 @@
 		x: -2.0d
 		y: -0.5d
 	}]
-	order_index: 7
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
@@ -72,7 +68,7 @@
 			tasks: [{
 				id: "48B173B88FA927AF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:dictionary_of_spirits"
 					tag: {
 						"modonomicon:book_id": "occultism:dictionary_of_spirits"
@@ -145,7 +141,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -192,7 +188,7 @@
 				{
 					id: "7B3FF59A3ED907FE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:butcher_knife"
 						tag: {
 							Damage: 0
@@ -225,7 +221,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"

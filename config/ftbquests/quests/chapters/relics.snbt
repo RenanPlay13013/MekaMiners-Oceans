@@ -5,7 +5,7 @@
 	filename: "relics"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "relics:magic_mirror"
 		tag: {
 			abilities: {
@@ -22,11 +22,7 @@
 	id: "396962C2976F4C6C"
 	images: [{
 		alpha: 50
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "bloodmagic:models/alchemyarrays/voidsigil"
 		order: 5
 		rotation: 0.0d
@@ -34,46 +30,10 @@
 		x: -2.0d
 		y: -9.0d
 	}]
-	order_index: 5
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Você pode obter relíquias na caixa de saque raro e místico ou nas masmorras."]
-			icon: {
-				Count: 1b
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:acupuncture"
-							index: 0
-							level: 1
-							locked: 0b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-			id: "6CD639C1D243DF91"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "275C7C3498CC3FBF"
-				type: "loot"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "68CCB951AAFAF85D"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			title: "Relics"
-			x: -2.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6CD639C1D243DF91"]
 			id: "6CA8FF07754DFD6F"
 			rewards: [{
 				id: "1AD805DC554A49BE"
@@ -87,10 +47,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "3755CA17C59FCDE4"
 			rewards: [{
 				id: "30C91B37C380DC59"
@@ -100,7 +60,7 @@
 			tasks: [{
 				id: "0DDCB00CE8885F59"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:spatial_sign"
 					tag: {
 						abilities: {
@@ -121,7 +81,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "3B5CD75C69908A4B"
 			rewards: [{
 				id: "25A6087A35928A74"
@@ -131,7 +91,7 @@
 			tasks: [{
 				id: "0AEA21FE56F069B6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:reflection_necklace"
 					tag: {
 						abilities: {
@@ -152,7 +112,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "04C26A162053AB42"
 			rewards: [{
 				id: "31456655F48708D4"
@@ -162,7 +122,7 @@
 			tasks: [{
 				id: "19877AB7AC6A097F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:magma_walker"
 					tag: {
 						abilities: {
@@ -181,7 +141,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "35271CE9BDA9D675"
 			rewards: [{
 				id: "0D181BDBBB7B87BE"
@@ -191,7 +151,7 @@
 			tasks: [{
 				id: "31DD3D5A87909FC4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:aqua_walker"
 					tag: {
 						abilities: {
@@ -210,7 +170,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "55F7D6E6009C6D46"
 			rewards: [{
 				id: "485BE6806BECFFCB"
@@ -220,7 +180,7 @@
 			tasks: [{
 				id: "51DBE3D0B5CAF1C7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:midnight_robe"
 					tag: {
 						abilities: {
@@ -247,7 +207,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "2F4F18AEEDB4B8A7"
 			rewards: [{
 				id: "4426C9630C284577"
@@ -257,7 +217,7 @@
 			tasks: [{
 				id: "76A7BD5F3F52D555"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:drowned_belt"
 					tag: {
 						abilities: {
@@ -295,7 +255,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "44A9C698B31A5E69"
 			rewards: [{
 				id: "724C6ED52BD70B38"
@@ -305,7 +265,7 @@
 			tasks: [{
 				id: "0954A039662CEAE6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:jellyfish_necklace"
 					tag: {
 						abilities: {
@@ -330,7 +290,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "4FF187D27CF771FE"
 			rewards: [{
 				id: "3300579C7C7DA7E4"
@@ -340,7 +300,7 @@
 			tasks: [{
 				id: "6037B55DEA4A8BF2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:hunter_belt"
 					tag: {
 						abilities: {
@@ -365,7 +325,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "65891B5941873D4B"
 			rewards: [{
 				id: "2507CFB1687758AD"
@@ -375,7 +335,7 @@
 			tasks: [{
 				id: "09BEAF872A51A145"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:ice_skates"
 					tag: {
 						abilities: {
@@ -401,7 +361,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "482C317105497116"
 			rewards: [{
 				id: "4D849D4BCDE193C7"
@@ -411,7 +371,7 @@
 			tasks: [{
 				id: "797928E165FE2305"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:bastion_ring"
 					tag: {
 						abilities: {
@@ -430,7 +390,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "7CD36379636F6564"
 			rewards: [{
 				id: "3C107185E52894DC"
@@ -440,7 +400,7 @@
 			tasks: [{
 				id: "1C6051B33F789DD1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:chorus_inhibitor"
 					tag: {
 						abilities: {
@@ -460,7 +420,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "63D851474C31C9E0"
 			rewards: [{
 				id: "433BE18352C0893E"
@@ -470,7 +430,7 @@
 			tasks: [{
 				id: "0EBF477B99BFCE03"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:arrow_quiver"
 					tag: {
 						abilities: {
@@ -511,7 +471,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "758DDD94E239D4D4"
 			rewards: [{
 				id: "6354E8F07D3E284F"
@@ -521,7 +481,7 @@
 			tasks: [{
 				id: "4B72ABCEEEFDF1C0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:space_dissector"
 					tag: {
 						abilities: {
@@ -541,7 +501,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "0464684FAFF7D298"
 			rewards: [{
 				id: "78E12894762B7965"
@@ -551,7 +511,7 @@
 			tasks: [{
 				id: "72968728AEE56C8C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:holy_locket"
 					tag: {
 						abilities: {
@@ -571,7 +531,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "70916718F1857A25"
 			rewards: [{
 				id: "3049D77A7F2D4F98"
@@ -581,7 +541,7 @@
 			tasks: [{
 				id: "2C380E7767FB12D9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:enders_hand"
 					tag: {
 						abilities: {
@@ -600,7 +560,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "32FDEDACA8DFE3FB"
 			rewards: [{
 				id: "7A52BC7AF3F967D9"
@@ -610,7 +570,7 @@
 			tasks: [{
 				id: "6930D412730CA376"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:elytra_booster"
 					tag: {
 						abilities: {
@@ -630,7 +590,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "7EA9A7B3F0F9EDFD"
 			rewards: [{
 				id: "4E37C76E7F823EEB"
@@ -640,7 +600,7 @@
 			tasks: [{
 				id: "20D5F75231B728BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:wool_mitten"
 					tag: {
 						abilities: {
@@ -662,7 +622,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "4709D24BDA617BC1"
 			rewards: [
 				{
@@ -672,7 +632,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -686,7 +646,7 @@
 			tasks: [{
 				id: "2AA7D0F556C82A52"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:magic_mirror"
 					tag: {
 						abilities: {
@@ -702,11 +662,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "5E634135A6F1F989"
 			rewards: [{
 				id: "28E4D1C0186D8239"
@@ -716,7 +676,7 @@
 			tasks: [{
 				id: "2D214FCECEF69B4E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:ice_breaker"
 					tag: {
 						abilities: {
@@ -742,7 +702,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "29A1F889D57B2651"
 			rewards: [{
 				id: "526296A738316389"
@@ -752,7 +712,7 @@
 			tasks: [{
 				id: "2A01F1AF45436E3A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:blazing_flask"
 					tag: {
 						abilities: {
@@ -773,7 +733,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "601E0AC9EC444886"
 			rewards: [{
 				id: "0C413BDFF76E8759"
@@ -783,7 +743,7 @@
 			tasks: [{
 				id: "45D40B79B4E8485B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:spore_sack"
 					tag: {
 						abilities: {
@@ -826,7 +786,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "76F5FAB8939A25BA"
 			rewards: [{
 				id: "05233C74B7AA3E8A"
@@ -836,7 +796,7 @@
 			tasks: [{
 				id: "2E07064D021FA812"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:shadow_glaive"
 					tag: {
 						abilities: {
@@ -866,7 +826,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "7D47B734A2BDBD57"
 			rewards: [{
 				id: "03837BDBD5CCBD33"
@@ -876,7 +836,7 @@
 			tasks: [{
 				id: "777E3084A9322AE0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:roller_skates"
 					tag: {
 						abilities: {
@@ -896,7 +856,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "7934539738A37513"
 			rewards: [{
 				id: "797552F0988715DC"
@@ -906,7 +866,7 @@
 			tasks: [{
 				id: "2A855AC52BB63B12"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:infinity_ham"
 					tag: {
 						abilities: {
@@ -932,7 +892,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "6B4832A1FFB97D9F"
 			rewards: [{
 				id: "4303D2170F01669A"
@@ -942,7 +902,7 @@
 			tasks: [{
 				id: "1BAA0A1578CCAFC1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:leather_belt"
 					tag: {
 						abilities: {
@@ -961,7 +921,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "4B600D58B2D38ACA"
 			rewards: [{
 				id: "60FAC8F58C13F8EA"
@@ -971,7 +931,7 @@
 			tasks: [{
 				id: "3B5AF1A3F8EAA70D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:horse_flute"
 					tag: {
 						abilities: {
@@ -990,7 +950,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6CD639C1D243DF91"]
+			dependencies: ["6CA8FF07754DFD6F"]
 			id: "1E9BD2A76BF31DB0"
 			rewards: [{
 				id: "51DC72E17C24755D"
@@ -1000,7 +960,7 @@
 			tasks: [{
 				id: "722352476D6A73CC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "relics:amphibian_boot"
 					tag: {
 						abilities: {

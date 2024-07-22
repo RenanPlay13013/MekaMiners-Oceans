@@ -38,7 +38,7 @@
 		# Valid range: 0 to 1 (inclusive)
 		yawSensitivity = 1.0
 		# The scale of the mouse speed when hovering a widget or item slot
-		# Valid range: 0.05 to 1 (inclusive)
+		# Valid range: 0,05 to 1 (inclusive)
 		hoverModifier = 0.6
 		# Enabling this option will improve polling of controllers when your game FPS is capped. This will not have an effect if your game is already running at a low FPS without a cap.
 		# Valid values: true, false

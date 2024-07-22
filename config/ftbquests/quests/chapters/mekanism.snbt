@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
-	group: "6BDF1C1D7C2AB9C7"
+	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "mekanism:ultimate_energy_cube"
 		tag: {
 			mekData: {
@@ -16,7 +16,7 @@
 		}
 	}
 	id: "2789E3548D1A2F78"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -64,7 +64,7 @@
 				{
 					id: "4479F11F9FF34B14"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:rotary_condensentrator"
 						tag: {
 							mekData: {
@@ -137,7 +137,7 @@
 				{
 					id: "6A5424BA2421D46E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:osmium_compressor"
 						tag: {
 							mekData: {
@@ -200,7 +200,7 @@
 				{
 					id: "7927B4B3DB486C20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:combiner"
 						tag: {
 							mekData: {
@@ -253,7 +253,7 @@
 				{
 					id: "3F506415E94249A5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:purification_chamber"
 						tag: {
 							mekData: {
@@ -316,7 +316,7 @@
 				{
 					id: "683A5AC743D8C874"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:pigment_extractor"
 						tag: {
 							mekData: {
@@ -379,7 +379,7 @@
 				{
 					id: "4D5E64080F370032"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:precision_sawmill"
 						tag: {
 							mekData: {
@@ -432,7 +432,7 @@
 				{
 					id: "0B1E268AC9DE67E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:chemical_injection_chamber"
 						tag: {
 							mekData: {
@@ -493,7 +493,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -939,13 +939,13 @@
 				{
 					count: 32L
 					id: "34FBBC69303B851A"
-					item: { Count: 32b, id: "mekanism:upgrade_energy" }
+					item: { Count: 32, id: "mekanism:upgrade_energy" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "68119A2133B353F9"
-					item: { Count: 32b, id: "mekanism:upgrade_speed" }
+					item: { Count: 32, id: "mekanism:upgrade_speed" }
 					type: "item"
 				}
 			]
@@ -967,13 +967,13 @@
 				{
 					count: 111L
 					id: "19E4A34C9B44F316"
-					item: { Count: 64b, id: "mekanism:induction_casing" }
+					item: { Count: 64, id: "mekanism:induction_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "5BC1D86B9BC6DC65"
-					item: { Count: 2b, id: "mekanism:induction_port" }
+					item: { Count: 2, id: "mekanism:induction_port" }
 					type: "item"
 				}
 			]
@@ -991,7 +991,7 @@
 			tasks: [{
 				count: 16L
 				id: "483D587D2D40EFD3"
-				item: { Count: 16b, id: "mekanism:basic_induction_cell" }
+				item: { Count: 16, id: "mekanism:basic_induction_cell" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -1008,7 +1008,7 @@
 			tasks: [{
 				count: 16L
 				id: "627C465EA8E4123E"
-				item: { Count: 16b, id: "mekanism:advanced_induction_cell" }
+				item: { Count: 16, id: "mekanism:advanced_induction_cell" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -1025,7 +1025,7 @@
 			tasks: [{
 				count: 16L
 				id: "0BEE7246BD3617C9"
-				item: { Count: 16b, id: "mekanism:elite_induction_cell" }
+				item: { Count: 16, id: "mekanism:elite_induction_cell" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -1042,7 +1042,7 @@
 			tasks: [{
 				count: 16L
 				id: "35A6A685CDC50DBE"
-				item: { Count: 16b, id: "mekanism:ultimate_induction_cell" }
+				item: { Count: 16, id: "mekanism:ultimate_induction_cell" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -1059,7 +1059,7 @@
 			tasks: [{
 				count: 16L
 				id: "1947AC58BC85557D"
-				item: { Count: 16b, id: "mekanism:basic_induction_provider" }
+				item: { Count: 16, id: "mekanism:basic_induction_provider" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1076,7 +1076,7 @@
 			tasks: [{
 				count: 16L
 				id: "7BE19DB536C0AFC5"
-				item: { Count: 16b, id: "mekanism:advanced_induction_provider" }
+				item: { Count: 16, id: "mekanism:advanced_induction_provider" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1093,7 +1093,7 @@
 			tasks: [{
 				count: 16L
 				id: "6B40393AC5A4F1C5"
-				item: { Count: 16b, id: "mekanism:elite_induction_provider" }
+				item: { Count: 16, id: "mekanism:elite_induction_provider" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1110,7 +1110,7 @@
 			tasks: [{
 				count: 16L
 				id: "5B543274E8FDCD33"
-				item: { Count: 16b, id: "mekanism:ultimate_induction_provider" }
+				item: { Count: 16, id: "mekanism:ultimate_induction_provider" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1127,19 +1127,19 @@
 				{
 					count: 192L
 					id: "2C34FEE4E13E9218"
-					item: { Count: 64b, id: "mekanism:thermal_evaporation_block" }
+					item: { Count: 64, id: "mekanism:thermal_evaporation_block" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "27328AD1415F4203"
-					item: { Count: 2b, id: "mekanism:thermal_evaporation_controller" }
+					item: { Count: 2, id: "mekanism:thermal_evaporation_controller" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0A151FE5D4CB1FAD"
-					item: { Count: 4b, id: "mekanism:thermal_evaporation_valve" }
+					item: { Count: 4, id: "mekanism:thermal_evaporation_valve" }
 					type: "item"
 				}
 			]
@@ -1157,7 +1157,7 @@
 			tasks: [{
 				count: 16L
 				id: "583FB327C9E2378A"
-				item: { Count: 16b, id: "mekanism:dust_lithium" }
+				item: { Count: 16, id: "mekanism:dust_lithium" }
 				type: "item"
 			}]
 			x: 6.0d

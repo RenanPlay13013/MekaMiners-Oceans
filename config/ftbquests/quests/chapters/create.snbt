@@ -1,0 +1,690 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:andesite_casing"
+	id: "2D65640CDCFC9259"
+	images: [
+		{
+			height: 2.0d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 2.5d
+			image: "ftbteams:textures/settings.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/gui/settings.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			height: 3.5d
+			image: "occultism:textures/gui/book/summoning.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "bloodmagic:models/alchemyarrays/fastminersigil"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			height: 2.5d
+			image: "ftbteams:textures/settings.png"
+			rotation: 6.0d
+			width: 2.5d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 2.5d
+			image: "ftbteams:textures/settings.png"
+			rotation: 6.0d
+			width: 2.5d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/gui/settings.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			height: 3.5d
+			image: "ftbquests:textures/gui/settings.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/shapes/gear/shape.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 9.0d
+		}
+	]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E93088C73159ECA"
+			rewards: [{
+				id: "773777311F7753AB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "305E6006F0D1C9F2"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6E93088C73159ECA"]
+			id: "5FC6701F9C1C10B2"
+			rewards: [{
+				id: "3B8D010E138A3D3C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "083434CCAA0C0597"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E93088C73159ECA"]
+			id: "037EC4936233916D"
+			rewards: [{
+				id: "02B7DEB4DDF58DBC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "316E235A526181A8"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E93088C73159ECA"]
+			id: "0BBFEB3520F2F1E0"
+			rewards: [{
+				id: "448E02709CAC8C4A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "08F48EF1BC4F128B"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"037EC4936233916D"
+				"5FC6701F9C1C10B2"
+				"0BBFEB3520F2F1E0"
+			]
+			id: "4625702A3FBBF0B2"
+			rewards: [{
+				id: "7D255D02314593FE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "72288487C8F06FB6"
+				item: "kubejs:start_mechanism"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4625702A3FBBF0B2"]
+			id: "58D7D7ACC00E4F6D"
+			rewards: [{
+				id: "474A561C2CDD980B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "24BFE88EBF91AD8D"
+				item: "kubejs:start_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58D7D7ACC00E4F6D"]
+			id: "4114737D4FC91062"
+			rewards: [{
+				id: "4902F078D737C501"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F6D3CC8ABD6F694"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4114737D4FC91062"]
+			id: "66560E98C013E360"
+			rewards: [{
+				id: "5128BB2F87BC644F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F651228F0224EAF"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["037EC4936233916D"]
+			id: "1FD9BF4AD62B55DD"
+			rewards: [{
+				id: "500ECBAD78BE2D68"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6D295E63C73F9937"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["037EC4936233916D"]
+			id: "3864EDF2F91B93FA"
+			rewards: [{
+				id: "1ACE835E54114E52"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "39AEEE1E7CC40990"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["037EC4936233916D"]
+			id: "68E888FB1E242BFE"
+			rewards: [{
+				id: "2B7339EFC2B6F495"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "746FDA130A29F0B8"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["68E888FB1E242BFE"]
+			id: "3446377AA4DA1A3A"
+			rewards: [{
+				id: "2FC0AD16F6B5B22B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "27EBCC012A360A4E"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FD9BF4AD62B55DD"]
+			id: "1F197E64C9F546DF"
+			rewards: [{
+				id: "42E9C3A63C7BB153"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24DC061206F87932"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["58D7D7ACC00E4F6D"]
+			icon: "kubejs:started_mechanism"
+			id: "6A7631377694A373"
+			rewards: [{
+				id: "5213AFE9F53E41EC"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "616C4C15E71E37EA"
+					item: "kubejs:started_mechanism_component_4"
+					type: "item"
+				}
+				{
+					id: "7D040E05BAC051A3"
+					item: "kubejs:started_mechanism_component_3"
+					type: "item"
+				}
+				{
+					id: "57AB796BBA44C059"
+					item: "kubejs:started_mechanism_component_2"
+					type: "item"
+				}
+				{
+					id: "3981643996D19D9F"
+					item: "kubejs:started_mechanism_component_1"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A7631377694A373"]
+			id: "395ED0913B50B5B1"
+			rewards: [{
+				id: "3158B55162953C55"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7019E8C82AD5A83F"
+				item: "kubejs:started_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["395ED0913B50B5B1"]
+			id: "180DB9AB74B1F681"
+			rewards: [{
+				id: "67E911E63536B7E8"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58A7CF1368D87989"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58D7D7ACC00E4F6D"]
+			icon: "create:brass_hand"
+			id: "1040BE2565FFED0E"
+			rewards: [{
+				id: "0D257759521074FF"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "29AC7ACF4B210C1D"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "73FFE764BCA2A233"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "631B99FE5A607146"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "354A692B7F02EF8A"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "0600A28D7C457118"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4DB60B4D858FFB05"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "79B3252BB05947BC"
+					item: "create:weighted_ejector"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"47CA89AD196E6D2F"
+				"56B9CC465BE00E38"
+			]
+			id: "35E2A6288093B2F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B40E354421A9752"
+					table_id: 8081943140255794792L
+					type: "random"
+				}
+				{
+					id: "277C4A65844B5460"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65ADAEBD329E478D"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["180DB9AB74B1F681"]
+			id: "47CA89AD196E6D2F"
+			rewards: [{
+				id: "32800647427F8973"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CCEEF3BE38A9420"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["180DB9AB74B1F681"]
+			id: "56B9CC465BE00E38"
+			rewards: [{
+				id: "7369305227AAE26E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "728100E5A9E2491A"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["180DB9AB74B1F681"]
+			id: "7037E534890460E2"
+			rewards: [{
+				id: "019F6DC0CFA40C3A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E6EED1500C2001B"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["089E81528D9045BD"]
+			id: "5CFC9DB2F1EE08F7"
+			rewards: [{
+				id: "69E9FD40B3EE8D03"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56FFEB7D1340D69B"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5CFC9DB2F1EE08F7"]
+			id: "27225F7D1EE8C231"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77B5CA3CA89289D1"
+					table_id: 8081943140255794792L
+					type: "random"
+				}
+				{
+					id: "45794A49E3A9CDA5"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45A81617A12AEC79"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7037E534890460E2"]
+			id: "089E81528D9045BD"
+			rewards: [{
+				id: "3025CB1CABB7365E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06CBA356034D1B66"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A7631377694A373"]
+			id: "1FD0305E041AA161"
+			rewards: [{
+				id: "30700677A325179C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18430A46DD773610"
+				item: "kubejs:initiating_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FD0305E041AA161"]
+			id: "69B98CE8BC4E9693"
+			rewards: [{
+				id: "0BA80D4C8EE0058D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62540AA848E696C9"
+				item: "kubejs:initiated_mechanism"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69B98CE8BC4E9693"]
+			id: "22B75988F19AF479"
+			rewards: [{
+				id: "0229DE4B984CC9CA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14AFDB91E239756F"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22B75988F19AF479"]
+			id: "0C130472A4242C2D"
+			rewards: [{
+				id: "019D60F3277E8EC0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F1B73CA17B66F62"
+				item: "kubejs:activation_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C130472A4242C2D"]
+			id: "3CC8E998922FDA81"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F97BFCBA2CE6B13"
+					table_id: 8081943140255794792L
+					type: "random"
+				}
+				{
+					id: "7045ACF7BCBA4A41"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63607857F01AD7F5"
+				item: "kubejs:spatial_circuit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22B75988F19AF479"]
+			id: "0C6C4B178EF704FC"
+			rewards: [{
+				id: "7ACEF87CD8C232DA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36A7E8B0CE5C43D8"
+				item: "kubejs:activation_circuit_component_2"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C6C4B178EF704FC"]
+			id: "35676EDE0D23A6AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "739018DCF112DA91"
+					table_id: 8081943140255794792L
+					type: "random"
+				}
+				{
+					id: "5A3EABE809BC1296"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20E2A326742CF398"
+				item: "kubejs:spatial_circuit_component_2"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+	title: "create"
+}

@@ -2,10 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "industrial"
-	group: "6BDF1C1D7C2AB9C7"
+	group: ""
 	icon: "industrialforegoing:machine_frame_supreme"
 	id: "0F706C4A4A990D39"
-	order_index: 3
+	images: [{
+		height: 2.0d
+		image: "bloodmagic:models/alchemyarrays/moonarraysymbols"
+		rotation: 0.0d
+		width: 2.0d
+		x: 2.5d
+		y: 0.0d
+	}]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -32,7 +40,7 @@
 				{
 					count: 32L
 					id: "3E0D7D28CF1334D2"
-					item: { Count: 32b, id: "industrialforegoing:dryrubber" }
+					item: { Count: 32, id: "industrialforegoing:dryrubber" }
 					type: "item"
 				}
 			]
@@ -63,7 +71,7 @@
 				{
 					count: 32L
 					id: "1E175924BDCE8B3F"
-					item: { Count: 32b, id: "industrialforegoing:plastic" }
+					item: { Count: 32, id: "industrialforegoing:plastic" }
 					type: "item"
 				}
 				{
@@ -87,7 +95,7 @@
 					count: 8
 					id: "70F4B4EFAD93F08E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:speed_addon_2"
 						tag: {
 							TitaniumAugment: {
@@ -101,7 +109,7 @@
 					count: 8
 					id: "1FC2E5CB611B2B15"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:efficiency_addon_2"
 						tag: {
 							TitaniumAugment: {
@@ -115,7 +123,7 @@
 					count: 8
 					id: "7EE3E6DB8E2BECA9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:processing_addon_2"
 						tag: {
 							TitaniumAugment: {
@@ -140,7 +148,7 @@
 				{
 					id: "2ECD739BED29CA9B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:range_addon2"
 						tag: {
 							TitaniumAugment: {
@@ -154,7 +162,7 @@
 					count: 16L
 					id: "67AB09F98959B5C8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:speed_addon_2"
 						tag: {
 							TitaniumAugment: {
@@ -168,7 +176,7 @@
 					count: 16L
 					id: "4A6ED36E99F2F1CF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:efficiency_addon_2"
 						tag: {
 							TitaniumAugment: {
@@ -182,7 +190,7 @@
 					count: 16L
 					id: "5B7CB158E56B35F5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:processing_addon_2"
 						tag: {
 							TitaniumAugment: {
@@ -226,7 +234,7 @@
 				{
 					count: 32L
 					id: "0682C2CDC839FC94"
-					item: { Count: 32b, id: "industrialforegoing:fertilizer" }
+					item: { Count: 32, id: "industrialforegoing:fertilizer" }
 					type: "item"
 				}
 			]
@@ -293,7 +301,7 @@
 				{
 					count: 3L
 					id: "15CD436D5CAB5796"
-					item: { Count: 3b, id: "industrialforegoing:laser_drill" }
+					item: { Count: 3, id: "industrialforegoing:laser_drill" }
 					type: "item"
 				}
 				{

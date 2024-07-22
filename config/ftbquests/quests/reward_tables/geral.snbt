@@ -1,6 +1,6 @@
 {
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "botania:dice"
 		tag: {
 			soulbindUUID: "5a902f63-e173-4fe8-806f-9c30163479fa"

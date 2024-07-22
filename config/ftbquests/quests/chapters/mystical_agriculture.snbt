@@ -7,11 +7,7 @@
 	id: "0290BC480D19D803"
 	images: [{
 		alpha: 50
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "bloodmagic:models/alchemyarrays/growthsigil"
 		order: 5
 		rotation: 0.0d
@@ -19,27 +15,9 @@
 		x: 2.5d
 		y: -4.0d
 	}]
-	order_index: 3
+	order_index: 11
 	quest_links: [ ]
 	quests: [
-		{
-			dependency_requirement: "one_completed"
-			icon: {
-				Count: 1b
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_spell: {
-						level: 2
-						type: 58
-					}
-				}
-			}
-			id: "5D459CC211FBBA74"
-			shape: "rsquare"
-			title: "Mystical Agriculture"
-			x: 2.5d
-			y: -4.0d
-		}
 		{
 			dependencies: ["2D3FC6D76A33E71B"]
 			icon: "mysticalagriculture:prosperity_shard"
@@ -77,7 +55,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5D459CC211FBBA74"]
 			id: "2D3FC6D76A33E71B"
 			rewards: [{
 				id: "60C29BAF958BA5EA"
@@ -87,7 +64,7 @@
 			tasks: [{
 				id: "4B994040890325C9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "mysticalagriculture:guide"
@@ -97,7 +74,7 @@
 			}]
 			title: "Mystical Agriculture Book"
 			x: 2.5d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7EC9CEB7CDF6CD18"]
@@ -193,7 +170,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D3FC6D76A33E71B"]
@@ -209,7 +186,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2094D9F9D46BB847"]
@@ -238,7 +215,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -732,7 +709,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -817,7 +794,7 @@
 		{
 			dependencies: ["2094D9F9D46BB847"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"cold_sweat:item_insulation": {
 						Insulation: [ ]
@@ -834,7 +811,7 @@
 				{
 					id: "1344BCD9007F715F"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -851,7 +828,7 @@
 				{
 					id: "5217B9EDE997443C"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -867,7 +844,7 @@
 				{
 					id: "74749EB4585E5854"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -883,7 +860,7 @@
 				{
 					id: "7690CEEC8D76915D"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -899,7 +876,7 @@
 				{
 					id: "7DE176DF539DB92E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_sword"
 						tag: {
 							Damage: 0
@@ -910,7 +887,7 @@
 				{
 					id: "5465851B5A2C61F0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_pickaxe"
 						tag: {
 							Damage: 0
@@ -921,7 +898,7 @@
 				{
 					id: "00CF197FEC06DBDC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_shovel"
 						tag: {
 							Damage: 0
@@ -932,7 +909,7 @@
 				{
 					id: "55B9F4C0D8C37036"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_axe"
 						tag: {
 							Damage: 0
@@ -943,7 +920,7 @@
 				{
 					id: "43E68EDF9CBD85B1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_hoe"
 						tag: {
 							Damage: 0
@@ -954,7 +931,7 @@
 				{
 					id: "3E332421E8076C58"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_watering_can"
 						tag: {
 							Active: 0b
@@ -966,7 +943,7 @@
 				{
 					id: "2E806C58E8E5EEFF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_bow"
 						tag: {
 							Damage: 0
@@ -977,7 +954,7 @@
 				{
 					id: "7B8E7CFCC9ABD465"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_crossbow"
 						tag: {
 							Damage: 0
@@ -988,7 +965,7 @@
 				{
 					id: "2C472C96E33F20CE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_shears"
 						tag: {
 							Damage: 0
@@ -999,7 +976,7 @@
 				{
 					id: "4DB91A6D83CC16D1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_fishing_rod"
 						tag: {
 							Damage: 0
@@ -1010,7 +987,7 @@
 				{
 					id: "5298E5EFA43D765A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_sickle"
 						tag: {
 							Damage: 0
@@ -1021,7 +998,7 @@
 				{
 					id: "20798B4DDD1D73EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:inferium_scythe"
 						tag: {
 							Damage: 0
@@ -1036,7 +1013,7 @@
 		{
 			dependencies: ["5EE97B1A8859C2A3"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"cold_sweat:item_insulation": {
 						Insulation: [ ]
@@ -1052,7 +1029,7 @@
 				{
 					id: "293B81AD52BE27AC"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1068,7 +1045,7 @@
 				{
 					id: "2336707090B88938"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1084,7 +1061,7 @@
 				{
 					id: "170004B4513DD7A9"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1100,7 +1077,7 @@
 				{
 					id: "63BA2E6C13E29BF7"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1116,7 +1093,7 @@
 				{
 					id: "06A50E51F7CD62AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_sword"
 						tag: {
 							Damage: 0
@@ -1127,7 +1104,7 @@
 				{
 					id: "2954B59FB8C44380"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_pickaxe"
 						tag: {
 							Damage: 0
@@ -1138,7 +1115,7 @@
 				{
 					id: "36144B5891B077D8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_shovel"
 						tag: {
 							Damage: 0
@@ -1149,7 +1126,7 @@
 				{
 					id: "469910164781886E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_axe"
 						tag: {
 							Damage: 0
@@ -1160,7 +1137,7 @@
 				{
 					id: "34CE2415C944438C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_hoe"
 						tag: {
 							Damage: 0
@@ -1171,7 +1148,7 @@
 				{
 					id: "56C5C2DA9F7E9A2C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_watering_can"
 						tag: {
 							Active: 0b
@@ -1183,7 +1160,7 @@
 				{
 					id: "0C83871EDF5B4AC9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_bow"
 						tag: {
 							Damage: 0
@@ -1194,7 +1171,7 @@
 				{
 					id: "30DCECE957885275"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_crossbow"
 						tag: {
 							Damage: 0
@@ -1205,7 +1182,7 @@
 				{
 					id: "69E1FA72B6A38877"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_shears"
 						tag: {
 							Damage: 0
@@ -1216,7 +1193,7 @@
 				{
 					id: "741A28E1395F4BCA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_fishing_rod"
 						tag: {
 							Damage: 0
@@ -1227,7 +1204,7 @@
 				{
 					id: "68B763F057C990CC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_sickle"
 						tag: {
 							Damage: 0
@@ -1238,7 +1215,7 @@
 				{
 					id: "64B0A3BDDD6ABBBC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:prudentium_scythe"
 						tag: {
 							Damage: 0
@@ -1253,7 +1230,7 @@
 		{
 			dependencies: ["01A5F4E143234CDE"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"cold_sweat:item_insulation": {
 						Insulation: [ ]
@@ -1269,7 +1246,7 @@
 				{
 					id: "65808456EA07FEFB"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1285,7 +1262,7 @@
 				{
 					id: "230DB518860AB321"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1301,7 +1278,7 @@
 				{
 					id: "7BA18F5D68EED2BF"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1318,7 +1295,7 @@
 				{
 					id: "7DE9CB4804E38D9A"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1334,7 +1311,7 @@
 				{
 					id: "1BDD96456789B0F5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_sword"
 						tag: {
 							Damage: 0
@@ -1345,7 +1322,7 @@
 				{
 					id: "06971610551FF08C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_pickaxe"
 						tag: {
 							Damage: 0
@@ -1356,7 +1333,7 @@
 				{
 					id: "6544CF318D1A3909"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_shovel"
 						tag: {
 							Damage: 0
@@ -1367,7 +1344,7 @@
 				{
 					id: "40F9AD166F05E179"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_axe"
 						tag: {
 							Damage: 0
@@ -1378,7 +1355,7 @@
 				{
 					id: "5561136A61868BFE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_hoe"
 						tag: {
 							Damage: 0
@@ -1389,7 +1366,7 @@
 				{
 					id: "6A4F718F42410638"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_watering_can"
 						tag: {
 							Active: 0b
@@ -1401,7 +1378,7 @@
 				{
 					id: "7F35B407FAC317A8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_bow"
 						tag: {
 							Damage: 0
@@ -1412,7 +1389,7 @@
 				{
 					id: "6242A0B5B0A6FE12"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_crossbow"
 						tag: {
 							Damage: 0
@@ -1423,7 +1400,7 @@
 				{
 					id: "36F5E564FC918201"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_shears"
 						tag: {
 							Damage: 0
@@ -1434,7 +1411,7 @@
 				{
 					id: "126826EDF216A86C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_fishing_rod"
 						tag: {
 							Damage: 0
@@ -1445,7 +1422,7 @@
 				{
 					id: "3B2214D8FE0772BB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_sickle"
 						tag: {
 							Damage: 0
@@ -1456,7 +1433,7 @@
 				{
 					id: "2345F85964FD4B74"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:tertium_scythe"
 						tag: {
 							Damage: 0
@@ -1471,7 +1448,7 @@
 		{
 			dependencies: ["46E470E0932C4AE4"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"cold_sweat:item_insulation": {
 						Insulation: [ ]
@@ -1487,7 +1464,7 @@
 				{
 					id: "4C5AF7E499A61A1E"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1503,7 +1480,7 @@
 				{
 					id: "0E08F916737D893D"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1519,7 +1496,7 @@
 				{
 					id: "7C13F89310795FC4"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1536,7 +1513,7 @@
 				{
 					id: "7C405709F74A88DC"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1552,7 +1529,7 @@
 				{
 					id: "0BC272B23EC0B7CF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_sword"
 						tag: {
 							Damage: 0
@@ -1563,7 +1540,7 @@
 				{
 					id: "69459540B6879C82"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_pickaxe"
 						tag: {
 							Damage: 0
@@ -1574,7 +1551,7 @@
 				{
 					id: "7AD48E19D0DB070F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_shovel"
 						tag: {
 							Damage: 0
@@ -1585,7 +1562,7 @@
 				{
 					id: "0E4E275FD939666C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_axe"
 						tag: {
 							Damage: 0
@@ -1596,7 +1573,7 @@
 				{
 					id: "5F4FFAD666282CC4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_hoe"
 						tag: {
 							Damage: 0
@@ -1607,7 +1584,7 @@
 				{
 					id: "6C9231C05E46D063"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_watering_can"
 						tag: {
 							Active: 0b
@@ -1619,7 +1596,7 @@
 				{
 					id: "33F914C38A02B422"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_bow"
 						tag: {
 							Damage: 0
@@ -1630,7 +1607,7 @@
 				{
 					id: "1FB51AA67823E9E2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_crossbow"
 						tag: {
 							Damage: 0
@@ -1641,7 +1618,7 @@
 				{
 					id: "7A3652DEBDB58B91"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_shears"
 						tag: {
 							Damage: 0
@@ -1652,7 +1629,7 @@
 				{
 					id: "3A7034A4EB0EBC00"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_fishing_rod"
 						tag: {
 							Damage: 0
@@ -1663,7 +1640,7 @@
 				{
 					id: "4C10C871B67AD54C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_sickle"
 						tag: {
 							Damage: 0
@@ -1674,7 +1651,7 @@
 				{
 					id: "54AA308CBD7BB2C8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:imperium_scythe"
 						tag: {
 							Damage: 0
@@ -1689,7 +1666,7 @@
 		{
 			dependencies: ["646BDEC6F23858E6"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"cold_sweat:item_insulation": {
 						Insulation: [ ]
@@ -1705,7 +1682,7 @@
 				{
 					id: "694233F550014065"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1721,7 +1698,7 @@
 				{
 					id: "79D8E1D28E279291"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1737,7 +1714,7 @@
 				{
 					id: "5B41C0C3F4EE830C"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1754,7 +1731,7 @@
 				{
 					id: "3A2209C4205D18C7"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1795,7 +1772,7 @@
 				{
 					id: "155EFB7101C55D12"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:supremium_watering_can"
 						tag: {
 							Active: 0b
@@ -1910,7 +1887,7 @@
 		{
 			dependencies: ["0F77F1B7B57090DF"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"cold_sweat:item_insulation": {
 						Insulation: [ ]
@@ -1931,7 +1908,7 @@
 				{
 					id: "2DF235C24B3A6D52"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1947,7 +1924,7 @@
 				{
 					id: "268B35F42260644C"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1963,7 +1940,7 @@
 				{
 					id: "03163A2C2191A252"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -1980,7 +1957,7 @@
 				{
 					id: "0C3DCA2E202A8385"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"cold_sweat:item_insulation": {
 								Insulation: [ ]
@@ -2021,7 +1998,7 @@
 				{
 					id: "568C076550C85AA9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:awakened_supremium_watering_can"
 						tag: {
 							Active: 0b

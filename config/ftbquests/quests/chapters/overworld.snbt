@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "overworld"
-	group: "6BDF1C1D7C2AB9C7"
+	group: ""
 	icon: "minecraft:grass_block"
 	id: "62258BC4231BA646"
 	order_index: 0
@@ -41,7 +41,7 @@
 				{
 					id: "2A209DBD6D7A902A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:wooden_pickaxe"
 						tag: {
 							Damage: 0
@@ -52,7 +52,7 @@
 				{
 					id: "6B4B7CF5264995BD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:wooden_axe"
 						tag: {
 							Damage: 0
@@ -88,7 +88,7 @@
 				{
 					id: "7ABDD5DBE1EE0A29"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:stone_pickaxe"
 						tag: {
 							Damage: 0
@@ -99,7 +99,7 @@
 				{
 					id: "539C2A06B869F1CE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:stone_axe"
 						tag: {
 							Damage: 0
@@ -129,7 +129,7 @@
 				{
 					id: "50975060F5AD6652"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_pickaxe"
 						tag: {
 							Damage: 0
@@ -140,7 +140,7 @@
 				{
 					id: "7750DC53712061A4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_axe"
 						tag: {
 							Damage: 0
@@ -179,7 +179,7 @@
 			tasks: [{
 				id: "4ACFAC8DD73A06E3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:iron_chest"
 					tag: {
 						woodType: "oak"
@@ -202,7 +202,7 @@
 				{
 					id: "1CBA8AF26E25A0FD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_pickaxe"
 						tag: {
 							Damage: 0
@@ -213,7 +213,7 @@
 				{
 					id: "474851EAF5B21A0C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_axe"
 						tag: {
 							Damage: 0
@@ -300,7 +300,7 @@
 			tasks: [{
 				id: "390BB13AD4D0FC33"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:chest"
 					tag: {
 						woodType: "oak"
@@ -322,7 +322,7 @@
 			tasks: [{
 				id: "562A852C8E78ED14"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:gold_chest"
 					tag: {
 						woodType: "oak"
@@ -344,7 +344,7 @@
 			tasks: [{
 				id: "028A2EA10185CD9A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:diamond_chest"
 					tag: {
 						woodType: "oak"
@@ -516,7 +516,7 @@
 			tasks: [{
 				id: "50D1A3AB94CCDFCB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:backpack"
 					tag: {
 						contentsUuid: [I;
@@ -545,7 +545,7 @@
 			tasks: [{
 				id: "7B258F3D81FE93D9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:iron_backpack"
 					tag: {
 						contentsUuid: [I;
@@ -574,7 +574,7 @@
 			tasks: [{
 				id: "58A01B0886CF3DA6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:gold_backpack"
 					tag: {
 						contentsUuid: [I;
@@ -603,7 +603,7 @@
 			tasks: [{
 				id: "358E3C907043F83A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:diamond_backpack"
 					tag: {
 						contentsUuid: [I;
@@ -632,7 +632,7 @@
 			tasks: [{
 				id: "4F1A18AE6BF0D4D3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:netherite_backpack"
 					tag: {
 						contentsUuid: [I;
@@ -661,7 +661,7 @@
 			tasks: [{
 				id: "1F00310564B18742"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:netherite_chest"
 					tag: {
 						woodType: "oak"
@@ -699,7 +699,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -763,7 +763,7 @@
 			tasks: [{
 				id: "6CD51AB9B6A51E30"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"cold_sweat:item_insulation": {
 							Insulation: [ ]
@@ -838,7 +838,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "botania:dice"
 						tag: {
 							soulbindUUID: "a2aeb077-5a0d-40f4-95a1-d133e3ad06a3"
@@ -854,7 +854,7 @@
 			tasks: [{
 				id: "43DD6CD76D9BCF47"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ironfurnaces:million_furnace"
 					tag: {
 						display: {
