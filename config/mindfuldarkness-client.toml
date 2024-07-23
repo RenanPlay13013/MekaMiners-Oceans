@@ -17,7 +17,7 @@ dark_mode_toggle_screens = "BOTH"
 #Exclude certain screens from being affected by any text color alterations.
 font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit", "book.view"]
 #Use a dark theme for the configuration screens.
-dark_theme = false
+dark_theme = true
 #Percentage of original interface brightness to apply.
 #Range: 0.0 ~ 1.0
 texture_darkness = 0.49823372668443094
