@@ -55,5 +55,5 @@ StartupEvents.registry('fluid', (fluid)=> {
 })
 
 //Replacing Mod Names
-Platform.mods.kubejs.name = 'MekaMiners Rebirth: itens'
-Platform.mods.mekamod.name = 'mekaminers Rebirth: tools'
+Platform.mods.kubejs.name = 'MekaMiners Oceans: itens'
+Platform.mods.mekamod.name = 'mekaminers Oceans: ferramentas'
