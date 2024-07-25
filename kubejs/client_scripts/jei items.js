@@ -1,6 +1,6 @@
 JEIEvents.hideItems(event =>{
    const colors = ['white', 'light_gray', 'gray', 'black', 'brown', 'red', 'orange', 'yellow', 'lime', 'green', 'cyan', 'light_blue', 'blue', 'purple', 'magenta', 'pink'];
-   const bucketPattern = /gtceu:.*_bucket/;
+   // const bucketPattern = /gtceu:.*_bucket/;
    colors.forEach(color => {
     //Removing Refined Storage Colored blocks From JEI
     event.hide(`refinedstorage:${color}_grid`);
@@ -22,7 +22,7 @@ JEIEvents.hideItems(event =>{
     event.hide(`enderio:${color}_clear_glass`); 
 });
     //Removing Flying Effect From JEI
-   const flyingeffect = [
+   /* const flyingeffect = [
    Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"apotheosis:flying"}'), 
    Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"apotheosis:long_flying"}'),
    Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"apotheosis:extra_long_flying"}'), 
@@ -42,7 +42,7 @@ JEIEvents.hideItems(event =>{
 ];
    flyingeffect.forEach(flyeffect =>{
    event.hide(flyeffect);
-});
+}); */
    //Removing Easy NPCS Itens From JEI 
    event.hide('@easy_npc');
    //Removing Operator Itens From JEI
