@@ -3,7 +3,6 @@ ItemEvents.tooltip(tooltips =>{
 const changecolor = '§eVocê pode trocar a cor deste item com algum corante';
 //adding tooltips for refined colorable blocks 
 tooltips.add([
-'minecraft:stone', 
 'refinedstorage:grid',
 'refinedstorage:crafting_grid',
 'refinedstorage:pattern_grid',
@@ -21,8 +20,10 @@ tooltips.add([
 'refinedstorage:crafting_monitor'
 ],  `${changecolor}`)
 //adding tooltip for MekaFood
-const mekafoodtooltip = '§eA Comida Perfeita para um Químico';
+const mekafoodtooltip = '§eA Comida Perfeita para um explorador aquático';
 tooltips.add([
     'mekamod:tablist'
 ], `${mekafoodtooltip}`)
+tooltips.add("#mekaminersbrasil:banidos", "§c❌ Item Banido ❌");
 })
+
